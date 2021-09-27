@@ -1,0 +1,9 @@
+*.pyc
+*.log
+presutah/logs
+presutah/export_deliverables
+presutah/cantaloupe/*
+presutah/media/packages
+presutah/uploadedfiles/*
+presutah/settings_local.py
+.vscode/
