@@ -1,4 +1,7 @@
 /* Custom CSS declarations for Preservation Utah */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+
+
 html {font-size: 100%;} /*16px*/
 body.dark p, li, .auth-options li a {
     font-size: 16px;
@@ -18,7 +21,24 @@ body.dark p, li, .auth-options li a {
 }
 .navbar-nav>li>a {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 200;
+    font-family: 'Hind',  sans-serif;
+}
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
+.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
+.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover {
+    color: #E5EED3 !important;
 }
 .sticky-top {
     transition: all 0.25s ease-in;
@@ -27,11 +47,12 @@ body.dark p, li, .auth-options li a {
 .stuck .sticky-top {
     background-color: rgba(244,74,55,0.6) !important;
     padding-top: 3px !important;
-   padding-bottom: 3px !important;
+    padding-bottom: 3px !important;
+    color: #fff;
 }
 .stuck .g-bg-primary {
   background-color: rgba(244,74,55,0.6) !important;
 }
 .stuck img {
- width: 125px !important;
+  width: 125px !important;
 }
