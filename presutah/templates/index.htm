@@ -26,26 +26,29 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 <!--<![endif]-->
 
 <head>
-    <title>{{app_title}}</title>
-
     <!-- Meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Preservation Utah">
+    <title>{{app_title}}</title>
 
     <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" />
 
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- CSS Unify -->
     <link href="{% static 'css/unify/unify.css' %}" rel="stylesheet">
     <link href="{% static 'css/unify/unify-components.css' %}" rel="stylesheet">
     <link href="{% static 'css/unify/unify-core.css' %}" rel="stylesheet">
     <link href="{% static 'css/unify/unify-globals.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <!-- CSS Arches Core -->
     <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <!-- CSS Customization -->
     <link href="{% static 'css/unify/custom.css' %}" rel="stylesheet">
+
     {% if app_settings.ACCESSIBILITY_MODE %}
     <link href="{% static 'css/accessibility.css' %}" rel="stylesheet">
     {% endif %}
@@ -54,71 +57,70 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 <body>
 
     <!--=== Header ===-->
-    <header>
-        <nav class="v5-splash-navbar navbar" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="myNavbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+    <header class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance">
+        <div class="u-header__section u-header__section--dark g-bg-primary g-transition-0_3 g-py-10">
 
-                    <div class="relative nav-brand-container">
-                        <div class="navbar-brand-v5-icon-container">
-                            <img class="navbar-brand-v5-icon" src="{% static 'img/landing/Arches_logo_white.png' %}" alt="Arches Logo">
-                        </div>
-                        <div class="application-name">
-                            <h1>{% blocktrans %}Arches | {{version}}{% endblocktrans %}</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="myNavbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#info-block-1">{% trans "Arches Features" %}</a>
-                        </li>
-                        <li>
-                            <a href="{% url 'search_home' %}">{% trans "Search Arches" %}</a>
-                        </li>
-                        {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                            <li>
-                                <a href="{% url 'resource' %}" target="_blank">{% trans "Manage" %}</a>
-                            </li>
-                        {% endif %}
-                        {% if user.username == 'anonymous' %}
-                            <li>
-                                <a class="application-login" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
-                            </li>
-                        {% else %}
-                            <li>
-                                <a class="auth-welcome" href="{% url 'user_profile_manager' %}">
-                                    {% trans "Welcome, " %} {{ user.first_name|default:user.username }}
-                                </a>
-                            </li>
-                            <li>
-                                <a class="application-login" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Log off' %}</a>
-                            </li>
-                        {% endif %}
-                        {% if show_language_swtich %}
-                            <li>
-                                {% get_current_language as LANGUAGE_CODE %}
-                                <div class="lang-switch" style="max-width: none;" data-bind='component: {
-                                    name: "views/components/language-switcher",
-                                    params: {
-                                        current_language: "{{LANGUAGE_CODE}}"
-                                    }
-                                }'></div>
-                            </li>
-                        {% endif %}
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          <nav class="navbar navbar-expand-md sticky-top">
+              <div class="container">
+                  <!-- Logo -->
+                  <a href="#" class="navbar-brand">
+                      <img src="{% static 'img/landing/preservation-utah.png' %}" alt="Preservation Utah Logo">
+                  </a>
+                  <!-- End Logo -->
+                  <!-- Responsive Toggle Button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                  <!-- End Responsive Toggle Button -->
+                  <!-- Navigation -->
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
+                          <li class="nav-item g-mx-20--lg">
+                              <a href="#" class="nav-link px-0">{% trans "Arches Features" %}</a>
+                          </li>
+                          <li class="nav-item g-mx-20--lg">
+                              <a href="{% url 'search_home' %}" class="nav-link px-0">{% trans "Search Arches" %}</a>
+                          </li>
+                          {% if user|can_create_resource_instance and user.username != 'anonymous' %}
+                              <li class="nav-item g-mx-20--lg">
+                                  <a class="nav-link px-0" target="_blank" href="{% url 'resource' %}">{% trans "Manage" %}</a>
+                              </li>
+                          {% endif %}
+                          {% if user|can_create_resource_instance and user.username != 'anonymous' %}
+                              <li class="nav-item g-mx-20--lg">
+                                  <a class="application-login nav-link px-0" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
+                              </li>
+                          {% else %}
+                              <li class="nav-item g-mx-20--lg">
+                                  <a class="auth-welcome nav-link px-0" href="{% url 'user_profile_manager' %}">
+                                      {% trans "Welcome, " %} {{ user.first_name|default:user.username }}
+                                  </a>
+                              </li>
+                              <li class="nav-item g-mx-20--lg">
+                                  <a class="application-login nav-link px-0" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Log off' %}</a>
+                              </li>
+                          {% endif %}
+                          {% if show_language_swtich %}
+                              <li class="nav-item g-mx-20--lg">
+                                  {% get_current_language as LANGUAGE_CODE %}
+                                  <div class="lang-switch" style="max-width: none;" data-bind='component: {
+                                      name: "views/components/language-switcher",
+                                      params: {
+                                          current_language: "{{LANGUAGE_CODE}}"
+                                      }
+                                  }'></div>
+                              </li>
+                          {% endif %}
+                      </ul>
+                  </div>
+                  <!-- End Navigation -->
+              </div>
+          </nav>
+        </div>
     </header>
-    <!--=== End Header ===-->
+    <!-- End Header -->
+
+
 
     <main>
         <article>
@@ -445,115 +447,115 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     </footer>
     <!-- End Footer -->
 
-<script src="{% static 'packages/requirejs/require.js' %}"></script>
+    <script src="{% static 'packages/requirejs/require.js' %}"></script>
 
-<script>
+    <script>
 
-    require.config({
-        baseUrl: '{{ STATIC_URL }}js',
-        paths: {
-            'templates': '{% url "templates" ""%}'.replace(/\/$/, ""),
-            'text': '{{ STATIC_URL }}packages/requirejs-text/text',
-            'jquery-lib': '{{ STATIC_URL }}packages/jquery/dist/jquery.min',
-            'jquery': '{{ STATIC_URL }}packages/jquery-migrate/dist/jquery-migrate.min',
-            'jquery-ui': '{{ STATIC_URL }}packages/jqueryui/jquery-ui.min',
-            'underscore': '{{ STATIC_URL }}packages/underscore/underscore-min',
-            'chosen': '{{ STATIC_URL }}packages/chosen-js/chosen.jquery.min',
-            'knockout': '{{ STATIC_URL }}packages/knockout/build/output/knockout-latest',
-            'bootstrap': '{{ STATIC_URL }}packages/bootstrap/dist/js/bootstrap.min',
-            'themepunch-tools': '{{ STATIC_URL }}plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min',
-            'themepunch-revolution': '{{ STATIC_URL }}plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution',
-            'revolution-slider': '{{ STATIC_URL }}plugins/revolution-slider',
-            'one-app': '{{ STATIC_URL }}plugins/one.app',
-        },
-        shim: {
-            'jquery': {
-                deps: ['jquery-lib'],
-                exports: '$'
+        require.config({
+            baseUrl: '{{ STATIC_URL }}js',
+            paths: {
+                'templates': '{% url "templates" ""%}'.replace(/\/$/, ""),
+                'text': '{{ STATIC_URL }}packages/requirejs-text/text',
+                'jquery-lib': '{{ STATIC_URL }}packages/jquery/dist/jquery.min',
+                'jquery': '{{ STATIC_URL }}packages/jquery-migrate/dist/jquery-migrate.min',
+                'jquery-ui': '{{ STATIC_URL }}packages/jqueryui/jquery-ui.min',
+                'underscore': '{{ STATIC_URL }}packages/underscore/underscore-min',
+                'chosen': '{{ STATIC_URL }}packages/chosen-js/chosen.jquery.min',
+                'knockout': '{{ STATIC_URL }}packages/knockout/build/output/knockout-latest',
+                'bootstrap': 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min',
+                'offcanvas': '{{ STATIC_URL }}js/vendor/bootstrap/offcanvas.min',
+                'themepunch-tools': '{{ STATIC_URL }}plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min',
+                'themepunch-revolution': '{{ STATIC_URL }}plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution',
+                'revolution-slider': '{{ STATIC_URL }}plugins/revolution-slider',
+                'one-app': '{{ STATIC_URL }}plugins/one.app',
             },
-            'bootstrap': {
-                deps: ['jquery', 'jquery-ui']
-            },
-            'chosen': {
-                deps: ['jquery'],
-            },
-            'themepunch-tools': {
-                deps: ['jquery'],
-            },
-            'themepunch-revolution': {
-                deps: ['jquery'],
-            },
-            'revolution-slider': {
-                deps: ['jquery'],
-            },
-            'one-app': {
-                deps: ['jquery'],
+            shim: {
+                'jquery': {
+                    deps: ['jquery-lib'],
+                    exports: '$'
+                },
+                'bootstrap': {
+                    deps: ['jquery'],
+                },
+                'chosen': {
+                    deps: ['jquery'],
+                },
+                'themepunch-tools': {
+                    deps: ['jquery'],
+                },
+                'themepunch-revolution': {
+                    deps: ['jquery'],
+                },
+                'revolution-slider': {
+                    deps: ['jquery'],
+                },
+                'one-app': {
+                    deps: ['jquery'],
+                }
             }
-        }
-    });
-    require(
-        ['jquery',
-            'knockout',
-            'bootstrap',
-            'themepunch-tools',
-            'themepunch-revolution',
-            'revolution-slider',
-            'one-app',
-            'bindings/chosen',
-            'views/components/language-switcher'
-        ], function ($, ko) {
-            $(document).ready(function () {
-                App.init();
-                RevolutionSlider.initRSfullScreen();
+        });
+        require(
+            ['jquery',
+                'knockout',
+                'bootstrap',
+                'themepunch-tools',
+                'themepunch-revolution',
+                'revolution-slider',
+                'one-app',
+                'bindings/chosen',
+                'views/components/language-switcher'
+            ], function ($, ko) {
+                $(document).ready(function () {
+                    App.init();
+                    RevolutionSlider.initRSfullScreen();
 
-                var contentSections = $('.app-info-block'),
-                    navigationItems = $('#cd-vertical-nav a');
+                    var contentSections = $('.app-info-block'),
+                        navigationItems = $('#cd-vertical-nav a');
 
-                updateNavigation();
-                $(window).on('scroll', function () {
                     updateNavigation();
-                });
-
-                //smooth scroll to the section
-                navigationItems.on('click', function (event) {
-                    event.preventDefault();
-                    smoothScroll($(this.hash));
-                });
-
-
-                function updateNavigation() {
-                    contentSections.each(function () {
-                        $this = $(this);
-                        var activeSection = $('#cd-vertical-nav a[href="#' + $this.attr('id') + '"]').data('number') - 1;
-                        if (($this.offset().top - $(window).height() / 2 < $(window).scrollTop()) && ($this.offset().top + $this.height() - $(window).height() / 2 > $(window).scrollTop())) {
-                            navigationItems.eq(activeSection).addClass('is-selected');
-                        } else {
-                            navigationItems.eq(activeSection).removeClass('is-selected');
-                        }
+                    $(window).on('scroll', function () {
+                        updateNavigation();
                     });
-                }
 
-                function smoothScroll(target) {
-                    $('body,html').animate(
-                        { 'scrollTop': target.offset().top },
-                        600
-                    );
-                }
+                    //smooth scroll to the section
+                    navigationItems.on('click', function (event) {
+                        event.preventDefault();
+                        smoothScroll($(this.hash));
+                    });
 
-                var ViewModel = function () {
-                     // place observables here
-                };
 
-                // need to have this to prevent mismatched anonymous define error in require.js
-                setTimeout(function () {
-                    ko.applyBindings(new ViewModel());
-                }, 300);
-            });
+                    function updateNavigation() {
+                        contentSections.each(function () {
+                            $this = $(this);
+                            var activeSection = $('#cd-vertical-nav a[href="#' + $this.attr('id') + '"]').data('number') - 1;
+                            if (($this.offset().top - $(window).height() / 2 < $(window).scrollTop()) && ($this.offset().top + $this.height() - $(window).height() / 2 > $(window).scrollTop())) {
+                                navigationItems.eq(activeSection).addClass('is-selected');
+                            } else {
+                                navigationItems.eq(activeSection).removeClass('is-selected');
+                            }
+                        });
+                    }
 
-        }
-    );
-</script>
+                    function smoothScroll(target) {
+                        $('body,html').animate(
+                            { 'scrollTop': target.offset().top },
+                            600
+                        );
+                    }
 
+                    var ViewModel = function () {
+                         // place observables here
+                    };
+
+                    // need to have this to prevent mismatched anonymous define error in require.js
+                    setTimeout(function () {
+                        ko.applyBindings(new ViewModel());
+                    }, 300);
+                });
+
+            }
+        );
+    </script>
 </body>
 
 </html>

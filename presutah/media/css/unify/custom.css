@@ -1,1 +1,22 @@
-/* Add here all your css styles (customizations) */
+/* Custom CSS declarations for Preservation Utah */
+html {font-size: 100%;} /*16px*/
+body.dark p, li, .auth-options li a {
+    font-size: 16px;
+}
+/* Colors */
+.g-bg-primary {
+    background-color: #F44A37 !important;
+}
+
+/* Navbar */
+.navbar-nav {
+  list-style: none;
+}
+.navbar-brand img {
+  height: auto;
+  width: 251px;
+}
+.navbar-nav>li>a {
+    font-size: 1em;
+    font-weight: 300;
+}
