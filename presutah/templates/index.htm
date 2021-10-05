@@ -55,10 +55,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 </head>
 
 <body>
-
+  <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
     <!--=== Header ===-->
     <header class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance">
-        <div class="u-header__section u-header__section--dark g-bg-primary g-transition-0_3 g-py-10">
+        <div class="u-header__section u-header__section--dark g-bg-primary">
 
           <nav class="navbar navbar-expand-md sticky-top">
               <div class="container">
@@ -523,6 +523,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                         smoothScroll($(this.hash));
                     });
 
+                    (new IntersectionObserver(function(e,o){
+                        if (e[0].intersectionRatio > 0){
+                            document.documentElement.removeAttribute('class');
+                        } else {
+                            document.documentElement.setAttribute('class','stuck');
+                        };
+                    })).observe(document.querySelector('.trigger'));
 
                     function updateNavigation() {
                         contentSections.each(function () {
