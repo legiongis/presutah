@@ -1,14 +1,22 @@
 /* Custom CSS declarations for Preservation Utah */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
 
-
+/* Typography */
 html {font-size: 100%;} /*16px*/
 body.dark p, li, .auth-options li a {
     font-size: 16px;
 }
+h1 {
+  font-weight: 600;
+  font-family: 'Hind',  sans-serif;
+  font-size: 4.25em !important;
+}
 /* Colors */
 .g-bg-primary {
     background-color: #F44A37 !important;
+}
+.g-bg-primary--hover:hover {
+  background-color: #F44A37 !important;
 }
 
 /* Navbar */
@@ -56,3 +64,5 @@ body.dark p, li, .auth-options li a {
 .stuck img {
   width: 125px !important;
 }
+
+/* Slide Carousel */
