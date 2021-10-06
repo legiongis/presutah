@@ -48,6 +48,9 @@ h1 {
 .u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover {
     color: #E5EED3 !important;
 }
+.navbar {
+  background-color: rgba(244,74,55,1);
+}
 .sticky-top {
     transition: all 0.25s ease-in;
 }
@@ -58,7 +61,7 @@ h1 {
     padding-bottom: 3px !important;
     color: #fff;
 }
-.stuck .g-bg-primary {
+.stuck  {
   background-color: rgba(244,74,55,0.6) !important;
 }
 .stuck img {
