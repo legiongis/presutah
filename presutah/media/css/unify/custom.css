@@ -3,9 +3,11 @@
 
 /* Typography */
 html {font-size: 100%;} /*16px*/
-body.dark p, li, .auth-options li a {
+body, body.dark p, li, .auth-options li a {
     font-size: 16px;
+    font-family: 'Hind', sans-serif;
 }
+
 h1 {
   font-weight: 600;
   font-family: 'Hind',  sans-serif;
@@ -18,6 +20,19 @@ h1 {
 .g-bg-primary--hover:hover {
   background-color: #F44A37 !important;
 }
+.g-bg-secondary {
+  background-color: #272123 !important;
+}
+.g-color-primary, a {
+  color: #F44A37 !important;
+}
+.u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover, a:hover {
+  color: #F44A37 !important;
+}
+.g-parent:hover .g-color-primary--parent-hover {
+  color: #F44A37 !important;
+}
+
 
 /* Navbar */
 .navbar-nav {
@@ -69,3 +84,10 @@ h1 {
 }
 
 /* Slide Carousel */
+
+
+
+/* Footer */
+#copyright img {
+  width: 200px;
+}
