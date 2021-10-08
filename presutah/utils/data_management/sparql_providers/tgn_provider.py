@@ -29,11 +29,10 @@ from rdflib.namespace import SKOS, DCTERMS
 
 class TGN_Provider(Abstract_Provider):
     def __init__(self, **kwargs):
-        super(TGN_Provider, self).__init__("http://vocab.getty.edu/sparql.json", **kwargs)
-
+        super(TGN_Provider, self).__init__("http:TGNplaceholder", **kwargs)
         self.name = _("Getty TGN")
         self.setReturnFormat(JSON)
-
+        self.updateEndpoint = ("http://vocab.getty.edu/sparql.json")
     def get_concepts(self, uris):
         """
         Get a list of concepts given a list of TGN uris like http://vocab.getty.edu/tgn/300380087
