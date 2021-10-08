@@ -86,10 +86,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                       <div class="collapse navbar-collapse" id="navbarNav">
                           <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                               <li class="nav-item g-mx-20--lg">
-                                  <a href="#" class="nav-link px-0">{% trans "Arches Features" %}</a>
+                                  <a href="#" class="nav-link px-0">{% trans "About Easements" %}</a>
                               </li>
                               <li class="nav-item g-mx-20--lg">
-                                  <a href="{% url 'search_home' %}" class="nav-link px-0">{% trans "Search Arches" %}</a>
+                                  <a href="#" class="nav-link px-0">{% trans "How to Use" %}</a>
+                              </li>
+                              <li class="nav-item g-mx-20--lg">
+                                  <a href="{% url 'search_home' %}" class="nav-link px-0">{% trans "Explore the Map" %}</a>
                               </li>
                               {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                                   <li class="nav-item g-mx-20--lg">
