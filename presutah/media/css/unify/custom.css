@@ -6,6 +6,7 @@ html {font-size: 100%;} /*16px*/
 body, body.dark p, li, .auth-options li a {
     font-size: 16px;
     font-family: 'Hind', sans-serif;
+    color: #272123;
 }
 
 h1 {
