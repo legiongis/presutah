@@ -15,11 +15,12 @@ h1 {
   font-size: 4.25em !important;
 }
 /* Colors */
-.g-bg-primary {
+.g-bg-primary, .u-btn-primary {
     background-color: #F44A37 !important;
 }
-.g-bg-primary--hover:hover {
+.g-bg-primary--hover:hover, .u-btn-primary--hover:hover {
   background-color: #F44A37 !important;
+  border-color: #f4aa37 !important;
 }
 .g-bg-secondary {
   background-color: #272123 !important;
