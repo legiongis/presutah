@@ -36,7 +36,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-touch-icon.png' %}">
     <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
     <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
-    <link rel="manifest" href="{% static 'img/favicon//site.webmanifest' %}">
 
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -63,14 +62,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     {% endif %}
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar">
     <main class="g-pt-90">
         <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
         <!--=== Header ===-->
         <header class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance">
             <div class="u-header__section u-header__section--dark ">
 
-              <nav class="navbar navbar-expand-md sticky-top">
+              <nav id="navbar" class="navbar navbar-expand-md sticky-top">
                   <div class="container">
                       <!-- Logo -->
                       <a href="#" class="navbar-brand">
@@ -86,20 +85,20 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                       <div class="collapse navbar-collapse" id="navbarNav">
                           <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                               <li class="nav-item g-mx-20--lg">
-                                  <a href="#" class="nav-link px-0">{% trans "About Easements" %}</a>
+                                  <a href="#about-block" class="nav-link px-0">{% trans "About" %}</a>
                               </li>
                               <li class="nav-item g-mx-20--lg">
-                                  <a href="#" class="nav-link px-0">{% trans "How to Use" %}</a>
+                                  <a href="#help" class="nav-link px-0">{% trans "How to Use" %}</a>
                               </li>
                               <li class="nav-item g-mx-20--lg">
-                                  <a href="{% url 'search_home' %}" class="nav-link px-0">{% trans "Explore the Map" %}</a>
+                                  <a href="{% url 'search_home' %}" class="nav-link px-0">{% trans "Explore" %}</a>
                               </li>
                               {% if user|can_create_resource_instance and user.username != 'anonymous' %}
                                   <li class="nav-item g-mx-20--lg">
                                       <a class="nav-link px-0" target="_blank" href="{% url 'resource' %}">{% trans "Manage" %}</a>
                                   </li>
                               {% endif %}
-                              {% if user|can_create_resource_instance and user.username != 'anonymous' %}
+                              {% if user.username == 'anonymous' %}
                                   <li class="nav-item g-mx-20--lg">
                                       <a class="application-login nav-link px-0" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
                                   </li>
@@ -134,7 +133,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <!-- End Header -->
 
         <!-- Section Content Slick Slider -->
-        <section class="regular slider">
+        <section id="slider" class="regular slider">
             <article class="g-pos-rel">
               <figure>
                 <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-1.png' %}">
@@ -252,75 +251,77 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         </section>
 
         <!-- About Us -->
-        <div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-pt-100 g-pb-70" style="background-image: url({% static 'img/landing/map-sketch.jpg' %});">
-          <div class="g-pos-rel g-z-index-1">
-            <!-- Heading -->
-            <div class="g-max-width-750 text-center mx-auto g-mb-50">
-              <h2 class="mb-4 g-font-weight-700 g-color-black">About Our Preservation Easement Program</h2>
-              <p class="g-font-size-16 g-line-height-2">As part of our mission, Preservation Utah works to preserve historical structures, and easements play an important role in this work. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis nibh. In finibus in enim euismod malesuada. Nullam finibus maximus nisi a tempor. Vivamus in nisi vel nisi rhoncus egestas. Proin nisi lacus, lacinia eu ante quis, feugiat mattis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-md-3 g-mb-30">
-                  <!-- Product - Services -->
-                  <div class="text-center">
-                    <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
-                      <i class="fas fa-handshake"></i>
-                    </span>
-
-                    <h3 class="h5 text-uppercase">Acquisitions</h3>
-                    <p>Morbi in nisi tempor, rhoncus orci non, vulputate tellus.</p>
-                  </div>
-                  <!-- End Product - Services -->
+        <section id="about-block">
+            <div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-pt-100 g-pb-70" style="background-image: url({% static 'img/landing/map-sketch.jpg' %});">
+              <div class="g-pos-rel g-z-index-1">
+                <!-- Heading -->
+                <div class="g-max-width-750 text-center mx-auto g-mb-50">
+                  <h2 class="mb-4 g-font-weight-700 g-color-black">About Our Preservation Easement Program</h2>
+                  <p class="g-font-size-16 g-line-height-2">As part of our mission, Preservation Utah works to preserve historical structures, and easements play an important role in this work. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis nibh. In finibus in enim euismod malesuada. Nullam finibus maximus nisi a tempor. Vivamus in nisi vel nisi rhoncus egestas. Proin nisi lacus, lacinia eu ante quis, feugiat mattis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
+                <!-- End Heading -->
 
-                <div class="col-md-3 g-mb-30">
-                  <!-- Product - Services -->
-                  <div class="text-center">
-                    <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
-                      <i class="fas fa-clipboard-check"></i>
-                    </span>
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-md-3 g-mb-30">
+                      <!-- Product - Services -->
+                      <div class="text-center">
+                        <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
+                          <i class="fas fa-handshake"></i>
+                        </span>
 
-                    <h3 class="h5 text-uppercase">Inspections</h3>
-                    <p>Etiam justo nunc, aliquam ac interdum id, scelerisque id orci.</p>
+                        <h3 class="h5 text-uppercase">Acquisitions</h3>
+                        <p>Morbi in nisi tempor, rhoncus orci non, vulputate tellus.</p>
+                      </div>
+                      <!-- End Product - Services -->
+                    </div>
+
+                    <div class="col-md-3 g-mb-30">
+                      <!-- Product - Services -->
+                      <div class="text-center">
+                        <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
+                          <i class="fas fa-clipboard-check"></i>
+                        </span>
+
+                        <h3 class="h5 text-uppercase">Inspections</h3>
+                        <p>Etiam justo nunc, aliquam ac interdum id, scelerisque id orci.</p>
+                      </div>
+                      <!-- End Product - Services -->
+                    </div>
+
+                    <div class="col-md-3 g-mb-30">
+                      <!-- Product - Services -->
+                      <div class="text-center">
+                        <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
+                          <i class="fas fa-tools"></i>
+                        </span>
+
+                        <h3 class="h5 text-uppercase">Alterations</h3>
+                        <p>Aliquam nibh nibh, lobortis nec eleifend vel, tempus id ante. </p>
+                      </div>
+                      <!-- End Product - Services -->
+                    </div>
                   </div>
-                  <!-- End Product - Services -->
                 </div>
-
-                <div class="col-md-3 g-mb-30">
-                  <!-- Product - Services -->
-                  <div class="text-center">
-                    <span class="u-icon-v2 u-icon-size--xl g-color-white g-bg-primary mb-4">
-                      <i class="fas fa-tools"></i>
-                    </span>
-
-                    <h3 class="h5 text-uppercase">Alterations</h3>
-                    <p>Aliquam nibh nibh, lobortis nec eleifend vel, tempus id ante. </p>
-                  </div>
-                  <!-- End Product - Services -->
+                <div class="container">
+                  <section class="g-pa-30">
+                    <div class="d-md-flex justify-content-md-center text-center">
+                      <div class="align-self-md-center">
+                        <p class="lead g-font-weight-400 g-mr-20--md g-mb-15 g-mb-0--md">Search our map of easements in Utah.</p>
+                      </div>
+                      <div class="align-self-md-center">
+                        <a class="btn btn-md u-btn-black u-btn-primary--hover g-color-white g-color-white--hover rounded-0" href="#">View</a>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>
-            <div class="container">
-              <section class="g-pa-30">
-                <div class="d-md-flex justify-content-md-center text-center">
-                  <div class="align-self-md-center">
-                    <p class="lead g-font-weight-400 g-mr-20--md g-mb-15 g-mb-0--md">Search our map of easements in Utah.</p>
-                  </div>
-                  <div class="align-self-md-center">
-                    <a class="btn btn-md u-btn-black u-btn-primary--hover g-color-white g-color-white--hover rounded-0" href="#">View</a>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-        <!-- End About Us -->
+        </section>
+        <!-- End About -->
 
         <!-- Accordion -->
-        <section class="g-bg-tertiary">
+        <section id="help" class="g-bg-tertiary">
           <div class="container g-py-100">
             <div class="row justify-content-center">
               <div class="col-lg-10">

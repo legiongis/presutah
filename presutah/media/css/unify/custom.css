@@ -8,11 +8,8 @@ body, body.dark p, li, .auth-options li a {
     font-family: 'Hind', sans-serif;
     color: #272123;
 }
-
-h1 {
-  font-weight: 600;
-  font-family: 'Hind',  sans-serif;
-  font-size: 4.25em !important;
+body {
+  position: relative;
 }
 /* Colors */
 .g-bg-primary, .u-btn-primary {
@@ -52,20 +49,21 @@ h1 {
     font-family: 'Hind',  sans-serif;
 }
 .u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
-.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
-.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
-.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link {
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link
+{
   color: rgba(255, 255, 255, 1) !important;
 }
 .u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
 .u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
 .u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
-.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
-.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
-.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
-.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
-.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover {
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover
+{
     color: #E5EED3 !important;
+}
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"])  .active,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"])  .active
+{
+    color: #272123 !important;
 }
 .navbar {
   background-color: rgba(244,74,55,1);
@@ -86,10 +84,24 @@ h1 {
 .stuck img {
   width: 125px !important;
 }
+a.nav-link.px-0.active {
+  color: #272123 !important;
+}
+
 
 /* Slide Carousel */
-
-
+#slider h1 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+@media (min-width: 1537px) {
+  #slider h1 {
+    font-size: 4.25em;
+    }
+      #slider .g-bottom-0 {
+        bottom: 25%;
+      }
+}
 
 /* Footer */
 #copyright img {
