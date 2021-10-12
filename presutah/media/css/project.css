@@ -1,8 +1,11 @@
-#mainnav-container, #mainnav, #mainnav-menu>.active, .brand-title, .sub-menu ul, .menu-popover, .menu-popover>.popover-title, .menu-popover>.single-content, #mainnav-menu>li>a  {
+#mainnav-container, #mainnav, #mainnav-menu>.active, .brand-title, .sub-menu ul, .menu-popover, .menu-popover .popover-title, .menu-popover .single-content, #mainnav-menu>li>a  {
     background-color: #272123 !important;
 }
-#mainnav-menu>li>a:hover, .link-submenu-item a:hover,  .menu-popover>.popover-title:hover, .menu-popover>.single-content:hover {
-    background-color:#F44A37;
+#mainnav-menu>li>a:hover, .link-submenu-item a:hover,  .menu-popover .popover-title:hover, .menu-popover .single-content:hover {
+    background-color:#F44A37 !important;
     box-shadow:none !important;
     text-decoration: none;
+}
+#mainnav-menu>li>a.hover {
+  box-shadow: inset 4px 0 0 0 #F44A37;
 }
