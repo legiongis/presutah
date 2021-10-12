@@ -54,3 +54,12 @@ h1.page-header {
 .ep-tools h3 {
   margin: 0px;
 }
+
+/* Buttons */
+.btn-primary, .btn-hover-primary:active, .btn-hover-primary.active, .btn.btn-active-primary:active, .btn.btn-active-primary.active, .dropdown.open>.btn.btn-active-primary, .btn-group.open .dropdown-toggle.btn.btn-active-primary, .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover {
+  background-color: #272123 !important;
+  border-color: #272123 !important;
+}
+.btn-primary:hover {
+  background-color:#F44A37 !important;
+}
