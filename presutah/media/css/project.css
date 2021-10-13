@@ -141,3 +141,33 @@ h1.page-header {
 .resource_search_widget_dropdown.select2-drop-active {
     border-color: #F44A37;
 }
+
+/* Login page */
+.img-login {
+    background-image: url(../img/backgrounds/aerial.jpg);
+}
+.arches-signin .panel-body {
+  background-color: #F44A37;
+  color: white;
+}
+.arches-signin-subtext {
+    color: white;
+}
+
+.arches-signin .login-panel {
+    border: 1px solid white;
+}
+
+.arches-signin .panel-footer {
+  background-color: white;
+}
+.arches-signin .form-control {
+  font-size: 1em;
+}
+.cls-container .account-management a {
+    color: white;
+    font-size: 1em;
+}
+.arches-signin img {
+  width: 100%;
+}
