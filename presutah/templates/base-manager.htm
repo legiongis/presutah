@@ -294,7 +294,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                         </li>
 
                                         <!--Menu list item-->
-                                        {% if user_can_edit %}
+                                        <!-- AML doesn't work under 5.1.x if user_can_edit -->
+                                        {% if request.user|has_group:"Resource Editor" %}
                                         <li{% if "views/resource" in main_script and is_system_settings is False %} class="active-sub"{% endif %} data-bind="click: navigate.bind(self, '{% url 'resource' %}')">
                                             <a href="{% url 'resource' %}">
                                                 <i class="fa fa-building-o"></i>

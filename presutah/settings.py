@@ -92,7 +92,7 @@ ALLOWED_HOSTS = []
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'presutah.wsgi.application'
-STATIC_ROOT = '/var/www/media'
+STATIC_ROOT = '/home/alabra/uploads'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 DEFAULT_RESOURCE_IMPORT_USER = {'username': 'admin', 'userid': 1}
@@ -207,8 +207,8 @@ RESTRICT_MEDIA_ACCESS = False
 # to see how the language code is derived in the actual code
 
 ####### TO GENERATE .PO FILES DO THE FOLLOWING ########
-# run the following commands 
-# language codes used in the command should be in the form (which is slightly different 
+# run the following commands
+# language codes used in the command should be in the form (which is slightly different
 # form the form used in the LANGUAGE_CODE and LANGUAGES settings below):
 # --local={countrycode}_{REGIONCODE} <-- countrycode is lowercase, regioncode is uppercase, also notice the underscore instead of hyphen
 # commands to run (to generate files for "British English, German, and Spanish"):
@@ -222,7 +222,7 @@ RESTRICT_MEDIA_ACCESS = False
 # a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = "en"
 
-# list of languages to display in the language switcher, 
+# list of languages to display in the language switcher,
 # if left empty or with a single entry then the switch won't be displayed
 # language codes need to be all lower case with the form:
 # {langcode}-{regioncode} eg: en, en-gb ....
