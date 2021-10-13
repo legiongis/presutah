@@ -107,3 +107,6 @@ a.nav-link.px-0.active {
 #copyright img {
   width: 200px;
 }
+address li, footer li {
+  color: white;
+}
