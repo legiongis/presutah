@@ -48,8 +48,6 @@ h1.page-header {
     border-bottom: none;
     color: white;
     font-size: 1.4em;
-    margin-top: 24px;
-    margin-bottom: 20px;
 }
 .ep-tools h3 {
   margin: 0px;
@@ -126,6 +124,12 @@ h1.page-header {
     border-width: 1px;
     z-index: 1000;
 }
+.search-candidate-title,
+.search-candidate-link {
+    color: #F44A37;
+    padding-right: 7px;
+}
+
 
 /* Forms */
 .select2-container {
