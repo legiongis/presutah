@@ -7,6 +7,101 @@ body, body.dark p, li, .auth-options li a {
     color: #272123;
 }
 
+/* Colors */
+.regular-link, .card-container-trash-icon .record-delete,
+.record-delete,
+.search-candidate-title, .search-candidate-link,
+.map-card-zoom-tool a, .map-card-feature-tool a,
+.hover-feature-footer a,
+.card-summary-section .tile-summary a,
+.btn-notifs-download,
+.new-provisional-edit-history .entry,
+.notifications-container .entry,
+.r-select-title,
+.crud-card-main a,
+.btn-profile-password {
+    color: #F44A37;
+}
+.workbench-card-sidepanel-header,
+.buffer-control h5,
+.basemap-listing.active-basemap,
+.basemap-listing:hover,
+.overlay-listing.active-overlay,
+.overlay-listing:hover,
+.legend-listing .legend-name,
+.rr-table-column button,
+.hover-feature-title,
+a.search-query-link-captions:hover,
+.time-wheel-wrap .sequence,
+.search-type-btn.relative:hover, .search-type-btn.relative.active, .search-type-btn-popup.relative:hover, .search-type-btn-popup.relative.active,
+.sidebar-single-line-type, .sidebar-double-line-type,
+.related-resources-nodes .crud-card-subtitle,
+.card-component-panel h4,
+.tabbed-report-sidepanel-main dt,
+.show-gallery-control, .show-gallery-control i, .show-gallery-control a,
+.map-card-zoom-tool a, .map-card-feature-tool a,
+.new-provisional-edits-title,
+.card-component-panel h3, .card-component-panel h4,
+.profile-full-name,
+.profile-e-mail {
+    color: #272123;
+}
+.chosen-container-single .chosen-single div b:before, .notif-table th, .buffer-control {
+    color: #42393c;
+}
+.resource-status-label, .resource-status,
+.graph-type {
+  color: white;
+}
+.resource-editor-tree,
+.graph-designer-tab-container .nav-tabs>li.active>a, .graph-designer-tab-container .nav-tabs>li:not(.active)>a:hover,
+.left-panel-overflow,
+.jstree>.header, .jstree.jstree-default,
+.rr-splash,
+.arches-secondary-header {
+  background: #f1efef;
+}
+.graph-designer-tab-container {
+  background-color: #cac1c4;
+}
+.card-header,
+.settings-panel-heading,
+.card-settings-panel-heading,
+.jstree-default .jstree-clicked,
+.r-select-circle,
+.resource-grid-main-container {
+  background: #272123;
+}
+.profile-report {
+  background-color: #E5EED3;
+}
+.resource-grid-main-container:hover,
+.bg-primary {
+  background-color: #F44A37;
+}
+.r-select-card,
+.resource-grid-icon{
+  background: white;
+}
+.jstree>.header,
+.rr-splash {
+  border-color: #cac1c4;
+}
+#map-popup .hover-feature-title-bar, #map-popup .mapboxgl-popup-close-button,
+.r-select-card, .r-grid-item,
+.ep-card-crud-container>div.panel   {
+  border-color: #272123;
+}
+.headline h2, .headline h3, .headline h4 {
+  border-color: #F44A37;
+}
+
+/* Typography fixes */
+.r-select-title {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
 /* Side navbar */
 #mainnav-container, #mainnav, #mainnav-menu>.active, .brand-title, .sub-menu ul, .menu-popover, .menu-popover .popover-title, .menu-popover .single-content, #mainnav-menu>li>a  {
     background-color: #272123 !important;
@@ -19,7 +114,9 @@ body, body.dark p, li, .auth-options li a {
 #mainnav-menu>li>a.hover {
   box-shadow: inset 4px 0 0 0 #F44A37;
 }
-
+.brand-title {
+  font-size: 1em;
+}
 /* Top navbar */
 .ep-toolbar {
     background: #F44A37;
@@ -29,16 +126,12 @@ h1.page-header {
   font-weight: 700;
   color: white;
   font-size: 2em;
+  padding: 0px;
 }
 .ep-graph-title {
     font-size: 2em;
-    padding-left: 5px;
-    padding-top: 10px;
 }
 .ep-graph-title-icon {
-    height: 40px;
-    width: 40px;
-    transform: translate(0px, 0px);
     color: white;
     background: transparent;
     border: none;
@@ -105,6 +198,9 @@ h1.page-header {
     border-bottom: none;
     border-right: 1px solid #cac1c4;
 }
+.search-type-btn.relative.active {
+    color: #272123;
+}
 .search-type-btn .active {
     border-right: 1px solid #cac1c4;
     border-left: 1px solid #cac1c4;
@@ -124,18 +220,25 @@ h1.page-header {
     border-width: 1px;
     z-index: 1000;
 }
-.search-candidate-title,
-.search-candidate-link {
-    color: #F44A37;
-    padding-right: 7px;
+.card-form-preview-container {
+    background: #f9f8f8;
+    overflow-y: hidden;
 }
-
-
-/* Forms */
-.select2-container {
+.workbench-card-sidebar {
+    background: #f9f8f8;
+    border-left: 1px solid #cac1c4;
+}
+.chosen-container-single .chosen-single {
+    color: #42393c;
     border: 1px solid #cac1c4;
 }
-.select2-container.select2-container-active.select2-dropdown-open, .select2-drop-active {
+
+.search-listing:hover, .search-listing:active, .search-listing.selected  {
+    border: 1px solid #F44A37;
+}
+
+/* Forms and Data Entry */
+.form-control:focus, .select2-container.select2-container-active.select2-dropdown-open, .select2-drop-active {
     border: 1px solid #F44A37;
 }
 .resource_search_widget_dropdown .select2-results {
@@ -144,6 +247,20 @@ h1.page-header {
 }
 .resource_search_widget_dropdown.select2-drop-active {
     border-color: #F44A37;
+}
+#menu-control {
+    background: #555;
+    color: white;
+}
+
+/* RDM */
+.nav-tabs > li.active > a,
+.tabs-left .nav-tabs > li.active > a,
+.tabs-right .nav-tabs > li.active > a,
+.tabs-below .nav-tabs > li.active > a {
+  -webkit-box-shadow: 0 -2px 0 #F44A37;
+  -moz-box-shadow: 0 -2px 0 #F44A37;
+  box-shadow: 0 -2px 0 #F44A37;
 }
 
 /* Login page */
