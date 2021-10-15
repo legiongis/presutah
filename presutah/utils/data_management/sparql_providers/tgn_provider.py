@@ -32,16 +32,13 @@ class TGN_Provider(Abstract_Provider):
         super(TGN_Provider, self).__init__("http:TGNplaceholder", **kwargs)
         self.name = _("Getty TGN")
         self.setReturnFormat(JSON)
-        self.updateEndpoint = ("http://vocab.getty.edu/sparql.json")
+
     def get_concepts(self, uris):
         """
         Get a list of concepts given a list of TGN uris like http://vocab.getty.edu/tgn/300380087
-
         """
-
         default_lang = settings.LANGUAGE_CODE
         dcterms_identifier_type = DValueType.objects.get(valuetype=str(DCTERMS.identifier).replace(str(DCTERMS), ""), namespace="dcterms")
-
         concepts = []
         langs = []
         for lang in self.allowed_languages:
@@ -56,8 +53,8 @@ class TGN_Provider(Abstract_Provider):
                   }
                   UNION
                   {
-                    <%s> gvp:parentString [rdf:value ?value] .
-                    BIND('parentString' AS ?type)
+                    <%s> skos:scopeNote [rdf:value ?value] .
+                    BIND('scopeNote' AS ?type)
                   }
                   FILTER (lang(?value) in (%s))
                 }""" % (
@@ -104,13 +101,16 @@ class TGN_Provider(Abstract_Provider):
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
             PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
-            SELECT ?Subject ?Term ?Type {
-                ?Subject luc:term '%s*'; a skos:Concept; skos:inScheme tgn:.
-                #?Subject rdf:type c.
-                #?typ rdfs:subClassOf gvp:Subject; rdfs:label ?Type.
-                optional {?Subject (gvp:prefLabelGVP | skos:prefLabel) [skosxl:literalForm ?Term]}
-                #optional {?Subject gvp:parentStringAbbrev ?Parents}
-                optional {?Subject gvp:parentString [dct:language gvp_lang:en; rdf:value ?ParentString]}}""" % (
+            SELECT ?Subject ?Term ?Parents ?Type (coalesce(?Type1,?Type2) as ?ExtraType) {
+              ?Subject luc:term '%s*'; a ?typ; a skos:Concept; skos:inScheme tgn:.
+              ?typ rdfs:subClassOf gvp:Subject; rdfs:label ?Type.
+              filter (?typ != gvp:Subject)
+              optional {?Subject gvp:placeTypePreferred [gvp:prefLabelGVP [xl:literalForm ?Type1]]}
+              optional {?Subject gvp:agentTypePreferred [gvp:prefLabelGVP [xl:literalForm ?Type2]]}
+              optional {?Subject gvp:prefLabelGVP [xl:literalForm ?Term]}
+              optional {?Subject gvp:parentStringAbbrev ?Parents}
+              optional {?Subject foaf:focus/gvp:biographyPreferred/schema:description ?Descr}
+              optional {?Subject skos:scopeNote [dct:language gvp_lang:en; rdf:value ?ScopeNote]}}""" % (
             terms
         )
 
@@ -118,8 +118,9 @@ class TGN_Provider(Abstract_Provider):
         return results
 
     def perform_sparql_query(self, query):
+        self.endpoint = ("http://vocab.getty.edu/sparql.json")
+        self.updateEndpoint = ("http://vocab.getty.edu/sparql.json")
         self.setQuery(query)
-
         # print query
         # return HttpResponse(self.endpoint + '?' + self._getRequestEncodedParameters(("query", self.queryString)))
 
