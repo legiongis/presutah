@@ -19,7 +19,8 @@ body, body.dark p, li, .auth-options li a {
 .notifications-container .entry,
 .r-select-title,
 .crud-card-main a,
-.btn-profile-password {
+.btn-profile-password,
+.ion-asterisk.widget-label-required {
     color: #F44A37;
 }
 .workbench-card-sidepanel-header,
@@ -30,7 +31,6 @@ body, body.dark p, li, .auth-options li a {
 .overlay-listing:hover,
 .legend-listing .legend-name,
 .rr-table-column button,
-.hover-feature-title,
 a.search-query-link-captions:hover,
 .time-wheel-wrap .sequence,
 .search-type-btn.relative:hover, .search-type-btn.relative.active, .search-type-btn-popup.relative:hover, .search-type-btn-popup.relative.active,
@@ -43,23 +43,36 @@ a.search-query-link-captions:hover,
 .new-provisional-edits-title,
 .card-component-panel h3, .card-component-panel h4,
 .profile-full-name,
-.profile-e-mail {
+.profile-e-mail,
+.report-toolbar-title,
+.report-print-date,
+.hover-feature-metadata span {
     color: #272123;
 }
 .chosen-container-single .chosen-single div b:before, .notif-table th, .buffer-control {
     color: #42393c;
 }
 .resource-status-label, .resource-status,
-.graph-type {
+.graph-type,
+#mainnav-menu a, .arches-menu-icon,
+.hover-feature-title,
+.mapboxgl-popup-close-button, .mapboxgl-popup-close-button:hover {
   color: white;
+}
+.rp-edit-buttons,
+.jstree-default .func-node,
+.hover-feature {
+  color: black;
 }
 .resource-editor-tree,
 .graph-designer-tab-container .nav-tabs>li.active>a, .graph-designer-tab-container .nav-tabs>li:not(.active)>a:hover,
 .left-panel-overflow,
 .jstree>.header, .jstree.jstree-default,
 .rr-splash,
-.arches-secondary-header {
-  background: #f1efef;
+.arches-secondary-header,
+.report-toolbar-preview,
+.hover-feature-footer {
+  background-color: #f1efef;
 }
 .graph-designer-tab-container {
   background-color: #cac1c4;
@@ -69,14 +82,20 @@ a.search-query-link-captions:hover,
 .card-settings-panel-heading,
 .jstree-default .jstree-clicked,
 .r-select-circle,
-.resource-grid-main-container {
-  background: #272123;
+.resource-grid-main-container,
+.hover-feature-title-bar,
+.mapboxgl-popup-close-button {
+  background-color: #272123;
 }
-.profile-report {
+.profile-report,
+.rp-edit-buttons i,
+.jstree-default .func-node,
+.card-component-panel .card-component .is-function-node {
   background-color: #E5EED3;
 }
 .resource-grid-main-container:hover,
-.bg-primary {
+.bg-primary,
+.mapboxgl-popup-close-button:hover {
   background-color: #F44A37;
 }
 .r-select-card,
@@ -84,7 +103,8 @@ a.search-query-link-captions:hover,
   background: white;
 }
 .jstree>.header,
-.rr-splash {
+.rr-splash,
+.hover-feature-footer {
   border-color: #cac1c4;
 }
 #map-popup .hover-feature-title-bar, #map-popup .mapboxgl-popup-close-button,
@@ -101,7 +121,29 @@ a.search-query-link-captions:hover,
     font-size: 1.4em;
     font-weight: 700;
 }
-
+.card-component-panel .card-component h4 {
+    font-size: 1.728em;
+}
+h4.report-toolbar-title {
+  font-size: 1.4em;
+}
+.widget-input-label,
+.rp-tile-title,
+.search-listing-title {
+    font-size: 1.2em;
+}
+.form-control, .card-help,
+.popover,
+.search-listing-body,
+.mapboxgl-map,
+.hover-feature,
+.hover-feature-title {
+  font-size: 1em;
+}
+.map-sidebar-text, .search-listing-footer,
+.hover-feature-metadata {
+  font-size: 0.8em;
+}
 /* Side navbar */
 #mainnav-container, #mainnav, #mainnav-menu>.active, .brand-title, .sub-menu ul, .menu-popover, .menu-popover .popover-title, .menu-popover .single-content, #mainnav-menu>li>a  {
     background-color: #272123 !important;
