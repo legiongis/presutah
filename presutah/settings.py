@@ -92,7 +92,6 @@ ALLOWED_HOSTS = []
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'presutah.wsgi.application'
-STATIC_ROOT = '/home/alabra/uploads'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 DEFAULT_RESOURCE_IMPORT_USER = {'username': 'admin', 'userid': 1}
@@ -144,7 +143,7 @@ CACHES = {
 }
 
 # Hide nodes and cards in a report that have no data
-HIDE_EMPTY_NODES_IN_REPORT = False
+HIDE_EMPTY_NODES_IN_REPORT = True
 
 DATE_IMPORT_EXPORT_FORMAT = "%Y-%m-%d" # Custom date format for dates imported from and exported to csv
 
@@ -162,9 +161,9 @@ MOBILE_IMAGE_SIZE_LIMITS = {
     "thumb": 400,  # max width/height in pixels, this will maintain the aspect ratio of the original image
 }
 
-APP_TITLE = 'Arches | Heritage Data Management'
+APP_TITLE = 'Preservation Utah'
 COPYRIGHT_TEXT = 'All Rights Reserved.'
-COPYRIGHT_YEAR = '2019'
+COPYRIGHT_YEAR = '2021'
 
 ENABLE_CAPTCHA = False
 # RECAPTCHA_PUBLIC_KEY = ''
