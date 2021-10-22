@@ -93,7 +93,7 @@ a.search-query-link-captions:hover,
 .card-component-panel .card-component .is-function-node {
   background-color: #E5EED3;
 }
-.resource-grid-main-container:hover,
+.resource-grid-main-container:hover, .resource-grid-main-container.active,
 .bg-primary,
 .mapboxgl-popup-close-button:hover {
   background-color: #F44A37;
@@ -293,6 +293,15 @@ h1.page-header {
 #menu-control {
     background: #555;
     color: white;
+}
+.resource-grid-icon {
+    height: 60px;
+    width: 60px;
+    padding-top: 12px;
+    color: #272123;
+    transform: translate(0px, 7px);
+    border: 1px solid #cac1c4;
+    margin-bottom: 10px;
 }
 
 /* RDM */
