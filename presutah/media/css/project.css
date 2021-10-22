@@ -1,0 +1,345 @@
+/* Custom CSS declarations for Preservation Utah */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+html {font-size: 100%;} /*16px*/
+body, body.dark p, li, .auth-options li a {
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+    color: #272123;
+}
+
+/* Colors */
+.regular-link, .card-container-trash-icon .record-delete,
+.record-delete,
+.search-candidate-title, .search-candidate-link,
+.map-card-zoom-tool a, .map-card-feature-tool a,
+.hover-feature-footer a,
+.card-summary-section .tile-summary a,
+.btn-notifs-download,
+.new-provisional-edit-history .entry,
+.notifications-container .entry,
+.r-select-title,
+.crud-card-main a,
+.btn-profile-password,
+.ion-asterisk.widget-label-required {
+    color: #F44A37;
+}
+.workbench-card-sidepanel-header,
+.buffer-control h5,
+.basemap-listing.active-basemap,
+.basemap-listing:hover,
+.overlay-listing.active-overlay,
+.overlay-listing:hover,
+.legend-listing .legend-name,
+.rr-table-column button,
+a.search-query-link-captions:hover,
+.time-wheel-wrap .sequence,
+.search-type-btn.relative:hover, .search-type-btn.relative.active, .search-type-btn-popup.relative:hover, .search-type-btn-popup.relative.active,
+.sidebar-single-line-type, .sidebar-double-line-type,
+.related-resources-nodes .crud-card-subtitle,
+.card-component-panel h4,
+.tabbed-report-sidepanel-main dt,
+.show-gallery-control, .show-gallery-control i, .show-gallery-control a,
+.map-card-zoom-tool a, .map-card-feature-tool a,
+.new-provisional-edits-title,
+.card-component-panel h3, .card-component-panel h4,
+.profile-full-name,
+.profile-e-mail,
+.report-toolbar-title,
+.report-print-date,
+.hover-feature-metadata span {
+    color: #272123;
+}
+.chosen-container-single .chosen-single div b:before, .notif-table th, .buffer-control {
+    color: #42393c;
+}
+.resource-status-label, .resource-status,
+.graph-type,
+#mainnav-menu a, .arches-menu-icon,
+.hover-feature-title,
+.mapboxgl-popup-close-button, .mapboxgl-popup-close-button:hover {
+  color: white;
+}
+.rp-edit-buttons,
+.jstree-default .func-node,
+.hover-feature {
+  color: black;
+}
+.resource-editor-tree,
+.graph-designer-tab-container .nav-tabs>li.active>a, .graph-designer-tab-container .nav-tabs>li:not(.active)>a:hover,
+.left-panel-overflow,
+.jstree>.header, .jstree.jstree-default,
+.rr-splash,
+.arches-secondary-header,
+.report-toolbar-preview,
+.hover-feature-footer {
+  background-color: #f1efef;
+}
+.graph-designer-tab-container {
+  background-color: #cac1c4;
+}
+.card-header,
+.settings-panel-heading,
+.card-settings-panel-heading,
+.jstree-default .jstree-clicked,
+.r-select-circle,
+.resource-grid-main-container,
+.hover-feature-title-bar,
+.mapboxgl-popup-close-button {
+  background-color: #272123;
+}
+.profile-report,
+.rp-edit-buttons i,
+.jstree-default .func-node,
+.card-component-panel .card-component .is-function-node {
+  background-color: #E5EED3;
+}
+.resource-grid-main-container:hover, .resource-grid-main-container.active,
+.bg-primary,
+.mapboxgl-popup-close-button:hover {
+  background-color: #F44A37;
+}
+.r-select-card,
+.resource-grid-icon{
+  background: white;
+}
+.jstree>.header,
+.rr-splash,
+.hover-feature-footer {
+  border-color: #cac1c4;
+}
+#map-popup .hover-feature-title-bar, #map-popup .mapboxgl-popup-close-button,
+.r-select-card, .r-grid-item,
+.ep-card-crud-container>div.panel   {
+  border-color: #272123;
+}
+.headline h2, .headline h3, .headline h4 {
+  border-color: #F44A37;
+}
+
+/* Typography fixes */
+.r-select-title {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.card-component-panel .card-component h4 {
+    font-size: 1.728em;
+}
+h4.report-toolbar-title {
+  font-size: 1.4em;
+}
+.widget-input-label,
+.rp-tile-title,
+.search-listing-title {
+    font-size: 1.2em;
+}
+.form-control, .card-help,
+.popover,
+.search-listing-body,
+.mapboxgl-map,
+.hover-feature,
+.hover-feature-title {
+  font-size: 1em;
+}
+.map-sidebar-text, .search-listing-footer,
+.hover-feature-metadata {
+  font-size: 0.8em;
+}
+/* Side navbar */
+#mainnav-container, #mainnav, #mainnav-menu>.active, .brand-title, .sub-menu ul, .menu-popover, .menu-popover .popover-title, .menu-popover .single-content, #mainnav-menu>li>a  {
+    background-color: #272123 !important;
+}
+#mainnav-menu>li>a:hover, .link-submenu-item a:hover,  .menu-popover .popover-title:hover, .menu-popover .single-content:hover {
+    background-color:#F44A37 !important;
+    box-shadow:none !important;
+    text-decoration: none;
+}
+#mainnav-menu>li>a.hover {
+  box-shadow: inset 4px 0 0 0 #F44A37;
+}
+.brand-title {
+  font-size: 1em;
+}
+/* Top navbar */
+.ep-toolbar {
+    background: #F44A37;
+    border-bottom: 1px solid #fff;
+}
+h1.page-header {
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+  padding: 0px;
+}
+.ep-graph-title {
+    font-size: 2em;
+}
+.ep-graph-title-icon {
+    color: white;
+    background: transparent;
+    border: none;
+}
+.ep-tools {
+    background: #F44A37;
+    border-bottom: none;
+    color: white;
+    font-size: 1.4em;
+}
+.ep-tools h3 {
+  margin: 0px;
+}
+
+/* Buttons */
+.btn-primary, .btn-hover-primary:active, .btn-hover-primary.active, .btn.btn-active-primary:active, .btn.btn-active-primary.active, .dropdown.open>.btn.btn-active-primary, .btn-group.open .dropdown-toggle.btn.btn-active-primary, .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover {
+  background-color: #272123 !important;
+  border-color: #272123 !important;
+}
+.btn-primary:hover {
+  background-color:#F44A37 !important;
+}
+
+/* Search area */
+#content-container {
+  background-color: #e9e5e7;
+}
+.search-count-container {
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 1px solid #cac1c4;
+    text-align-last: justify;
+    height: 40px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-control-container {
+    background-color: white !important;
+    border-top: 1px solid #cac1c4;
+    overflow-y: scroll;
+}
+.search-toolbar {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 51px;
+    background: #f9f8f8;
+    border-bottom: solid 0px #cac1c4;
+}
+.search-type-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    min-width: 150px;
+    border-color: #cac1c4;
+    border-top: none;
+    border-right: 1px solid;
+    background: #e9e5e7;
+    z-index: 1000;
+    margin-left: -5px;
+    border-width: 1px;
+    border-bottom: none;
+    border-right: 1px solid #cac1c4;
+}
+.search-type-btn.relative.active {
+    color: #272123;
+}
+.search-type-btn .active {
+    border-right: 1px solid #cac1c4;
+    border-left: 1px solid #cac1c4;
+}
+.search-type-btn-popup {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: #e9e5e7;
+    border-width: 1px;
+    z-index: 1000;
+}
+.card-form-preview-container {
+    background: #f9f8f8;
+    overflow-y: hidden;
+}
+.workbench-card-sidebar {
+    background: #f9f8f8;
+    border-left: 1px solid #cac1c4;
+}
+.chosen-container-single .chosen-single {
+    color: #42393c;
+    border: 1px solid #cac1c4;
+}
+
+.search-listing:hover, .search-listing:active, .search-listing.selected  {
+    border: 1px solid #F44A37;
+}
+
+/* Forms and Data Entry */
+.form-control:focus, .select2-container.select2-container-active.select2-dropdown-open, .select2-drop-active {
+    border: 1px solid #F44A37;
+}
+.resource_search_widget_dropdown .select2-results {
+    background: #f9f8f8;
+    border-top: 1px solid #F44A37;
+}
+.resource_search_widget_dropdown.select2-drop-active {
+    border-color: #F44A37;
+}
+#menu-control {
+    background: #555;
+    color: white;
+}
+.resource-grid-icon {
+    height: 60px;
+    width: 60px;
+    padding-top: 12px;
+    color: #272123;
+    transform: translate(0px, 7px);
+    border: 1px solid #cac1c4;
+    margin-bottom: 10px;
+}
+
+/* RDM */
+.nav-tabs > li.active > a,
+.tabs-left .nav-tabs > li.active > a,
+.tabs-right .nav-tabs > li.active > a,
+.tabs-below .nav-tabs > li.active > a {
+  -webkit-box-shadow: 0 -2px 0 #F44A37;
+  -moz-box-shadow: 0 -2px 0 #F44A37;
+  box-shadow: 0 -2px 0 #F44A37;
+}
+
+/* Login page */
+.img-login {
+    background-image: url(../img/backgrounds/aerial.jpg);
+}
+.arches-signin .panel-body {
+  background-color: #F44A37;
+  color: white;
+}
+.arches-signin-subtext {
+    color: white;
+}
+
+.arches-signin .login-panel {
+    border: 1px solid white;
+}
+
+.arches-signin .panel-footer {
+  background-color: white;
+}
+.arches-signin .form-control {
+  font-size: 1em;
+}
+.cls-container .account-management a {
+    color: white;
+    font-size: 1em;
+}
+.arches-signin img {
+  width: 100%;
+}
