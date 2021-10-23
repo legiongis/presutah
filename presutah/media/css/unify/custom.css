@@ -90,6 +90,10 @@ a.nav-link.px-0.active {
 
 
 /* Slide Carousel */
+#slider {
+  overflow: hidden;
+}
+
 #slider h1 {
   font-weight: 700;
   font-size: 3.5em;
