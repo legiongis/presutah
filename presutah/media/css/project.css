@@ -262,6 +262,31 @@ h1.page-header {
     border-width: 1px;
     z-index: 1000;
 }
+.directory-type-btn-popup {
+    height: 50px;
+    width: 200px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background: #272123;
+    border-width: 1px;
+    z-index: 1000;
+}
+.directory-type-btn-popup:hover {
+    background: #F44A37;
+}
+.saved-search-grid .list-group-item:hover {
+    background: #F44A37;
+    color: white !important;
+}
+.saved-search-grid .list-group-item .search-query-link-captions:hover {
+    color: white;
+}
 .card-form-preview-container {
     background: #f9f8f8;
     overflow-y: hidden;

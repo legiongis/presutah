@@ -4,7 +4,7 @@ from arches.app.search.components.base import BaseSearchFilter
 
 details = {
     "searchcomponentid": "",
-    "name": "Directory",
+    "name": "Preservation Directory",
     "icon": "fa fa-bank",
     "modulename": "directory_search.py",
     "classname": "DirectorySearch",
