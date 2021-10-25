@@ -22,9 +22,7 @@
     <div id="" class="saved-search-grid" style="position: relative;">
         <div class="list-group list-group-striped" data-bind="foreach: items">
             <!-- Saved Search Query -->
-            <div class="list-group-item relative">
-                  <a class="search-query-link-captions" data-bind="click: function(){window.location.href = searchUrl; }"><i class="rounded-x fa fa-search"></i> <span data-bind="text: title"></span></a>
-            </div>
+            <a class="list-group-item search-query-link-captions" data-bind="click: function(){window.location.href = searchUrl; }"><i class="rounded-x fa fa-search"></i> <span data-bind="text: title"></span></a>
         </div>
     </div>
 </div>
