@@ -1,0 +1,8 @@
+{
+    "name": "Easement Report",
+    "componentid": "a929dc76-7922-4877-90ff-01b6fe3d822b",
+    "component": "reports/easement_report",
+    "componentname": "easement_report",
+    "description": "A report customized for displaying easement data.",
+    "defaultconfig": {}
+}
