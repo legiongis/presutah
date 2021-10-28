@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<div class="search-container saved-search-container relative" style="overflow-y: scroll;">
+
+    <div data-bind="visible: items().length === 0">
+        <div id="rr-splash" class="rr-splash">
+            <!-- Image -->
+            <div class="img-lg img-circle rr-splash-img-container">
+                <img class="rr-splash-img" src="{% static 'img/approval.png' %}" alt="Saved Search">
+            </div>
+
+            <!-- Splash Title -->
+            <div class="rr-splash-title">{% trans "Preservation Directory" %}</div>
+
+            <!-- Splash Instructions -->
+            <div class="rr-splash-description">{% trans "The Arches site administrator" %}</div>
+            <div class="rr-splash-description">{% trans "hasn't saved any searches yet." %}</div>
+        </div>
+    </div>
+
+    <div id="" class="saved-search-grid" style="position: relative;">
+        <div class="list-group list-group-striped" data-bind="foreach: items">
+            <!-- Saved Search Query -->
+            <a class="list-group-item search-query-link-captions" data-bind="click: function(){window.location.href = searchUrl; }"><i class="rounded-x fa fa-search"></i> <span data-bind="text: title"></span></a>
+        </div>
+    </div>
+</div>
