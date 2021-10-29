@@ -4,5 +4,5 @@
     "component": "reports/easement_report",
     "componentname": "easement_report",
     "description": "A report customized for displaying easement data.",
-    "defaultconfig": {}
+    "defaultconfig": {"nodes": []}
 }

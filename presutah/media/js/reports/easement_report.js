@@ -1,26 +1,19 @@
 define([
-'underscore',
-'knockout',
-'knockout-mapping',
-'viewmodels/report',
-'arches',
-'knockstrap',
-'bindings/chosen',
-'geojson-extent',
-'views/components/map',
-'views/components/cards/select-feature-layers',
-], function(_, ko, koMapping, ReportViewModel, arches, geojsonExtent, MapComponentViewModel, selectFeatureLayersFactory) {
+    'underscore',
+    'knockout',
+    'knockout-mapping',
+    'viewmodels/report',
+    'arches',
+    'knockstrap',
+    'bindings/chosen'
+], function(_, ko, koMapping, ReportViewModel, arches) {
     return ko.components.register('easement_report', {
         viewModel: function(params) {
             var self = this;
-
-            // image carousel
+            // define params for custom report here
             params.configKeys = ['nodes'];
+
             ReportViewModel.apply(this, [params]);
-
-
-            // map params
-
 
             // Put custom report logic here
             self.imgs = ko.computed(function() {
@@ -54,6 +47,7 @@ define([
                 }
                 return imgs;
             });
+
             var widgets = [];
             var getCardWidgets = function(card) {
                 widgets = widgets.concat(card.model.get('widgets')());
@@ -69,9 +63,9 @@ define([
                     return ko.unwrap(node.datatype) === 'file-list';
                 })
             );
-
-
         },
-        template: { require: 'text!report-templates/easement_report' }
+        template: {
+            require: 'text!report-templates/easement_report'
+        }
     });
 });
