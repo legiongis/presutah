@@ -86,6 +86,7 @@ INSTALLED_APPS = (
     'oauth2_provider',
     'django_celery_results',
     'presutah',
+    'compressor',
 )
 
 ALLOWED_HOSTS = []
@@ -197,6 +198,19 @@ CELERY_BEAT_SCHEDULE = {
 
 # By setting RESTRICT_MEDIA_ACCESS to True, media file requests outside of Arches will checked against nodegroup permissions.
 RESTRICT_MEDIA_ACCESS = False
+
+# Arches v6 updates
+#For search export columns/properties (shp, csv, json) to match resource card order (at a small performance cost), set the following to True:
+EXPORT_DATA_FIELDS_IN_CARD_ORDER = False
+
+#If your geometries are not widely distributed, reducing the following below 5000 meters can improve clustering performance:
+CLUSTER_DISTANCE_MAX = 5000 #meters
+
+#To prevent guest users from requesting background search exports with Celery, set the following to True:
+RESTRICT_CELERY_EXPORT_FOR_ANONYMOUS_USER = False
+
+#Set the following to True if you want to send Celery tasks to the broker without being able to detect Celery. This might be necessary if the worker pool is regulary fully active, with no idle workers, or if you need to run the Celery task using solo pool (e.g. on Windows). You may need to provide another way of monitoring Celery so you can detect when the background task is not available.
+CELERY_CHECK_ONLY_INSPECT_BROKER = False
 
 
 # see https://docs.djangoproject.com/en/1.9/topics/i18n/translation/#how-django-discovers-language-preference

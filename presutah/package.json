@@ -1,6 +1,6 @@
 {
     "name": "presutah",
     "dependencies": {
-        "arches": "archesproject/arches#master"
+        "arches": "archesproject/arches#stable/6.0.0"
     }
 }
