@@ -5,20 +5,59 @@ define([
     'viewmodels/report',
     'arches',
     'knockstrap',
-    'bindings/chosen'
-], function(_, ko, koMapping, ReportViewModel, arches) {
-    return ko.components.register('easement_report', {
+    'bindings/chosen',
+    'viewmodels/report',
+    'reports/map-header'
+], function(_, ko, koMapping, ReportViewModel, arches, ) {
+      return ko.components.register('easement_report', {
         viewModel: function(params) {
             var self = this;
+
             // define params for custom report here
-            params.configKeys = ['nodes'];
+            params.configKeys = ['nodes', 'zoom', 'centerX', 'centerY', 'geocoder', 'basemap', 'geometryTypes', 'pitch', 'bearing', 'geocodePlaceholder'];
+            console.log(self);
 
             ReportViewModel.apply(this, [params]);
 
             // Put custom report logic here
+            this.featureCollection = ko.computed({
+                read: function() {
+                    var features = [];
+                    ko.unwrap(self.tiles).forEach(function(tile) {
+                        _.each(tile.data, function(val) {
+                            if ('features' in val) {
+                                features = features.concat(koMapping.toJS(val.features));
+                            }
+                            console.log(features);
+                        }, this);
+                    }, this);
+                    return {
+                        type: 'FeatureCollection',
+                        features: features
+                    };
+                },
+                write: function() {
+                    return;
+                }
+            });
+
+            this.featureCount = ko.computed(function() {
+                var count = 0;
+                ko.unwrap(self.tiles).forEach(function(tile) {
+                    _.each(tile.data, function(val) {
+                        if ('features' in val) {
+                            count += 1;
+                        }
+                        console.log(count);
+                    }, this);
+                }, this);
+                return count;
+            });
+
             self.imgs = ko.computed(function() {
                 var imgs = [];
                 var nodes = ko.unwrap(self.nodes);
+
                 self.tiles().forEach(function(tile) {
                     _.each(tile.data, function(val, key) {
                         val = koMapping.toJS(val);
@@ -63,6 +102,8 @@ define([
                     return ko.unwrap(node.datatype) === 'file-list';
                 })
             );
+
+
         },
         template: {
             require: 'text!report-templates/easement_report'
