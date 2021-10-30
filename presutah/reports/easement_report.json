@@ -6,7 +6,7 @@
     "description": "A report customized for displaying easement data.",
     "defaultconfig": {
       "nodes": [],
-      "basemap": "streets",
+      "basemap": "satellite",
       "geometryTypes": [{"text":"Point", "id":"Point"}, {"text":"Line", "id":"Line"}, {"text":"Polygon", "id":"Polygon"}],
       "overlayConfigs": [],
       "overlayOpacity": 0.0,
