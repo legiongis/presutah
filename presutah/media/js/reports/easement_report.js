@@ -15,7 +15,6 @@ define([
 
             // define params for custom report here
             params.configKeys = ['nodes', 'zoom', 'centerX', 'centerY', 'geocoder', 'basemap', 'geometryTypes', 'pitch', 'bearing', 'geocodePlaceholder'];
-            console.log(self);
 
             ReportViewModel.apply(this, [params]);
 
@@ -28,7 +27,6 @@ define([
                             if ('features' in val) {
                                 features = features.concat(koMapping.toJS(val.features));
                             }
-                            console.log(features);
                         }, this);
                     }, this);
                     return {
@@ -48,7 +46,6 @@ define([
                         if ('features' in val) {
                             count += 1;
                         }
-                        console.log(count);
                     }, this);
                 }, this);
                 return count;
