@@ -158,7 +158,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                 <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-2a.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
-                <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="#">Map</a>
+                <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%2256fb370a-335a-11ec-934a-080027c2283b%22%2C%22name%22%3A%22Preservation%20Directory%22%2C%22inverted%22%3Afalse%7D%5D">Map</a>
               </span>
               <header class="g-pos-abs g-bottom-0 g-left-0 w-100 g-color-white g-pa-30">
                 <p class="text-uppercase g-font-weight-700 g-font-size-12 g-color-white g-mb-10">
@@ -166,10 +166,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                   Finding Experts
                 </p>
                 <h1 class="g-mb-10 g-line-height-1">
-                  <a class="g-color-white g-color-white--hover" href="#">Preservation Directory</a>
+                  <a class="g-color-white g-color-white--hover" href="#presdirectory">Preservation Directory</a>
                 </h1>
-                <p class="g-font-size-default g-color-white-opacity-0_8 g-mb-30">Curabitur eget tortor sed urna faucibus iaculis id et nulla.</p>
-                <a class="btn btn-xl g-color-black text-uppercase u-btn-white g-font-weight-700 g-font-size-13 g-bg-transparent--hover g-brd-3 rounded-0 g-py-15 g-px-25" href="#">Search</a>
+                <p class="g-font-size-default g-color-white-opacity-0_8 g-mb-30">Connect with professionals who have experience working with historic buildings.</p>
+                <a class="btn btn-xl g-color-black text-uppercase u-btn-white g-font-weight-700 g-font-size-13 g-bg-transparent--hover g-brd-3 rounded-0 g-py-15 g-px-25" href="#presdirectory">Learn More</a>
               </header>
             </article>
             <article class="g-pos-rel">
@@ -313,7 +313,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                         <p class="lead g-font-weight-400 g-mr-20--md g-mb-15 g-mb-0--md">Search our map of easements in Utah.</p>
                       </div>
                       <div class="align-self-md-center">
-                        <a class="btn btn-md u-btn-black u-btn-primary--hover g-color-white g-color-white--hover rounded-0" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%22c3646da3-2140-11ec-82e5-080027c2283b%22%2C%22name%22%3A%22Easement%22%2C%22inverted%22%3Afalse%7D%5D">View</a>
+                        <a class="btn btn-md u-btn-black u-btn-primary--hover g-color-white g-color-white--hover rounded-0" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%22c3646da3-2140-11ec-82e5-080027c2283b%22%2C%22name%22%3A%22Easement%22%2C%22inverted%22%3Afalse%7D%5D"><i class="fas fa-search"></i> View</a>
                       </div>
                     </div>
                   </section>
@@ -322,6 +322,30 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             </div>
         </section>
         <!-- End About -->
+
+        <!-- Hero Info #14 -->
+        <a id="presdirectory"></a>
+        <div class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-white-gradient-opacity-v5--after" style="background-image: url({% static 'img/landing/presdirectory-bg.png' %});">
+          <div class="container g-pos-rel g-z-index-1">
+            <div class="row justify-content-between">
+              <div class="col-md-5 g-py-60">
+                <div class="mb-2">
+                  <h2 class="mb-4 g-font-weight-700 g-color-black">Preservation Directory</h2>
+                  <p class="g-font-size-16">The Utah Preservation Directory connects historic property owners with professionals that have experience working with historic buildings and sites. The directory contains specialists as well as general contractors that can help with larger projects.</p>
+
+                  <p class="g-font-size-16">Click the search button below to view all experts. Once there, use the <i class="fas fa-university"></i> Preservation Directory tab (above the map) to filter by specialization.</p>
+
+                  <a class="btn btn-md u-btn-black u-btn-primary--hover g-color-white g-color-white--hover rounded-0" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%2256fb370a-335a-11ec-934a-080027c2283b%22%2C%22name%22%3A%22Preservation%20Directory%22%2C%22inverted%22%3Afalse%7D%5D"><i class="fas fa-search"></i> Search the Directory</a>
+
+                  <p class="g-font-size-12 mt-4">If you would like to list your historic preservation business in our directory, please <a href="https://docs.google.com/forms/d/1OpGeKQX4n84_aOHlDb9rzPWVwYC0qENEBzs3We-hzuA/edit">fill out our Utah Preservation Directory Application</a>. All applications are subject to review and approval by Preservation Utah. Evaluations are based on qualifications and successful completion of work with historic properties.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero Info #14 -->
+
 
         <!-- Accordion -->
         <section id="help" class="g-bg-tertiary">
