@@ -17,7 +17,7 @@ body {
 }
 .g-bg-primary--hover:hover, .u-btn-primary--hover:hover {
   background-color: #F44A37 !important;
-  border-color: #f4aa37 !important;
+  border-color: #f44a37 !important;
 }
 .g-bg-secondary {
   background-color: #272123 !important;
@@ -105,6 +105,16 @@ a.nav-link.px-0.active {
       #slider .g-bottom-0 {
         bottom: 25%;
       }
+}
+
+/* Preservation Directory */
+.g-bg-black-gradient-opacity-v5,
+.g-bg-black-gradient-opacity-v5--after::after {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(47%, #272123), color-stop(75%, rgba(39, 33, 35, 0)));
+  background-image: -webkit-linear-gradient(left,#272123 47%, rgba(39, 33, 35, 0) 75%);
+  background-image: -o-linear-gradient(left, #272123 47%, rgba(39, 33, 35, 0) 75%);
+  background-image: linear-gradient(to right, #272123 47%, rgba(39, 33, 35, 0) 75%);
+  background-repeat: repeat-x;
 }
 
 /* Footer */
