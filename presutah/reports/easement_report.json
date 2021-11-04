@@ -1,0 +1,29 @@
+{
+    "name": "Easement Report",
+    "componentid": "a929dc76-7922-4877-90ff-01b6fe3d822b",
+    "component": "reports/easement_report",
+    "componentname": "easement_report",
+    "description": "A report customized for displaying easement data.",
+    "defaultconfig": {
+      "nodes": [],
+      "basemap": "satellite",
+      "geometryTypes": [{"text":"Point", "id":"Point"}, {"text":"Line", "id":"Line"}, {"text":"Polygon", "id":"Polygon"}],
+      "overlayConfigs": [],
+      "overlayOpacity": 0.0,
+      "geocodeProvider": "MapzenGeocoder",
+      "zoom": 10,
+      "maxZoom": 20,
+      "minZoom": 0,
+      "centerX": -122.3979693,
+      "centerY": 37.79,
+      "pitch": 0.0,
+      "bearing": 0.0,
+      "geocodePlaceholder": "Search",
+      "geocoderVisible": true,
+      "featureColor": null,
+      "featureLineWidth": null,
+      "featurePointSize": null,
+      "featureEditingDisabled": true,
+      "mapControlsHidden": false
+    }
+}

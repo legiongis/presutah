@@ -368,3 +368,12 @@ h1.page-header {
 .arches-signin img {
   width: 100%;
 }
+
+/* Reports */
+.presutah-report [class^="col-"]:not(.pad-no) {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.presutah-report .report-map-header-component {
+  height: 500px;
+}
