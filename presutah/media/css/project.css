@@ -382,13 +382,11 @@ h1.page-header {
 }
 .report-related-resources .rp-tile-title {
   font-size: 1.2rem;
-  margin-left: 100px;
   border-bottom: 1px solid #cac1c4;
   margin-bottom: 10px;
 }
 .report-related-resources dl dt {
   text-align: left;
-  margin-left: 100px;
 }
 .presutah-report [class^="col-"]:not(.pad-no) {
   padding-left: 7.5px;
@@ -396,4 +394,13 @@ h1.page-header {
 }
 .presutah-report .report-map-header-component {
   height: 500px;
+}
+.presutah-report .report-related-resources {
+  padding-left: 20px;
+}
+.presutah-report .report-related-resources .rp-report-section-title {
+  padding-left: 0px;
+}
+.presutah-report .report-related-resources .rp-card-section div div .dl-horizontal dt {
+  width: 100%;
 }

@@ -26,41 +26,43 @@
 <div class="rp-report-container-preview presutah-report">
 
     {% block header %}
+    <div class="container-fluid">
 
-    <div class="row">
-        <div class="eq-height">
-            <div class="col-sm-6 eq-box-sm">
-              <div class="panel">
-                  <div class="panel-heading">
-                      <h3 class="panel-title">Photos</h3>
-                  </div>
-                  <div class="panel-body">
-                  <div data-bind="carousel: { content: { name: 'carouselItemTemplate', data: imgs } }"></div>
-
-                    <template id="carouselItemTemplate">
-                    </template>
-                  </div>
-              </div>
-            </div>
-            <div class="col-sm-6 eq-box-sm">
-                <div class="panel">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Map</h3>
-                    </div>
-                    <div class="panel-body">
-                      <div>
-                        <!-- ko if: featureCount() > 0 || report.preview -->
-                        <div data-bind="component: {
-                            name: 'report-header-map',
-                            params: $data
-                        }" class="report-map-header-component"></div>
-                        <!-- /ko -->
+        <div class="row">
+            <div class="eq-height">
+                <div class="col-sm-6 eq-box-sm">
+                  <div class="panel">
+                      <div class="panel-heading">
+                          <h3 class="panel-title">Photos</h3>
                       </div>
+                      <div class="panel-body">
+                      <div data-bind="carousel: { content: { name: 'carouselItemTemplate', data: imgs } }"></div>
+
+                        <template id="carouselItemTemplate">
+                        </template>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 eq-box-sm">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Map</h3>
+                        </div>
+                        <div class="panel-body">
+                          <div>
+                            <!-- ko if: featureCount() > 0 || report.preview -->
+                            <div data-bind="component: {
+                                name: 'report-header-map',
+                                params: $data
+                            }" class="report-map-header-component"></div>
+                            <!-- /ko -->
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+      </div>
 
     {% endblock header %}
 
@@ -75,81 +77,96 @@
     <div class="report-provisional-flag">{% trans 'This resource has provisional edits that are pending review' %}</div>
     <!--/ko-->
 
-    <div class="rp-report-section relative rp-report-section-root">
-        <div class="rp-report-section-title">
-            <!-- ko foreach: { data: report.cards, as: 'card' } -->
-                <!-- ko if: $parent.hideEmptyNodes() === false || card.tiles().length > 0 -->
-                <!-- ko if: $index() !== 0 --><hr class="rp-tile-separator"><!-- /ko -->
-                <div class="rp-card-section">
-                    <!-- ko component: {
-                        name: card.model.cardComponentLookup[card.model.component_id()].componentname,
-                        params: {
-                            state: 'report',
-                            preview: $parent.report.preview,
-                            card: card,
-                            pageVm: {...$root, report: $parent.report},
-                            hideEmptyNodes: $parent.hideEmptyNodes
-                        }
-                    } --> <!-- /ko -->
-                </div>
-                <!-- /ko -->
-            <!-- /ko -->
-        </div>
-    </div>
-    {% endblock body %}
-
-
-    {% block related_resources %}
-    <div class="rp-report-section relative report-related-resources">
-        <div class="rp-report-section-title">
-            <h4 class="rp-section-title">{% trans 'Related Resources' %}</h4>
-        </div>
-
-        <!-- ko foreach: { data: Object.values(report.relatedResourcesLookup()), as: 'resourceData' } -->
-        <!-- ko if: resourceData.totalRelatedResources > 0 || !$parent.hideEmptyNodes() -->
-        <h5 class="rp-tile-title">
-            <span class="rp-tile-title-float" data-bind="text: resourceData.name"></span>
-        </h5>
-
-        <div class="rp-card-section">
-            <!-- ko foreach: { data: resourceData.loadedRelatedResources(), as: 'relatedResource' } -->
-            <div class="rp-report-container-tile">
-                <div class="row rp-report-tile">
-                    <dl class="dl-horizontal">
-                        <dt><a data-bind="text: relatedResource.displayName, attr: {href: relatedResource.link}"></a></dt>
-                        <!-- ko if: relatedResource.relationship -->
-                        <dd data-bind="text: '( ' + relatedResource.relationship + ' )'"></dd>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="rp-report-section relative rp-report-section-root">
+                    <div class="rp-report-section-title">
+                        <!-- ko foreach: { data: report.cards, as: 'card' } -->
+                            <!-- ko if: $parent.hideEmptyNodes() === false || card.tiles().length > 0 -->
+                            <!-- ko if: $index() !== 0 --><hr class="rp-tile-separator"><!-- /ko -->
+                            <div class="rp-card-section">
+                                <!-- ko component: {
+                                    name: card.model.cardComponentLookup[card.model.component_id()].componentname,
+                                    params: {
+                                        state: 'report',
+                                        preview: $parent.report.preview,
+                                        card: card,
+                                        pageVm: {...$root, report: $parent.report},
+                                        hideEmptyNodes: $parent.hideEmptyNodes
+                                    }
+                                } --> <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
                         <!-- /ko -->
-                    </dl>
+                    </div>
                 </div>
             </div>
-            <!-- /ko -->
+            {% endblock body %}
+            <div class="col-md-3">
 
-            <!-- ko if: resourceData.paginator() && resourceData.paginator().has_next -->
-            <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, false)">
-                {% trans "Load More" %}
-                <span data-bind="text: '(' + resourceData.remainingResources() + ')'"></span>
-            </button>
+            {% block related_resources %}
+                <div class="rp-report-section relative report-related-resources">
+                    <div class="rp-report-section-title">
+                        <h4 class="rp-section-title">{% trans 'Related Resources' %}</h4>
+                    </div>
 
-            <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, true)">
-                {% trans "Load All" %}
-                <span data-bind="text: '(' + (resourceData.totalRelatedResources - resourceData.loadedRelatedResources().length) + ')'"></span>
-            </button>
-            <!-- /ko -->
+                    <!-- ko foreach: { data: Object.values(report.relatedResourcesLookup()), as: 'resourceData' } -->
+                    <!-- ko if: resourceData.totalRelatedResources > 0 || !$parent.hideEmptyNodes() -->
+                    <h5 class="rp-tile-title">
+                        <span class="rp-tile-title-float" data-bind="text: resourceData.name"></span>
+                    </h5>
 
-            <!--ko if: resourceData.totalRelatedResources === 0 -->
-            <div class="rp-report-container-tile">
-                <div class="row rp-report-tile rp-no-data">{% trans 'No relationships added' %}</div>
+                    <div class="rp-card-section">
+                        <!-- ko foreach: { data: resourceData.loadedRelatedResources(), as: 'relatedResource' } -->
+                        <div class="rp-report-container-tile">
+                            <div class="row rp-report-tile">
+                                <dl class="dl-horizontal">
+                                    <dt><a data-bind="text: relatedResource.displayName, attr: {href: relatedResource.link}"></a></dt>
+                                    <!-- ko if: relatedResource.relationship -->
+                                    <dd data-bind="text: '( ' + relatedResource.relationship + ' )'"></dd>
+                                    <!-- /ko -->
+                                </dl>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+
+                        <!-- ko if: resourceData.paginator() && resourceData.paginator().has_next -->
+                        <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, false)">
+                            {% trans "Load More" %}
+                            <span data-bind="text: '(' + resourceData.remainingResources() + ')'"></span>
+                        </button>
+
+                        <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, true)">
+                            {% trans "Load All" %}
+                            <span data-bind="text: '(' + (resourceData.totalRelatedResources - resourceData.loadedRelatedResources().length) + ')'"></span>
+                        </button>
+                        <!-- /ko -->
+
+                        <!--ko if: resourceData.totalRelatedResources === 0 -->
+                        <div class="rp-report-container-tile">
+                            <div class="row rp-report-tile rp-no-data">{% trans 'No relationships added' %}</div>
+                        </div>
+                        <!--/ko-->
+                    </div>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                </div>
+                {% endblock related_resources %}
+
+                {% block footer %}
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                        Our easements...
+                    </div>
+                </div>
+                {% endblock footer %}
             </div>
-            <!--/ko-->
         </div>
-        <!-- /ko -->
-        <!-- /ko -->
     </div>
-    {% endblock related_resources %}
-
-    {% block footer %}
-    {% endblock footer %}
 </div>
 {% endblock report %}
 <!-- /ko -->
