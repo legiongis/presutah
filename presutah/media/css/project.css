@@ -299,7 +299,6 @@ h1.page-header {
     color: #42393c;
     border: 1px solid #cac1c4;
 }
-
 .search-listing:hover, .search-listing:active, .search-listing.selected  {
     border: 1px solid #F44A37;
 }
@@ -328,6 +327,10 @@ h1.page-header {
     border: 1px solid #cac1c4;
     margin-bottom: 10px;
 }
+h4.card-summary-name {
+  color: #F44A37 !important;
+  font-size: 1.4rem !important;
+}
 
 /* RDM */
 .nav-tabs > li.active > a,
@@ -354,7 +357,6 @@ h1.page-header {
 .arches-signin .login-panel {
     border: 1px solid white;
 }
-
 .arches-signin .panel-footer {
   background-color: white;
 }
