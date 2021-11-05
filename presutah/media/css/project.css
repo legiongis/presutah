@@ -8,6 +8,7 @@ body, body.dark p, li, .auth-options li a {
 }
 
 /* Colors */
+a,
 .regular-link, .card-container-trash-icon .record-delete,
 .record-delete,
 .search-candidate-title, .search-candidate-link,
@@ -125,10 +126,9 @@ a.search-query-link-captions:hover,
     font-size: 1.728em;
 }
 h4.report-toolbar-title {
-  font-size: 1.4em;
+  font-size: 1.728em;
 }
 .widget-input-label,
-.rp-tile-title,
 .search-listing-title {
     font-size: 1.2em;
 }
@@ -299,7 +299,6 @@ h1.page-header {
     color: #42393c;
     border: 1px solid #cac1c4;
 }
-
 .search-listing:hover, .search-listing:active, .search-listing.selected  {
     border: 1px solid #F44A37;
 }
@@ -328,6 +327,10 @@ h1.page-header {
     border: 1px solid #cac1c4;
     margin-bottom: 10px;
 }
+h4.card-summary-name {
+  color: #F44A37 !important;
+  font-size: 1.4rem !important;
+}
 
 /* RDM */
 .nav-tabs > li.active > a,
@@ -354,7 +357,6 @@ h1.page-header {
 .arches-signin .login-panel {
     border: 1px solid white;
 }
-
 .arches-signin .panel-footer {
   background-color: white;
 }
@@ -370,10 +372,40 @@ h1.page-header {
 }
 
 /* Reports */
+.report-toolbar-preview {
+  background-color: #f9f8f8;
+}
+.rp-tile-title, h4.rp-section-title {
+  font-size: 1.4rem;
+  color: #272123;
+}
+.rp-report-section-title {
+  font-size: 1rem;
+}
+.report-related-resources .rp-tile-title {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #cac1c4;
+  margin-bottom: 10px;
+}
+.report-related-resources dl dt {
+  text-align: left;
+}
 .presutah-report [class^="col-"]:not(.pad-no) {
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
 .presutah-report .report-map-header-component {
   height: 500px;
+}
+.presutah-report .report-related-resources {
+  padding-left: 20px;
+}
+.presutah-report .report-related-resources .rp-report-section-title {
+  padding-left: 0px;
+}
+.presutah-report .report-related-resources .rp-card-section div div .dl-horizontal dt {
+  width: 100%;
+}
+.presutah-report .panel>.panel-heading:after {
+  border-bottom-color: #cac1c4;
 }
