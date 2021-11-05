@@ -23,7 +23,7 @@
 
 
 <!-- Report Content -->
-<div class="rp-report-container-preview presutah">
+<div class="rp-report-container-preview presutah-report">
 
     {% block header %}
     {% endblock header %}
@@ -64,9 +64,10 @@
                 </div>
             </div>
             {% endblock body %}
-            <div class="col-md-3">
 
             {% block related_resources %}
+            <div class="col-md-3">
+
             <div class="rp-report-section relative report-related-resources">
                 <div class="rp-report-section-title">
                     <h4 class="rp-section-title">{% trans 'Related Resources' %}</h4>
@@ -116,6 +117,24 @@
             {% endblock related_resources %}
 
             {% block footer %}
+            <!--ko if: report.get('name') === 'Revolving Loan' -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                      <p>Get a low-interest loan for your rehabilitation project. Preservation Utah's Revolving Loan Fund provides property owners with low-interest loans to restore and rehabilitate significant historical or architectural properties throughout the state.</p>
+                      <h4>Helpful Resources</h4>
+                      <ul>
+                        <li><a href="https://preservationutah.org/resources/tools-for-property-owners/low-interest-loans">FAQ</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_sNTkgx9RYDMsgYBwPM_h-M0QNFfwrkX-qwflPeXh2kETrQ/viewform?usp=sf_link">Inquiry Form</a></li>
+                        <li><a href="mailto:kelsey@preservationutah.org">Email us</a></li>
+                      </ul>
+                    </div>
+                </div>
+            <!-- /ko -->
+
+
             {% endblock footer %}
         </div>
       </div>

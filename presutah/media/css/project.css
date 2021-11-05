@@ -375,6 +375,9 @@ h4.card-summary-name {
 .report-toolbar-preview {
   background-color: #f9f8f8;
 }
+.report-toolbar-title {
+  width: 80% !important;
+}
 .rp-tile-title, h4.rp-section-title {
   font-size: 1.4rem;
   color: #272123;
