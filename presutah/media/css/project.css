@@ -406,3 +406,6 @@ h4.card-summary-name {
 .presutah-report .report-related-resources .rp-card-section div div .dl-horizontal dt {
   width: 100%;
 }
+.presutah-report .panel>.panel-heading:after {
+  border-bottom-color: #cac1c4;
+}
