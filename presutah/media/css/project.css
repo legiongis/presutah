@@ -412,3 +412,32 @@ h4.card-summary-name {
 .presutah-report .panel>.panel-heading:after {
   border-bottom-color: #cac1c4;
 }
+.presutah-report .tabbed-report-tab-list {
+  background-color: #e9e5e7;
+}
+.presutah-report .report-tab.active {
+  border: #fff solid 2px;
+  border-radius: 0%;
+  background: #4c4044;
+}
+.presutah-report .report-tab {
+  background: white;
+  border: #cac1c4 solid 1px;
+  border-radius: 0%;
+  margin: 15px 50px 15px 0px;
+}
+.presutah-report .report-tab:hover {
+  cursor: pointer;
+  background: #F44A37;
+  border: 1px solid white;
+}
+.presutah-report .report-tab i {
+  display: block;
+  margin: 0;
+  padding: 11px;
+}
+.presutah-report .tab-banner {
+  height: 50px;
+  background: #4c4044;
+  padding: 5px 20px 7px 20px;
+}
