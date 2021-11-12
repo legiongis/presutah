@@ -289,7 +289,9 @@ h1.page-header {
 }
 .card-form-preview-container {
     background: #f9f8f8;
-    overflow-y: hidden;
+}
+#container {
+  overflow-y: scroll !important;
 }
 .workbench-card-sidebar {
     background: #f9f8f8;
