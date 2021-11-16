@@ -443,3 +443,43 @@ h4.card-summary-name {
   background: #4c4044;
   padding: 5px 20px 7px 20px;
 }
+@media print {
+  body, #content-container {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 12pt;
+    font-family: 'Hind', sans-serif;
+    overflow: visible;
+  }
+  .resource-component-abstract, .scroll-y-auto, #container {
+    overflow: visible !important;
+  }
+  .brand-icon {
+    height: 25px;
+  }
+  .brand-title, .ep-tools-login, .ep-graph-title-icon, .ep-tools, .toggle-container, #mainnav, .carousel-indicators, .workbench-card-sidebar, .mapboxgl-control-container, #scroll-top, .panel-heading {
+    display: none;
+  }
+  .ep-toolbar {
+    background: none;
+    border: none;
+  }
+  h1.page-header, .report-toolbar-title {
+    color: black;
+    margin: 0px;
+    border-bottom: 1px solid black;
+  }
+  h1.page-header::before {
+    content: "Preservation Utah "
+  }
+  h1.page-header::after {
+    content: " Report";
+  }
+  .report-toolbar-preview {
+    background: none;
+  }
+  .presutah-report .report-map-header-component {
+    height: 100%;
+  }
+}
