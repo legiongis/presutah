@@ -1,0 +1,233 @@
+{% load i18n %}
+<!-- ko if: !$data.configForm -->
+<!-- ko if: !$data.summary -->
+{% block report %}
+
+
+{% block report_title_bar %}
+<!-- Report Title Bar -->
+<div class="relative report-title-bar">
+
+    <!-- Title Block -->
+    <div class="report-toolbar-preview ep-form-toolbar">
+        <h4 class="report-toolbar-title"><span data-bind="text: report.get('name')"></span> - <span data-bind="text: report.get('displayname') "></span></h4>
+
+        <!-- Tools -->
+        <div class="ep-form-toolbar-tools mar-no flex" style="position: relative; height: inherit">
+            <p class="report-print-date">{% trans "Report Date:" %} <span data-bind="text: reportDate"></span></p>
+            <div class="report-print-date" style="position: absolute; margin-top: 30px; margin-left: -11px; " data-bind="component: { name: 'views/components/simple-switch', params: {value: hideEmptyNodes, config:{ label: '{% trans "Hide Null Values" %}', subtitle: ''}}}"></div>
+        </div>
+    </div>
+</div>
+{% endblock report_title_bar %}
+
+
+<!-- Report Content -->
+<div class="rp-report-container-preview presutah-report">
+
+    {% block header %}
+    {% endblock header %}
+
+    {% block body %}
+    <!--ko if: hasProvisionalData() && (editorContext === false) -->
+    <div class="report-provisional-flag">{% trans 'This resource has provisional edits (not displayed in this report) that are pending review' %}</div>
+    <!--/ko-->
+    <!--ko if: hasProvisionalData() && (editorContext === true && report.userisreviewer === true) -->
+    <div class="report-provisional-flag">{% trans 'This resource has provisional edits (not displayed in this report) that are pending review' %}</div>
+    <!--/ko-->
+    <!--ko if: hasProvisionalData() && (editorContext === true && report.userisreviewer === false) -->
+    <div class="report-provisional-flag">{% trans 'This resource has provisional edits that are pending review' %}</div>
+    <!--/ko-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="rp-report-section relative rp-report-section-root">
+                    <div class="rp-report-section-title">
+                        <!-- ko foreach: { data: report.cards, as: 'card' } -->
+                            <!-- ko if: $parent.hideEmptyNodes() === false || card.tiles().length > 0 -->
+                            <!-- ko if: $index() !== 0 --><hr class="rp-tile-separator"><!-- /ko -->
+                            <div class="rp-card-section">
+                                <!-- ko component: {
+                                    name: card.model.cardComponentLookup[card.model.component_id()].componentname,
+                                    params: {
+                                        state: 'report',
+                                        preview: $parent.report.preview,
+                                        card: card,
+                                        pageVm: {...$root, report: $parent.report},
+                                        hideEmptyNodes: $parent.hideEmptyNodes
+                                    }
+                                } --> <!-- /ko -->
+                            </div>
+                            <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+            {% endblock body %}
+
+            {% block related_resources %}
+            <div class="col-md-3">
+            <div class="rp-report-section relative report-related-resources">
+                <div class="rp-report-section-title">
+                    <h4 class="rp-section-title">{% trans 'Related Resources' %}</h4>
+                </div>
+                <!-- ko foreach: { data: Object.values(report.relatedResourcesLookup()), as: 'resourceData' } -->
+                    <!-- ko if: resourceData.totalRelatedResources > 0 || !$parent.hideEmptyNodes() -->
+                        <h5 class="rp-tile-title">
+                            <span class="rp-tile-title-float" data-bind="text: resourceData.name"></span>
+                        </h5>
+
+                        <div class="rp-card-section">
+                            <!-- ko foreach: { data: resourceData.loadedRelatedResources(), as: 'relatedResource' } -->
+                            <div class="rp-report-container-tile">
+                                <div class="row rp-report-tile">
+                                    <dl class="dl-horizontal">
+                                        <dt><a data-bind="text: relatedResource.displayName, attr: {href: relatedResource.link}"></a></dt>
+                                        <!-- ko if: relatedResource.relationship -->
+                                        <!-- <dd data-bind="text: '( ' + relatedResource.relationship + ' )'"></dd> -->
+                                        <!-- /ko -->
+                                    </dl>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: resourceData.paginator() && resourceData.paginator().has_next -->
+                            <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, false)">
+                                {% trans "Load More" %}
+                                <span data-bind="text: '(' + resourceData.remainingResources() + ')'"></span>
+                            </button>
+
+                            <button class="btn btn-primary" data-bind="click: $parent.report.getRelatedResources.bind($parent.report, true)">
+                                {% trans "Load All" %}
+                                <span data-bind="text: '(' + (resourceData.totalRelatedResources - resourceData.loadedRelatedResources().length) + ')'"></span>
+                            </button>
+                            <!-- /ko -->
+                            <!--ko if: resourceData.totalRelatedResources === 0 -->
+                            <div class="rp-report-container-tile">
+                                <div class="row rp-report-tile rp-no-data">{% trans 'No relationships added' %}</div>
+                            </div>
+                            <!--/ko-->
+                        </div>
+                    <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            {% endblock related_resources %}
+
+            {% block footer %}
+            <!--ko if: report.get('name') === 'Revolving Loan' -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                      <p>Get a low-interest loan for your rehabilitation project. Preservation Utah's Revolving Loan Fund provides property owners with low-interest loans to restore and rehabilitate significant historical or architectural properties throughout the state.</p>
+                      <h4>Helpful Resources</h4>
+                      <ul>
+                        <li><a href="https://preservationutah.org/resources/tools-for-property-owners/low-interest-loans">FAQ</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_sNTkgx9RYDMsgYBwPM_h-M0QNFfwrkX-qwflPeXh2kETrQ/viewform?usp=sf_link">Inquiry Form</a></li>
+                        <li><a href="mailto:kelsey@preservationutah.org">Email us</a></li>
+                      </ul>
+                    </div>
+                </div>
+            <!-- /ko -->
+            <!--ko if: report.get('name') === 'Advocacy' -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                      <p>Preservation Utah advocates for preservation-oriented public policies by supporting legislation, working with elected officials and administrators, and providing creative and sustainable solutions in collaboration with property owners. Additionally, we actively work with local communities to educate and promote historic spaces that may be at risk and connect them with resources that can mitigate or prevent harm towards historic resources.</p>
+                      <h4>Helpful Resources</h4>
+                      <ul>
+                        <li><a href="https://preservationutah.org/see-our-impact">Learn more about our impact</a></li>
+                        <li><a href="mailto:kelsey@preservationutah.org">Email us if you know of a site in need of advocacy</a></li>
+                      </ul>
+                    </div>
+                </div>
+            <!-- /ko -->
+            <!--ko if: report.get('name') === 'Preservation Directory' -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                      <p>The Utah Preservation Directory aims to connect historic property owners and those affiliated with historic spaces with professionals that have experience working with historic buildings and sites and can provide a level of expertise specific to historic preservation services. The directory is home to experts who primarily focus on one craft to general contracts or consultants that can help with a larger project. </p>
+                      <p>This is not an exhaustive list. Preservation Utah is aware that there are likely a number of others in the state who could also be listed in the Utah Preservation Directory. If you would like to list your historic preservation business in our directory, please fill out our <a href="https://docs.google.com/forms/d/1OpGeKQX4n84_aOHlDb9rzPWVwYC0qENEBzs3We-hzuA/edit">Utah Preservation Directory Application</a>. All applications are subject to review and approval by Preservation Utah. Evaluations are based on qualifications and successful completion of work with historic properties.</p>
+                      <p><em>DISCLAMIER: In providing this list, Preservation Utah is in no way endorsing any of these consultants. We strongly recommend that you ask for and check references.</em></p>
+
+                    </div>
+                </div>
+            <!-- /ko -->
+            <!--ko if: report.get('name') === 'Easement Inspection' -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Further Information</h3>
+                    </div>
+                    <div class="panel-body">
+                      <p>Preservation Utah holds over 100 historic preservation easements throughout the state. As part of our responsibility as an easement holder, we conduct annual inspections of each property to ensure the buildings maintenance is up kept and to monitor any work being done to verify that it is completed in an appropriate manner to the historic structure. Each property owner is provided with an in depth report after the inspection is complete that outlines any areas that are at risk, suggested courses of action, and also recognizes the wonderful preservation work that typically already has taken place.</p>
+                      <p>All easement property owners must notify Preservation Utah of desired work to be completed on their property before work has begun for approval. In many jurisdictions, the city’s Planning Department will require a note of approval from us before a work permit can be granted. </p>
+                      <h4>Helpful Resources</h4>
+                      <ul>
+                        <li><a href="https://preservationutah.org/resources/tools-for-property-owners/easement-program">FAQ</a></li>
+                        <li><a href="https://preservationutah.org/images/pdfs-doc/Alteration_Review_Process.pdf">Alteration Review Process</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeEBs_ULxPDC6taeAJcQlKXeGUx2PLQmpFxJBlebafbi2oIWA/viewform">Proposal for Alterations to Easement Property</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc8mM-84tOpetT5h0VhAdsp0mIPIMl8Y52aQrujMXOMJMQ2OQ/viewform">Contact Update Form for Property Owners</a></li>
+                        <li><a href="https://preservationutah.org/resources/tools-for-property-owners/rirpog">Rehab It Right! Property Owner's Guides</a></li>
+                      </ul>
+                    </div>
+                </div>
+            <!-- /ko -->
+
+            {% endblock footer %}
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock report %}
+<!-- /ko -->
+
+<!-- ko if: $data.summary -->
+{% block summary %}
+<div class="relative report-title-bar">
+
+    <!-- Title Block -->
+    <div class="report-toolbar-preview ep-form-toolbar">
+        <h4 class="report-toolbar-title"><span data-bind="text: report.get('name')"></span> - <span data-bind="text: report.get('displayname') "></span></h4>
+
+        <!-- Tools -->
+        <div class="ep-form-toolbar-tools mar-no flex">
+            <p class="report-print-date">{% trans "Report Date:" %} <span data-bind="text: reportDate"></span></p>
+        </div>
+    </div>
+</div>
+
+<div class="rp-report-container-preview">
+    <div class="rp-report-section relative rp-report-section-root">
+        <div class="rp-report-section-title">
+            <!-- ko if: report.cards.length > 0 -->
+                <!--ko let: { card: report.cards[0] }-->
+                <div class="rp-card-section">
+                    <!-- ko component: {
+                        name: card.model.cardComponentLookup[card.model.component_id()].componentname,
+                        params: {
+                        state: 'report',
+                        preview: report.preview,
+                        card: card,
+                        pageVm: $root
+                    }
+                    } --> <!-- /ko -->
+                </div>
+                <!--/ko-->
+            <!-- /ko -->
+        </div>
+    </div>
+</div>
+{% endblock summary %}
+<!-- /ko -->
+<!-- end of not configForm -->
+<!-- /ko -->
+
+
+<!-- ko if: $data.configForm && ($data.configType === 'header') -->
+{% block header_form %}
+{% endblock header_form %}
+<!-- /ko -->
