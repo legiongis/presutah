@@ -1,5 +1,6 @@
 {
     "name": "Easement Report",
+    "templateid": "2b0c060e-265b-49cd-940d-f8c560096c46",
     "componentid": "a929dc76-7922-4877-90ff-01b6fe3d822b",
     "component": "reports/easement_report",
     "componentname": "easement_report",
