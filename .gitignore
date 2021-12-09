@@ -6,5 +6,6 @@ presutah/cantaloupe/*
 presutah/media/packages
 presutah/uploadedfiles/*
 presutah/settings_local.py
+presutah/system_settings/System_Settings.json
 CACHE/
 .vscode/
