@@ -1,0 +1,61 @@
+{
+    "version": 8,
+    "name": "Utah Faults",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "10.0.0",
+            "ios": "10.0.0",
+            "js": "2.3.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-112.61622176026333, 40.46432067312702],
+    "zoom": 10.399804495793674,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://alabra.dr8at6du", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/alabra/ckuohlx6z6d5c17phqsvodbec/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "utah-quaternary-faults-bgkorg",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "Utah_Quaternary_Faults-bgkorg",
+            "layout": {},
+            "paint": {"line-color": "hsl(0, 96%, 62%)"}
+        },
+        {
+            "id": "utah-quaternary-faults-bgkorg (1)",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "Utah_Quaternary_Faults-bgkorg",
+            "layout": {
+                "text-field": ["to-string", ["get", "FaultName"]],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    12,
+                    22,
+                    9
+                ],
+                "symbol-placement": "line-center"
+            },
+            "paint": {}
+        }
+    ],
+    "created": "2021-10-12T19:38:36.513Z",
+    "modified": "2021-10-12T19:42:10.371Z",
+    "id": "ckuohlx6z6d5c17phqsvodbec",
+    "owner": "alabra",
+    "visibility": "public",
+    "protected": false,
+    "draft": false
+}

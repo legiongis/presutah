@@ -1,0 +1,89 @@
+{
+    "version": 8,
+    "name": "PresUtahRegions",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "10.0.0",
+            "ios": "10.0.0",
+            "js": "2.6.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-111.68771237216026, 38.726938316449036],
+    "zoom": 6.47835186248843,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {
+            "url": "mapbox://alabra.dj7sl53a,alabra.4ycaidwc",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/alabra/ckx6fvv8s5h9u14mkjjqar8nn/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "presutahregions-6ckdfa",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "PresUtahRegions-6ckdfa",
+            "layout": {},
+            "paint": {
+                "fill-outline-color": "#000000",
+                "fill-color": [
+                    "match",
+                    ["get", "OBJECTID"],
+                    [1],
+                    "hsla(250, 60%, 33%, 0.7)",
+                    [2],
+                    "hsla(285, 71%, 47%, 0.7)",
+                    [3],
+                    "hsla(210, 50%, 60%, 0.7)",
+                    [4],
+                    "hsla(310, 43%, 47%, 0.7)",
+                    [5],
+                    "hsla(200, 75%, 73%, 0.7)",
+                    [6],
+                    "hsla(330, 60%, 33%, 0.7)",
+                    [7],
+                    "hsla(170, 43%, 47%, 0.7)",
+                    [8],
+                    "hsla(340, 43%, 47%, 0.7)",
+                    [9],
+                    "hsla(50, 60%, 67%, 0.7)",
+                    [10],
+                    "hsla(140, 75%, 27%, 0.7)",
+                    [11],
+                    "hsla(10, 100%, 20%, 0.7)",
+                    [12],
+                    "hsla(60, 50%, 40%, 0.7)",
+                    [13],
+                    "hsla(350, 50%, 60%, 0.7)",
+                    "#000000"
+                ]
+            }
+        },
+        {
+            "id": "region-labels-5ngcok",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "region_labels-5ngcok",
+            "layout": {
+                "text-field": ["to-string", ["get", "NAME"]],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": 14
+            },
+            "paint": {"text-color": "hsl(0, 19%, 100%)"}
+        }
+    ],
+    "created": "2021-12-14T18:29:37.149Z",
+    "modified": "2021-12-14T20:11:44.368Z",
+    "id": "ckx6fvv8s5h9u14mkjjqar8nn",
+    "owner": "alabra",
+    "visibility": "private",
+    "protected": false,
+    "draft": false
+}

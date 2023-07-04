@@ -1,0 +1,57 @@
+{
+    "version": 8,
+    "name": "Utah Historic Districts",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "10.0.0",
+            "ios": "10.0.0",
+            "js": "2.3.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-111.86791964453982, 40.7487074274087],
+    "zoom": 12.651381168210015,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://alabra.acvfn628", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/alabra/ckuoi3cq10mq717pabjal9kdd/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "utah-historic-districts-b1c1rr",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "Utah_Historic_Districts-b1c1rr",
+            "layout": {},
+            "paint": {"fill-color": "#f78e83"}
+        },
+        {
+            "id": "utah-historic-districts-b1c1rr (2)",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "Utah_Historic_Districts-b1c1rr",
+            "layout": {},
+            "paint": {"line-color": "#75241b"}
+        },
+        {
+            "id": "utah-historic-districts-b1c1rr (1)",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "Utah_Historic_Districts-b1c1rr",
+            "layout": {"text-field": ["to-string", ["get", "NAME"]]},
+            "paint": {}
+        }
+    ],
+    "created": "2021-10-12T19:52:09.796Z",
+    "modified": "2021-10-12T19:57:30.612Z",
+    "id": "ckuoi3cq10mq717pabjal9kdd",
+    "owner": "alabra",
+    "visibility": "public",
+    "protected": false,
+    "draft": false
+}

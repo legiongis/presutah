@@ -1,0 +1,56 @@
+{
+    "version": 8,
+    "name": "Utah NHL",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "10.0.0",
+            "ios": "10.0.0",
+            "js": "2.3.0"
+        },
+        "mapbox:uiParadigm": "components",
+        "mapbox:groups": {}
+    },
+    "center": [-110.59642612469867, 39.228871198183725],
+    "zoom": 6.969234526456782,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://alabra.98ecbeh5", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/alabra/ckuoj5eea0cbc17mzg49bbi3h/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "utah-national-historic-landma-71ivfj",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "Utah_National_Historic_Landma-71ivfj",
+            "layout": {},
+            "paint": {"fill-color": "#f5dd51"}
+        },
+        {
+            "id": "utah-national-historic-landma-71ivfj copy",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "Utah_National_Historic_Landma-71ivfj",
+            "layout": {
+                "text-field": [
+                    "to-string",
+                    ["concat", ["get", "L_Name"], " National Historic Landmark"]
+                ],
+                "text-size": 14,
+                "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"]
+            },
+            "paint": {"text-color": "#746407"}
+        }
+    ],
+    "created": "2021-10-12T20:21:44.891Z",
+    "modified": "2021-10-12T20:29:17.912Z",
+    "id": "ckuoj5eea0cbc17mzg49bbi3h",
+    "owner": "alabra",
+    "visibility": "public",
+    "protected": false,
+    "draft": false
+}

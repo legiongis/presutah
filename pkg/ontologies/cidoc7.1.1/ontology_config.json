@@ -1,0 +1,13 @@
+{
+  "base": "cidoc_crm_v7.1.1.xml",
+  "base_name": "CIDOC CRM v7.1.1",
+  "extensions": [
+      "CRMsci_v1.2.3.rdfs.xml",
+      "CRMarchaeo_v1.4.rdfs.xml",
+      "CRMgeo_v1.2.rdfs.xml",
+      "CRMdig_v3.2.1.rdfs.xml",
+      "CRMinf_v0.7.rdfs.xml"
+  ],
+  "base_version": "7.1",
+  "base_id": "9d33df5c-d86f-4530-9673-8f0bacb94774"
+}

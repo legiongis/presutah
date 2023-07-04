@@ -1,0 +1,57 @@
+{
+    "version": 8,
+    "name": "Indigenous Territories",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "android": "10.0.0",
+            "ios": "10.0.0",
+            "js": "2.3.0"
+        },
+        "mapbox:groups": {},
+        "mapbox:uiParadigm": "layers"
+    },
+    "center": [-119.41471106839234, 37.63516515332563],
+    "zoom": 8.2860773717208,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://alabra.dwcencb2", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/alabra/ckupwtkv3136h14nz2tue29tx/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "indigenousterritories-71g4vg",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "indigenousTerritories-71g4vg",
+            "layout": {},
+            "paint": {"fill-color": ["get", "color"], "fill-opacity": 0.5}
+        },
+        {
+            "id": "indigenousterritories-71g4vg (1)",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "indigenousTerritories-71g4vg",
+            "layout": {
+                "text-field": ["to-string", ["get", "Name"]],
+                "text-size": 12
+            },
+            "paint": {
+                "text-halo-width": 1,
+                "text-halo-color": "#fff",
+                "text-color": "#272123",
+                "text-halo-blur": 1
+            }
+        }
+    ],
+    "created": "2021-10-13T19:32:14.193Z",
+    "modified": "2021-10-13T19:45:41.373Z",
+    "id": "ckupwtkv3136h14nz2tue29tx",
+    "owner": "alabra",
+    "visibility": "public",
+    "protected": false,
+    "draft": false
+}
