@@ -1,5 +1,6 @@
 *.pyc
 *.log
+pkg/business_data
 presutah/logs
 presutah/export_deliverables
 presutah/cantaloupe/*
