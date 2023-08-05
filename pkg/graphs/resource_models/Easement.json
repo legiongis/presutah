@@ -5,6 +5,25 @@
             "cards": [
                 {
                     "active": true,
+                    "cardid": "0a16122a-eb4e-11ec-937b-2fecbf82977d",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "New Node",
+                    "nodegroup_id": "0a161228-eb4e-11ec-937b-2fecbf82977d",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "253770a0-221b-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -29,7 +48,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Designation",
                     "nodegroup_id": "2537709e-221b-11ec-82e5-080027c2283b",
                     "sortorder": 10,
@@ -55,7 +74,7 @@
                     "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
                     "helptitle": "Easement Legal Documentation Help",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Easement Legal Documentation",
                     "nodegroup_id": "2ba3a4d5-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 3,
@@ -119,7 +138,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Photo",
                     "nodegroup_id": "5a39889a-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 8,
@@ -145,7 +164,7 @@
                     "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement&#39;s amendment is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
                     "helptitle": "Easement Amendments Help",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Amendments",
                     "nodegroup_id": "63cb238d-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 4,
@@ -209,7 +228,7 @@
                     "helptext": "<p>Why was this property important to conserve? The statement of significance is an opportunity to document the justification for the conservation easement and to communicate to the public why this property is special.</p>\n\n<p>In cases where the property is on the state or national register, you may want to refer to its narrative statement of significance as recorded by the relevant agencies.</p>\n",
                     "helptitle": "Statement of Significance Help",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Statement of Significance",
                     "nodegroup_id": "84a1f9e8-3047-11ec-82e5-080027c2283b",
                     "sortorder": 11,
@@ -299,7 +318,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Property Description",
                     "nodegroup_id": "de73731e-328d-11ec-82e5-080027c2283b",
                     "sortorder": 5,
@@ -392,7 +411,7 @@
                     "helptext": "<p>This is where you may enter all of the functions that you have been able to document about this property.&nbsp;</p>\n\n<p>Functions may either be &quot;current&quot; (i.e. the property is still used for this purpose) or &quot;historic&quot; (i.e. the property once was used for this purpose, but is no longer.)</p>\n\n<p>There may be multiple current functions as well as multple historic functions. You may expand upon some of these functions in the property&#39;s statement of significance.</p>\n\n<p>For instance, the Old Post Office in Washington DC would have a current function of hotel, but several historic functions, including post office, and government office.</p>\n",
                     "helptitle": "Property Function Help",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Function",
                     "nodegroup_id": "faae8d6f-3046-11ec-82e5-080027c2283b",
                     "sortorder": 7,
@@ -648,6 +667,7 @@
                 {
                     "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Entity",
                         "placeholder": ""
                     },
@@ -1243,6 +1263,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "c3646da2-2140-11ec-82e5-080027c2283b",
+                    "edgeid": "0a16122b-eb4e-11ec-937b-2fecbf82977d",
+                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P136i_supported_type_creation",
+                    "rangenode_id": "0a161228-eb4e-11ec-937b-2fecbf82977d"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "382a829c-425d-11ec-934a-080027c2283b",
                     "edgeid": "0a9a4249-4318-11ec-934a-080027c2283b",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -1677,23 +1706,25 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
-                            "string_template": "Easement on <Feature Type>, Built: <Built Date><p><Architectural Style></p><p><Material></p>"
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
-                            "string_template": "Easement on <Feature Type>, Built: <Built Date><p><Architectural Style></p><p><Material></p>"
-                        },
-                        "name": {
-                            "nodegroup_id": "e7bd68ea-21fc-11ec-82e5-080027c2283b",
-                            "string_template": "<Property Name>"
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
+                                "string_template": "Easement on <Feature Type>, Built: <Built Date><p><Architectural Style></p><p><Material></p>"
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
+                                "string_template": "Easement on <Feature Type>, Built: <Built Date><p><Architectural Style></p><p><Material></p>"
+                            },
+                            "name": {
+                                "nodegroup_id": "e7bd68ea-21fc-11ec-82e5-080027c2283b",
+                                "string_template": "<Property Name>"
+                            }
                         },
                         "triggering_nodegroups": []
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
-                    "id": "111a604f-2c3e-11ec-82e5-080027c2283b"
+                    "id": "77c9c488-592a-11ec-a804-ddb67dfceb92"
                 }
             ],
             "graphid": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -1704,6 +1735,12 @@
             "jsonldcontext": null,
             "name": "Easement",
             "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "0a161228-eb4e-11ec-937b-2fecbf82977d",
+                    "parentnodegroup_id": null
+                },
                 {
                     "cardinality": "n",
                     "legacygroupid": null,
@@ -1848,6 +1885,24 @@
                     "nodeid": "02d677fc-21fd-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "New Node",
+                    "nodegroup_id": "0a161228-eb4e-11ec-937b-2fecbf82977d",
+                    "nodeid": "0a161228-eb4e-11ec-937b-2fecbf82977d",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E83_Type_Creation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P136i_supported_type_creation",
                     "sortorder": 0
                 },
                 {
@@ -2874,9 +2929,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.8 (Ubuntu 12.8-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",
-        "git hash": "439f58509 2021-10-26 14:45:09 -0700",
+        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
         "os": "Linux",
-        "os version": "4.15.0-158-generic"
+        "os version": "6.2.9-x86_64-linode160"
     }
 }
