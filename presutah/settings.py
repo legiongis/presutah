@@ -136,11 +136,14 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 # Unique session cookie ensures that logins are treated separately for each app
 SESSION_COOKIE_NAME = 'presutah'
 
-# For more info on configuring your cache: https://docs.djangoproject.com/en/2.2/topics/cache/
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-    }
+    },
+    "user_permission": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "user_permission_cache",
+    },
 }
 
 # Hide nodes and cards in a report that have no data
@@ -242,7 +245,7 @@ LANGUAGE_CODE = "en"
 # a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES = [
 #   ('de', _('German')),
-#   ('en', _('English')),
+  ('en', _('English')),
 #   ('en-gb', _('British English')),
 #   ('es', _('Spanish')),
 ]
