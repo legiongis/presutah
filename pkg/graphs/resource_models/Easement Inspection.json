@@ -16,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Grounds",
                     "nodegroup_id": "24598818-22ef-11ec-82e5-080027c2283b",
                     "sortorder": 1,
@@ -48,7 +48,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Inspection Context",
                     "nodegroup_id": "2e02039c-3102-11ec-82e5-080027c2283b",
                     "sortorder": 1,
@@ -74,7 +74,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Feature",
                     "nodegroup_id": "c3b8c00e-22ef-11ec-82e5-080027c2283b",
                     "sortorder": null,
@@ -106,7 +106,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Room",
                     "nodegroup_id": "b526a8ec-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 2,
@@ -132,7 +132,7 @@
                     "helptext": "<p>This is where you can record all the observations you make of a particular building on the easement property.</p>\n\n<p>Because some easements have multiple buildings to inspect, you can add as many buildings as you need. In the &quot;Building Name&quot; field, identify which building being observed.</p>\n\n<p>Enter observations for Roofs &amp; Chimneys and each Facade.</p>\n",
                     "helptitle": "Building Observation Help",
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Building",
                     "nodegroup_id": "5ea38782-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
@@ -151,7 +151,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Fa\u00e7ades",
                     "nodegroup_id": "5ea38785-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 1,
@@ -183,7 +183,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Inspection Summary",
                     "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
                     "sortorder": 2,
@@ -215,7 +215,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Observations",
                     "nodegroup_id": "9cad5a04-22e7-11ec-82e5-080027c2283b",
                     "sortorder": 3,
@@ -234,7 +234,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Roofs and Chimneys",
                     "nodegroup_id": "5ea3877f-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
@@ -266,7 +266,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Signed Agreement",
                     "nodegroup_id": "fceeadf2-22e5-11ec-82e5-080027c2283b",
                     "sortorder": 4,
@@ -946,6 +946,7 @@
                 {
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Easement",
                         "placeholder": ""
                     },
@@ -959,6 +960,7 @@
                 {
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Inspector",
                         "placeholder": ""
                     },
@@ -990,6 +992,7 @@
                 {
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
+                        "defaultResourceInstance": [],
                         "label": "Stakeholders Present",
                         "placeholder": ""
                     },
@@ -1529,28 +1532,30 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "description": {
-                            "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
-                            "string_template": "<Flag>,  <Overall Rating>, <General Condition>, <Recommendations>"
-                        },
-                        "map_popup": {
-                            "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
-                            "string_template": "<Flag>, <Overall Rating>, <General Condition>, <Recommendations>"
-                        },
-                        "name": {
-                            "nodegroup_id": "2e02039c-3102-11ec-82e5-080027c2283b",
-                            "string_template": "<Easement>,  <Inspection Date>"
+                        "descriptor_types": {
+                            "description": {
+                                "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
+                                "string_template": "<Flag>,  <Overall Rating>, <General Condition>, <Recommendations>"
+                            },
+                            "map_popup": {
+                                "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
+                                "string_template": "<Flag>, <Overall Rating>, <General Condition>, <Recommendations>"
+                            },
+                            "name": {
+                                "nodegroup_id": "2e02039c-3102-11ec-82e5-080027c2283b",
+                                "string_template": "<Easement>,  <Inspection Date>"
+                            }
                         },
                         "triggering_nodegroups": []
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
-                    "id": "579715c3-3106-11ec-82e5-080027c2283b"
+                    "id": "06e907e2-5928-11ec-a804-ddb67dfceb92"
                 }
             ],
             "graphid": "06642595-22e4-11ec-82e5-080027c2283b",
             "iconclass": "fa fa-stethoscope",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -2551,9 +2556,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.8 (Ubuntu 12.8-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",
-        "git hash": "439f58509 2021-10-26 14:45:09 -0700",
+        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
+        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
         "os": "Linux",
-        "os version": "4.15.0-158-generic"
+        "os version": "6.2.9-x86_64-linode160"
     }
 }
