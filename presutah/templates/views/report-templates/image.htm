@@ -10,7 +10,7 @@
 <!-- ko if: ko.unwrap(imgs) -->
 <div class="img-report-print-only-container">
     <!-- ko foreach: {data: imgs, as: 'img'} -->
-    <img class="img-report-print-only" data-bind="attr: {src: img.src}" />
+    <img class="img-report-print-only" data-bind="attr: {src: img.src, style: ('max-width: calc(100% /' + Math.round(ko.unwrap($parent.imgs).length/2) + ')')}" />
     <!-- /ko -->
 </div>
 <!-- /ko -->

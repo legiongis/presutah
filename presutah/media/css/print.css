@@ -9,7 +9,6 @@
     height: 100%;
     width: auto;
     flex: 1;
-    max-width: calc(100% / 4);
     object-fit: cover;
 }
 
@@ -17,5 +16,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-height: 350px;
+    /* max-height: 350px; */
+}
+
+.scroll-y {
+    /* height: auto; */
 }
