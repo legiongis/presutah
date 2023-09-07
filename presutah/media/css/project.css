@@ -489,3 +489,8 @@ h4.card-summary-name {
     width: 25%;
   }
 }
+
+.img-report-print-only-container {
+  display: none;
+  visibility: hidden;
+}
