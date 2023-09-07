@@ -8,14 +8,7 @@
                     "cardid": "0503e033-3695-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "0503e033-3695-11ec-934a-080027c2283b",
-                            "constraintid": "de1dc54b-0747-48b6-805d-5a3b42edf0c0",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -23,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Location",
                     "nodegroup_id": "0503e031-3695-11ec-934a-080027c2283b",
                     "sortorder": 0,
@@ -34,20 +27,7 @@
                     "cardid": "0846dc86-3c03-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "0846dc86-3c03-11ec-934a-080027c2283b",
-                            "constraintid": "16222e0d-6b1e-457f-b472-ec25dbf94874",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "0846dc86-3c03-11ec-934a-080027c2283b",
-                            "constraintid": "989ba34b-4def-4ca4-b7a8-f58ca188f149",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -55,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Internal Details",
                     "nodegroup_id": "0846dc84-3c03-11ec-934a-080027c2283b",
                     "sortorder": 1,
@@ -74,7 +54,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Photo",
                     "nodegroup_id": "2e1ec9ff-3bfd-11ec-934a-080027c2283b",
                     "sortorder": 5,
@@ -85,20 +65,7 @@
                     "cardid": "4368aba0-3695-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
-                            "constraintid": "604bad99-abb5-4c3e-8256-3bd840634565",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
-                            "constraintid": "04ca9801-c307-4033-973f-60fcfc0c1bd7",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -106,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Loan Details",
                     "nodegroup_id": "4368ab9e-3695-11ec-934a-080027c2283b",
                     "sortorder": 2,
@@ -117,20 +84,7 @@
                     "cardid": "72a2f3d8-3e44-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "72a2f3d8-3e44-11ec-934a-080027c2283b",
-                            "constraintid": "366cb932-cb85-4ae4-8fa8-6ab197b543e7",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "72a2f3d8-3e44-11ec-934a-080027c2283b",
-                            "constraintid": "73c3c074-cd48-4711-9946-78a4ae065bd6",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -138,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Related Actors",
                     "nodegroup_id": "72a2f3d6-3e44-11ec-934a-080027c2283b",
                     "sortorder": 4,
@@ -149,20 +103,7 @@
                     "cardid": "9b7acc14-3696-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "9b7acc14-3696-11ec-934a-080027c2283b",
-                            "constraintid": "4d36711b-46f0-4ed6-ad4d-9a42c4bf6ca5",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "9b7acc14-3696-11ec-934a-080027c2283b",
-                            "constraintid": "35a72da4-fb65-4ca8-b7aa-f158eb29df5c",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -170,7 +111,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Loan Document",
                     "nodegroup_id": "9b7acc12-3696-11ec-934a-080027c2283b",
                     "sortorder": 3,
@@ -287,7 +228,7 @@
                     "id": "61ffcf5a-3697-11ec-934a-080027c2283b",
                     "label": "Parcel ID",
                     "node_id": "0503e038-3695-11ec-934a-080027c2283b",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -332,7 +273,7 @@
                     "id": "61ffcf5c-3697-11ec-934a-080027c2283b",
                     "label": "Spatial Coordinates",
                     "node_id": "0503e034-3695-11ec-934a-080027c2283b",
-                    "sortorder": 4,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -347,7 +288,7 @@
                     "id": "61ffcf5e-3697-11ec-934a-080027c2283b",
                     "label": "Preservation Utah Region",
                     "node_id": "0503e03a-3695-11ec-934a-080027c2283b",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -512,6 +453,23 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "0503e033-3695-11ec-934a-080027c2283b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Zip Code",
+                        "maxLength": "10",
+                        "placeholder": "Enter a 5 or 9 digit zip code",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "fca94e03-031d-4e7f-8194-f453ca8d4401",
+                    "label": "Zip Code",
+                    "node_id": "1eb24b2e-4db4-11ee-beee-e639e569e166",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -690,6 +648,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "0503e031-3695-11ec-934a-080027c2283b",
+                    "edgeid": "63f0318a-6167-468b-8a69-2369fc400364",
+                    "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "rangenode_id": "1eb24b2e-4db4-11ee-beee-e639e569e166"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "4368ab9e-3695-11ec-934a-080027c2283b",
                     "edgeid": "67875eb4-3695-11ec-934a-080027c2283b",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -764,12 +731,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
-                    "id": "05d98730-5928-11ec-a804-ddb67dfceb92"
+                    "id": "49d2a5f9-0243-46c8-bfd4-00262daae3cd"
                 }
             ],
             "graphid": "b31e58cd-3694-11ec-934a-080027c2283b",
             "iconclass": "fa fa-dollar",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -814,12 +781,14 @@
             ],
             "nodes": [
                 {
+                    "alias": "location",
                     "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -832,6 +801,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "spatial_coordinates",
                     "config": {
                         "addToMap": true,
                         "advancedStyle": "",
@@ -861,6 +831,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -873,6 +844,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "city",
                     "config": {
                         "rdmCollection": "0dc682ee-1297-4fc7-a264-c9d57732b41f"
                     },
@@ -881,6 +853,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -893,12 +866,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "parcel_id",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -911,12 +886,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "property_street_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -929,6 +906,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "preservation_utah_region",
                     "config": {
                         "rdmCollection": "71e19263-5170-41e8-b328-164757de21cb"
                     },
@@ -937,6 +915,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -949,12 +928,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "conditions",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -967,12 +948,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "internal_details",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -985,6 +968,27 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "zip_code",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "loc_zip",
+                    "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Zip Code",
+                    "nodegroup_id": "0503e031-3695-11ec-934a-080027c2283b",
+                    "nodeid": "1eb24b2e-4db4-11ee-beee-e639e569e166",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "internal_loan_decision",
                     "config": {
                         "rdmCollection": "77345d86-fa54-419a-80a0-eb852acfea8f"
                     },
@@ -993,6 +997,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1005,6 +1010,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1015,6 +1021,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1027,12 +1034,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "photo_credit",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1045,12 +1054,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "internal_notes",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1063,12 +1074,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "amount",
                     "config": null,
                     "datatype": "number",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1081,12 +1094,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "loan_details",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1099,6 +1114,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "paid_in_full",
                     "config": {
                         "falseLabel": "No",
                         "trueLabel": "Yes"
@@ -1108,6 +1124,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1120,6 +1137,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "year_initiated",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1134,6 +1152,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1146,6 +1165,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "related_actors",
                     "config": {
                         "graphs": [
                             {
@@ -1163,6 +1183,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1175,6 +1196,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "loan_fund",
                     "config": {
                         "rdmCollection": "341ddf65-0aa0-4810-95a3-6cbba729c445"
                     },
@@ -1183,6 +1205,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1195,6 +1218,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "hpc_decision",
                     "config": {
                         "rdmCollection": "68edc9a8-c3b6-4658-85b2-e495856804a1"
                     },
@@ -1203,6 +1227,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1215,6 +1240,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "loan_role",
                     "config": {
                         "rdmCollection": "7ddf3cd8-bbbd-443f-b181-20088e66a3e6"
                     },
@@ -1223,6 +1249,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1235,6 +1262,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "loan_document",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1245,6 +1273,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1257,12 +1286,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "revolving_loan",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1279,12 +1310,14 @@
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "revolving_loan",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -1302,9 +1335,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
-        "os": "Linux",
-        "os version": "6.2.9-x86_64-linode160"
+        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
+        "os": "Darwin",
+        "os version": "21.5.0"
     }
 }

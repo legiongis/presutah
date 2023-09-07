@@ -20,27 +20,14 @@
                     "name": "New Node",
                     "nodegroup_id": "0a161228-eb4e-11ec-937b-2fecbf82977d",
                     "sortorder": null,
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "active": true,
                     "cardid": "253770a0-221b-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "253770a0-221b-11ec-82e5-080027c2283b",
-                            "constraintid": "b2ad164b-0f78-4b57-989a-749e59eb7258",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "253770a0-221b-11ec-82e5-080027c2283b",
-                            "constraintid": "025ec5f1-e6e6-49dc-a085-43c28b5dae19",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -48,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Designation",
                     "nodegroup_id": "2537709e-221b-11ec-82e5-080027c2283b",
                     "sortorder": 10,
@@ -59,14 +46,7 @@
                     "cardid": "2ba3a4d7-21fd-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "2ba3a4d7-21fd-11ec-82e5-080027c2283b",
-                            "constraintid": "1c4f206b-4ee6-4940-97ba-865bafa7ad3a",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -74,7 +54,7 @@
                     "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
                     "helptitle": "Easement Legal Documentation Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Easement Legal Documentation",
                     "nodegroup_id": "2ba3a4d5-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 3,
@@ -85,20 +65,7 @@
                     "cardid": "382a829e-425d-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "382a829e-425d-11ec-934a-080027c2283b",
-                            "constraintid": "f0d13aba-eb09-47e6-9f26-8483845aa589",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "382a829e-425d-11ec-934a-080027c2283b",
-                            "constraintid": "d99ca304-9db0-4bed-9f5e-a4a7586613d1",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -106,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Internal Notes",
                     "nodegroup_id": "382a829c-425d-11ec-934a-080027c2283b",
                     "sortorder": null,
@@ -117,20 +84,7 @@
                     "cardid": "5a39889c-21fd-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "5a39889c-21fd-11ec-82e5-080027c2283b",
-                            "constraintid": "837c6045-3ee6-4900-9cd3-00e748964502",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "5a39889c-21fd-11ec-82e5-080027c2283b",
-                            "constraintid": "d9e2699a-cf49-4b2d-a4d1-f5f7f4f390f9",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "Recent photo of easement property for identification purposes",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -138,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Photo",
                     "nodegroup_id": "5a39889a-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 8,
@@ -149,14 +103,7 @@
                     "cardid": "63cb238f-21fd-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "63cb238f-21fd-11ec-82e5-080027c2283b",
-                            "constraintid": "c6ba30d3-0dd2-4ac7-b27a-3720413966b0",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -164,7 +111,7 @@
                     "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement&#39;s amendment is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
                     "helptitle": "Easement Amendments Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Amendments",
                     "nodegroup_id": "63cb238d-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 4,
@@ -175,20 +122,7 @@
                     "cardid": "75042bc4-222e-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "75042bc4-222e-11ec-82e5-080027c2283b",
-                            "constraintid": "812df965-0124-4e5c-9266-9614780d9fa6",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "75042bc4-222e-11ec-82e5-080027c2283b",
-                            "constraintid": "fc2e41f8-ec05-4ef8-9001-b13ad923d265",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -196,7 +130,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Easement Establishment",
                     "nodegroup_id": "75042bc2-222e-11ec-82e5-080027c2283b",
                     "sortorder": 2,
@@ -207,20 +141,7 @@
                     "cardid": "84a1f9ea-3047-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "84a1f9ea-3047-11ec-82e5-080027c2283b",
-                            "constraintid": "8802d0d3-b0c6-4371-b6c9-67fafffcca09",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "84a1f9ea-3047-11ec-82e5-080027c2283b",
-                            "constraintid": "c09e1ada-4cc9-421d-a1c1-b9d23d653029",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -228,7 +149,7 @@
                     "helptext": "<p>Why was this property important to conserve? The statement of significance is an opportunity to document the justification for the conservation easement and to communicate to the public why this property is special.</p>\n\n<p>In cases where the property is on the state or national register, you may want to refer to its narrative statement of significance as recorded by the relevant agencies.</p>\n",
                     "helptitle": "Statement of Significance Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Statement of Significance",
                     "nodegroup_id": "84a1f9e8-3047-11ec-82e5-080027c2283b",
                     "sortorder": 11,
@@ -239,20 +160,7 @@
                     "cardid": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
-                            "constraintid": "9bcd7d0f-c8fa-48c4-b58d-f169949e1604",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
-                            "constraintid": "75fbcd61-cb31-4bdf-bb93-b9131466d881",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -260,7 +168,7 @@
                     "helptext": "<p>Use this card to record as many actors that are related to the easement as necessary.</p>\n\n<p>An actor may be an individual or a group (such as a Trust, business, NGO, or government entity).&nbsp;</p>\n\n<p>Enter the entity&#39;s name in the Entity field. If they have not been entered into Arches yet, you will have the option to Create a New Actor.&nbsp;</p>\n",
                     "helptitle": "Easement Entity Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Easement Entities",
                     "nodegroup_id": "8e3ae380-2236-11ec-82e5-080027c2283b",
                     "sortorder": 9,
@@ -271,14 +179,7 @@
                     "cardid": "b8676497-3046-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
-                            "constraintid": "2f78a6b9-561b-4a20-90bc-bb043dd8bf0b",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "The features of this property that covered by the easement.",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -286,7 +187,7 @@
                     "helptext": "<p>Many properties have several features (or elements); for instance, a propery may have two buildings: a single family dwelling and a detached garage. In this card, you can record all of the features on the property that are subject to the conservation easement.&nbsp;</p>\n\n<p>First, choose whether the element is a building, part of the grounds, or an interior room.</p>\n\n<p>Then, identify the feature. In the case of an easement that covers one building, you can leave the feature name blank or use the name of the property itself.</p>\n\n<p>Enter the built date using <a href=\"https://www.loc.gov/standards/datetime/\" target=\"_blank\">EDTF -- Extended Date Time Format </a>-- Standard of the Library of Congress. These are some common EDTF date styles:</p>\n\n<ul>\n\t<li>1985-04-12 (if you know the exact date)</li>\n\t<li>1985-04 (if you know the month and year)</li>\n\t<li>1985 (if you know the year)</li>\n\t<li>1984? (if you are uncertain of the year)</li>\n\t<li>2004~ (same as c. 2004)</li>\n\t<li>2004-04~ (same as c. April 2004)</li>\n\t<li>184X (some time in 1840s)</li>\n\t<li>18XX (some time in 19th century)</li>\n</ul>\n\n<p>Choose an architectural style from the list. Be consistent in usage. You may want to look at the SHPOs site file to see how they&#39;ve classified the building.</p>\n\n<p>Enter as many materials as needed by selecting them from the list, one by one. You don&#39;t need to enter every single material -- just the ones that are pertinent to the easement.</p>\n",
                     "helptitle": "Property Features Help",
                     "instructions": "Features or elements on the property subject to the conservation easement",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Property Features",
                     "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
                     "sortorder": 6,
@@ -297,20 +198,7 @@
                     "cardid": "de737320-328d-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "de737320-328d-11ec-82e5-080027c2283b",
-                            "constraintid": "b6f6f794-7ecd-484d-929b-ccd86d0764bd",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "de737320-328d-11ec-82e5-080027c2283b",
-                            "constraintid": "286b7911-e3bf-4678-8be9-c3af04aa0dad",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -318,7 +206,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Property Description",
                     "nodegroup_id": "de73731e-328d-11ec-82e5-080027c2283b",
                     "sortorder": 5,
@@ -338,14 +226,7 @@
                         "selectText": "",
                         "zoom": 0
                     },
-                    "constraints": [
-                        {
-                            "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
-                            "constraintid": "9886fe69-1245-4202-be6c-3f8a9b0e6d5a",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -353,7 +234,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Location",
                     "nodegroup_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 1,
@@ -364,20 +245,7 @@
                     "cardid": "e7bd68ec-21fc-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "e7bd68ec-21fc-11ec-82e5-080027c2283b",
-                            "constraintid": "bdb0c569-796b-473e-9a3d-b70aa49ac9c4",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "e7bd68ec-21fc-11ec-82e5-080027c2283b",
-                            "constraintid": "7b02e2fd-8e50-452d-85dd-dd8f75e999c9",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -385,7 +253,7 @@
                     "helptext": "<p>Enter all of the names that this property has carried. Use the +New button to add multiple names.</p>\n\n<p>Every property must have a &quot;Current, preferred&quot; name. This should be the name that Preservation Utah uses to refer to the property.</p>\n\n<p>Only enter a historic or other known name if they are in addition to the current, preferred name. A historic name is one that was used historically, but is no longer in common parlance. An other known name is an alternative name that local community members may use.&nbsp;</p>\n",
                     "helptitle": "Property Name Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Property Name",
                     "nodegroup_id": "e7bd68ea-21fc-11ec-82e5-080027c2283b",
                     "sortorder": 0,
@@ -396,14 +264,7 @@
                     "cardid": "faae8d71-3046-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "faae8d71-3046-11ec-82e5-080027c2283b",
-                            "constraintid": "f8d704fb-478c-46f1-bf90-21777196c02b",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -411,7 +272,7 @@
                     "helptext": "<p>This is where you may enter all of the functions that you have been able to document about this property.&nbsp;</p>\n\n<p>Functions may either be &quot;current&quot; (i.e. the property is still used for this purpose) or &quot;historic&quot; (i.e. the property once was used for this purpose, but is no longer.)</p>\n\n<p>There may be multiple current functions as well as multple historic functions. You may expand upon some of these functions in the property&#39;s statement of significance.</p>\n\n<p>For instance, the Old Post Office in Washington DC would have a current function of hotel, but several historic functions, including post office, and government office.</p>\n",
                     "helptitle": "Property Function Help",
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Function",
                     "nodegroup_id": "faae8d6f-3046-11ec-82e5-080027c2283b",
                     "sortorder": 7,
@@ -496,7 +357,7 @@
                     "id": "03702e34-2204-11ec-82e5-080027c2283b",
                     "label": "Preservation Utah Region",
                     "node_id": "e39c3efa-21ff-11ec-82e5-080027c2283b",
-                    "sortorder": 4,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -512,7 +373,7 @@
                     "id": "03702e36-2204-11ec-82e5-080027c2283b",
                     "label": "Special Directions",
                     "node_id": "7dfaa7c2-2203-11ec-82e5-080027c2283b",
-                    "sortorder": 7,
+                    "sortorder": 8,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -712,7 +573,7 @@
                     "id": "3a918e3b-426a-11ec-934a-080027c2283b",
                     "label": "Acreage",
                     "node_id": "180cad8e-426a-11ec-934a-080027c2283b",
-                    "sortorder": 6,
+                    "sortorder": 7,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
@@ -1080,6 +941,23 @@
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
+                    "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "ZIP Code",
+                        "maxLength": "10",
+                        "placeholder": "Enter a 5 or 9 digit zip code",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "e3d7a5f5-413d-4135-8280-9f641de398b1",
+                    "label": "ZIP Code",
+                    "node_id": "f7184330-4d2b-11ee-beee-e639e569e166",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "de737320-328d-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
@@ -1107,7 +985,7 @@
                     "id": "f2c25ef5-2204-11ec-82e5-080027c2283b",
                     "label": "Access Type",
                     "node_id": "d64ef134-2204-11ec-82e5-080027c2283b",
-                    "sortorder": 5,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -1668,6 +1546,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
+                    "edgeid": "f22430bc-9c66-4ec2-a662-ae5d0b014cec",
+                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "rangenode_id": "f7184330-4d2b-11ee-beee-e639e569e166"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "b8676495-3046-11ec-82e5-080027c2283b",
                     "edgeid": "f90907bb-3b21-11ec-934a-080027c2283b",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -1724,12 +1611,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
-                    "id": "77c9c488-592a-11ec-a804-ddb67dfceb92"
+                    "id": "eca6a41e-c43a-472b-a7a4-cd4641f1c90e"
                 }
             ],
             "graphid": "c3646da3-2140-11ec-82e5-080027c2283b",
             "iconclass": "fa fa-building",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -1822,6 +1709,7 @@
             ],
             "nodes": [
                 {
+                    "alias": "start_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1836,6 +1724,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1848,6 +1737,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "date_acquired",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -1856,6 +1746,7 @@
                     "exportable": true,
                     "fieldname": "acquired",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1868,6 +1759,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "property_name_type",
                     "config": {
                         "rdmCollection": "e1df3e64-1177-4187-9101-1facefa4bee4"
                     },
@@ -1876,6 +1768,7 @@
                     "exportable": true,
                     "fieldname": "nametype",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -1888,12 +1781,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "new_node",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1906,6 +1801,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "note_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1920,6 +1816,7 @@
                     "exportable": true,
                     "fieldname": "notedate",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1932,12 +1829,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "acreage",
                     "config": null,
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
                     "fieldname": "acreage",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1947,15 +1846,17 @@
                     "nodeid": "180cad8e-426a-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P161i_is_spatial_projection_of",
-                    "sortorder": 0
+                    "sortorder": 8
                 },
                 {
+                    "alias": "designation",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1968,6 +1869,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "end_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1982,6 +1884,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1994,12 +1897,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement_legal_documentation",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2012,12 +1917,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "page",
                     "config": null,
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
                     "fieldname": "legalpage",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2030,12 +1937,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "book",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "legalbook",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2048,6 +1957,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "county_recorder",
                     "config": {
                         "rdmCollection": "03bb53ab-8d2d-4a73-8b66-c6c7dbf27422"
                     },
@@ -2056,6 +1966,7 @@
                     "exportable": true,
                     "fieldname": "legalrec",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2068,6 +1979,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "file",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2078,6 +1990,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2090,6 +2003,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "date",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -2098,6 +2012,7 @@
                     "exportable": true,
                     "fieldname": "legaldate",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2110,12 +2025,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "photo_credit",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2128,12 +2045,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "internal_notes",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2146,6 +2065,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "baseline_inspection",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2156,6 +2076,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2168,6 +2089,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2178,6 +2100,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2190,12 +2113,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "amendments",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2208,12 +2133,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "page_n1",
                     "config": null,
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
                     "fieldname": "amendpage",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2226,12 +2153,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "book_n1",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "amendbook",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2244,6 +2173,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "county_recorder_n1",
                     "config": {
                         "rdmCollection": "03bb53ab-8d2d-4a73-8b66-c6c7dbf27422"
                     },
@@ -2252,6 +2182,7 @@
                     "exportable": true,
                     "fieldname": "amendrec",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2264,6 +2195,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "file_n1",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2274,6 +2206,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2286,6 +2219,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "date_n1",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -2294,6 +2228,7 @@
                     "exportable": true,
                     "fieldname": "amenddate",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2306,12 +2241,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement_establishment",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2324,12 +2261,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "directions",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "directions",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2339,15 +2278,17 @@
                     "nodeid": "7dfaa7c2-2203-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 0
+                    "sortorder": 7
                 },
                 {
+                    "alias": "statement_of_significance",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "sgnfcnce",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2360,6 +2301,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_type",
                     "config": {
                         "rdmCollection": "660169f0-90ff-402a-8565-1b8676dc22ab"
                     },
@@ -2368,6 +2310,7 @@
                     "exportable": true,
                     "fieldname": "destype",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2380,6 +2323,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement_template",
                     "config": {
                         "rdmCollection": "02c42524-8795-420f-a7de-b98ccf1f4efa"
                     },
@@ -2388,6 +2332,7 @@
                     "exportable": true,
                     "fieldname": "template",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2400,12 +2345,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement_entities",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2418,12 +2365,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "property_features",
                     "config": null,
                     "datatype": "semantic",
                     "description": "The features of this property that covered by the easement.",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2436,6 +2385,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "built_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -2450,6 +2400,7 @@
                     "exportable": true,
                     "fieldname": "built",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2462,6 +2413,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "architectural_style",
                     "config": {
                         "rdmCollection": "33b94d76-39e0-4406-b94a-427af77607ab"
                     },
@@ -2470,6 +2422,7 @@
                     "exportable": true,
                     "fieldname": "style",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2482,6 +2435,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "material",
                     "config": {
                         "rdmCollection": "677dfd18-f655-4466-b4cc-86152c10cd8f"
                     },
@@ -2490,6 +2444,7 @@
                     "exportable": true,
                     "fieldname": "material",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2502,6 +2457,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "feature_type",
                     "config": {
                         "rdmCollection": "1c57ca8d-02b3-4437-80b6-0d255cee97f1"
                     },
@@ -2510,6 +2466,7 @@
                     "exportable": true,
                     "fieldname": "featype",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2522,12 +2479,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "feature_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "feaname",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2540,12 +2499,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2558,6 +2519,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "entity",
                     "config": {
                         "graphs": [
                             {
@@ -2575,6 +2537,7 @@
                     "exportable": true,
                     "fieldname": "entity",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2587,6 +2550,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "access_type",
                     "config": {
                         "rdmCollection": "806d9566-dfe8-409d-9f53-2969733a2a8c"
                     },
@@ -2595,6 +2559,7 @@
                     "exportable": true,
                     "fieldname": "access",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2604,15 +2569,17 @@
                     "nodeid": "d64ef134-2204-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
+                    "sortorder": 6
                 },
                 {
+                    "alias": "property_description",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "descript",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2625,6 +2592,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "designation_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -2639,6 +2607,7 @@
                     "exportable": true,
                     "fieldname": "desdate",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2651,12 +2620,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "location",
                     "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2669,6 +2640,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "spatial_coordinates",
                     "config": {
                         "addToMap": true,
                         "advancedStyle": "",
@@ -2698,6 +2670,7 @@
                     "exportable": true,
                     "fieldname": "coords",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2710,6 +2683,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "city",
                     "config": {
                         "rdmCollection": "0dc682ee-1297-4fc7-a264-c9d57732b41f"
                     },
@@ -2718,6 +2692,7 @@
                     "exportable": true,
                     "fieldname": "city",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2727,15 +2702,17 @@
                     "nodeid": "e39c3ef7-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 0
+                    "sortorder": 2
                 },
                 {
+                    "alias": "parcel_id",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "parcelid",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2745,15 +2722,17 @@
                     "nodeid": "e39c3ef8-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 5
                 },
                 {
+                    "alias": "property_street_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "address",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2763,9 +2742,10 @@
                     "nodeid": "e39c3ef9-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
+                    "sortorder": 4
                 },
                 {
+                    "alias": "preservation_utah_region",
                     "config": {
                         "rdmCollection": "71e19263-5170-41e8-b328-164757de21cb"
                     },
@@ -2774,6 +2754,7 @@
                     "exportable": true,
                     "fieldname": "region",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2783,15 +2764,17 @@
                     "nodeid": "e39c3efa-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 0
+                    "sortorder": 1
                 },
                 {
+                    "alias": "property_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "name",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": true,
                     "issearchable": true,
@@ -2804,12 +2787,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "note",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": "note",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2822,6 +2807,27 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "zip_code",
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "loc_zip",
+                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "ZIP Code",
+                    "nodegroup_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
+                    "nodeid": "f7184330-4d2b-11ee-beee-e639e569e166",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
+                    "sortorder": 0
+                },
+                {
+                    "alias": "plan_type",
                     "config": {
                         "rdmCollection": "192067dd-6d69-42e7-8729-36803aa3a3b4"
                     },
@@ -2830,6 +2836,7 @@
                     "exportable": true,
                     "fieldname": "plantype",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2842,6 +2849,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "property_function",
                     "config": {
                         "rdmCollection": "e3a57e16-f4c5-4178-8850-100ad57be56d"
                     },
@@ -2850,6 +2858,7 @@
                     "exportable": true,
                     "fieldname": "function",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2862,6 +2871,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "function_temporal_type",
                     "config": {
                         "rdmCollection": "f4f7d30a-6921-4b81-b57f-e5ea91a211d5"
                     },
@@ -2870,6 +2880,7 @@
                     "exportable": true,
                     "fieldname": "fnctntype",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2882,6 +2893,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "role",
                     "config": {
                         "rdmCollection": "b3ca0dc9-5c62-44f2-8164-a420e12c1c6b"
                     },
@@ -2890,6 +2902,7 @@
                     "exportable": true,
                     "fieldname": "role",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2906,12 +2919,14 @@
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "easement",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -2929,9 +2944,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
-        "os": "Linux",
-        "os version": "6.2.9-x86_64-linode160"
+        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
+        "os": "Darwin",
+        "os version": "21.5.0"
     }
 }

@@ -8,20 +8,7 @@
                     "cardid": "14c19f1a-430a-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "14c19f1a-430a-11ec-934a-080027c2283b",
-                            "constraintid": "7362a29b-fe7c-4341-9f4f-7a6fe8a04ef5",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "14c19f1a-430a-11ec-934a-080027c2283b",
-                            "constraintid": "0b4cd7fb-fc41-4d83-90cd-c1038d534c57",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -29,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Title",
                     "nodegroup_id": "14c19f18-430a-11ec-934a-080027c2283b",
                     "sortorder": 2,
@@ -40,20 +27,7 @@
                     "cardid": "167ab58c-3e3f-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "167ab58c-3e3f-11ec-934a-080027c2283b",
-                            "constraintid": "2c2f07fc-6bac-49aa-88b9-8f7cb796dd33",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "167ab58c-3e3f-11ec-934a-080027c2283b",
-                            "constraintid": "a60057eb-095e-4db4-9fde-9d528b818bc5",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -61,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Correspondence",
                     "nodegroup_id": "167ab58a-3e3f-11ec-934a-080027c2283b",
                     "sortorder": 8,
@@ -72,20 +46,7 @@
                     "cardid": "71bf0b76-30f9-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "71bf0b76-30f9-11ec-82e5-080027c2283b",
-                            "constraintid": "62056923-4468-466f-ad41-016bf5f24482",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "71bf0b76-30f9-11ec-82e5-080027c2283b",
-                            "constraintid": "0412f34e-f436-4bdb-a374-5d78744b1570",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -93,7 +54,7 @@
                     "helptext": "<p>If this Actor is a group (e.g. business, government agency, non-profit), you may want to relate&nbsp;individual contacts.&nbsp;</p>\n\n<p>For instance, if you are completing the record for Preservation Utah, under Related Contact you can add Kelsey Maas, David Amott, and other individual contacts associated with the organization.</p>\n",
                     "helptitle": "Related Contact Help",
                     "instructions": "Complete for group contacts only - select related individual from list below",
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Related Contact",
                     "nodegroup_id": "71bf0b74-30f9-11ec-82e5-080027c2283b",
                     "sortorder": 6,
@@ -104,20 +65,7 @@
                     "cardid": "82f13c58-2234-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "82f13c58-2234-11ec-82e5-080027c2283b",
-                            "constraintid": "8738b1aa-9647-4a75-bc1f-f812d6af7586",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "82f13c58-2234-11ec-82e5-080027c2283b",
-                            "constraintid": "352c5f09-4f95-4d44-9f7e-0e019a8ad8e1",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -125,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Email Address",
                     "nodegroup_id": "82f13c56-2234-11ec-82e5-080027c2283b",
                     "sortorder": 5,
@@ -136,20 +84,7 @@
                     "cardid": "a591c2a8-32a8-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "a591c2a8-32a8-11ec-82e5-080027c2283b",
-                            "constraintid": "fb2f2c38-f7e5-443c-bb13-8092dbd1d9e0",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "a591c2a8-32a8-11ec-82e5-080027c2283b",
-                            "constraintid": "946c0ed7-a5e8-46e0-8d65-88d769a255fe",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -157,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Inspector Information",
                     "nodegroup_id": "a591c2a6-32a8-11ec-82e5-080027c2283b",
                     "sortorder": 7,
@@ -168,14 +103,7 @@
                     "cardid": "eb373519-2231-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "eb373519-2231-11ec-82e5-080027c2283b",
-                            "constraintid": "6953c533-4bb1-4c0f-9460-63fec9fdbc5b",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -183,7 +111,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Address",
                     "nodegroup_id": "eb373517-2231-11ec-82e5-080027c2283b",
                     "sortorder": 3,
@@ -194,20 +122,7 @@
                     "cardid": "eec41034-22d6-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "eec41034-22d6-11ec-82e5-080027c2283b",
-                            "constraintid": "4da6d964-195a-4d94-b769-11e3f7aa75ed",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "eec41034-22d6-11ec-82e5-080027c2283b",
-                            "constraintid": "ab24896a-d065-4d9b-90a0-1ffe59564cff",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -215,7 +130,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Actor Type",
                     "nodegroup_id": "eec41032-22d6-11ec-82e5-080027c2283b",
                     "sortorder": 1,
@@ -226,20 +141,7 @@
                     "cardid": "f0247230-2230-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "f0247230-2230-11ec-82e5-080027c2283b",
-                            "constraintid": "46848683-c6c7-4471-9d1e-371f08d94188",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "f0247230-2230-11ec-82e5-080027c2283b",
-                            "constraintid": "50d7ff4b-7c13-4fa7-ba95-e4f629cc7bdb",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -247,7 +149,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Name",
                     "nodegroup_id": "f024722e-2230-11ec-82e5-080027c2283b",
                     "sortorder": 0,
@@ -258,20 +160,7 @@
                     "cardid": "f09f1d62-2232-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "f09f1d62-2232-11ec-82e5-080027c2283b",
-                            "constraintid": "e699423b-0819-4cc6-adae-d95d3d143a47",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "f09f1d62-2232-11ec-82e5-080027c2283b",
-                            "constraintid": "f6172109-7614-4125-a0bf-d10a377a56a6",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
@@ -279,7 +168,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Telephone",
                     "nodegroup_id": "f09f1d60-2232-11ec-82e5-080027c2283b",
                     "sortorder": 4,
@@ -557,8 +446,8 @@
                     "config": {
                         "defaultValue": "",
                         "label": "Zip Code",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "10",
+                        "placeholder": "Enter a 5 or 9 digit zip code",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -935,12 +824,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
-                    "id": "00e25e73-5928-11ec-a804-ddb67dfceb92"
+                    "id": "6554b503-55e3-481e-ba99-b7635e1e62ce"
                 }
             ],
             "graphid": "e5441dd9-222f-11ec-82e5-080027c2283b",
             "iconclass": "fa fa-user",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -1003,6 +892,7 @@
             ],
             "nodes": [
                 {
+                    "alias": "related_advocacy_project",
                     "config": {
                         "graphs": [
                             {
@@ -1018,6 +908,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1030,12 +921,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "title",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1048,12 +941,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "correspondence",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1066,6 +961,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "correspondence_date",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -1074,6 +970,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1086,12 +983,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "zip_code",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
-                    "fieldname": null,
+                    "fieldname": "zip",
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1104,6 +1003,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "telephone_type",
                     "config": {
                         "rdmCollection": "a8027675-cf41-4c0f-8bd0-cd99c8b0dd5d"
                     },
@@ -1112,6 +1012,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1124,12 +1025,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "contents",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1142,6 +1045,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "attachments",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1152,6 +1056,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1164,6 +1069,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "state",
                     "config": {
                         "rdmCollection": "1e387bc6-4da3-4ab2-b303-2b37d17d593e"
                     },
@@ -1172,6 +1078,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1184,6 +1091,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "related_contact",
                     "config": {
                         "graphs": [
                             {
@@ -1201,6 +1109,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1213,12 +1122,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "email_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1231,6 +1142,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "contact_role",
                     "config": {
                         "rdmCollection": "b1b9debb-65d6-48bc-94fe-a89d528f2b9e"
                     },
@@ -1239,6 +1151,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1251,6 +1164,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "related_easement",
                     "config": {
                         "graphs": [
                             {
@@ -1266,6 +1180,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1278,6 +1193,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "address_type",
                     "config": {
                         "rdmCollection": "a5841c85-8774-40db-a5eb-07e34c5cda2f"
                     },
@@ -1286,6 +1202,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1298,12 +1215,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "inspector_information",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1316,12 +1235,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "background",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1334,12 +1255,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "actor",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1352,12 +1275,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "address",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1370,12 +1295,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "city",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1388,12 +1315,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "street_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1406,6 +1335,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "related_loan",
                     "config": {
                         "graphs": [
                             {
@@ -1421,6 +1351,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1433,6 +1364,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "actor_type",
                     "config": {
                         "rdmCollection": "7959f531-0d8e-450f-8efa-0493844ec6b1"
                     },
@@ -1441,6 +1373,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1453,12 +1386,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1471,12 +1406,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "telephone",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1489,6 +1426,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "start_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1503,6 +1441,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1519,12 +1458,14 @@
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "actor",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "e5441dd9-222f-11ec-82e5-080027c2283b",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -1542,9 +1483,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
-        "os": "Linux",
-        "os version": "6.2.9-x86_64-linode160"
+        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
+        "os": "Darwin",
+        "os version": "21.5.0"
     }
 }
