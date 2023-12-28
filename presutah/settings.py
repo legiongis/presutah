@@ -106,6 +106,12 @@ LOGGING = {
         },
     },
     'handlers': {
+        'file-debug': {
+            'level': 'DEBUG', # INFO, WARNING, ERROR
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(APP_ROOT, 'arches-debug.log'),
+            'formatter': 'console'
+        },
         'file': {
             'level': 'WARNING',  # DEBUG, INFO, WARNING, ERROR
             'class': 'logging.FileHandler',
@@ -120,8 +126,8 @@ LOGGING = {
     },
     'loggers': {
         'arches': {
-            'handlers': ['file', 'console'],
-            'level': 'WARNING',
+            'handlers': ['file', 'file-debug', 'console'],
+            'level': 'DEBUG',
             'propagate': True
         }
     }
