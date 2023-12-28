@@ -8,20 +8,7 @@
                     "cardid": "3195c414-335f-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "3195c414-335f-11ec-934a-080027c2283b",
-                            "constraintid": "f5cc5e84-2eb3-4aed-b2c4-e15993b7b295",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "3195c414-335f-11ec-934a-080027c2283b",
-                            "constraintid": "5a478278-b0c1-4ded-9daa-840437bdd6bb",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
@@ -29,7 +16,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Year Established",
                     "nodegroup_id": "3195c412-335f-11ec-934a-080027c2283b",
                     "sortorder": 2,
@@ -40,20 +27,7 @@
                     "cardid": "370604e2-335d-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "370604e2-335d-11ec-934a-080027c2283b",
-                            "constraintid": "1fa4b470-1cb5-4d03-a3fc-3fc0dfe9cd10",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "370604e2-335d-11ec-934a-080027c2283b",
-                            "constraintid": "960673e3-11fd-462f-96c2-0a1cc876fe8c",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
@@ -61,7 +35,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Business Name",
                     "nodegroup_id": "370604e0-335d-11ec-934a-080027c2283b",
                     "sortorder": 0,
@@ -72,20 +46,7 @@
                     "cardid": "51d861e8-3362-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
-                            "constraintid": "1271e19b-cd0f-4796-8c29-60fb38fef9d5",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
-                            "constraintid": "e281d8ea-9fa2-415d-b1a7-ed86c9cad77a",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
@@ -104,20 +65,7 @@
                     "cardid": "59c106c0-335e-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
-                            "constraintid": "90823f36-f57b-477c-9f5b-de2f00eb5184",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
-                            "constraintid": "1aa85c27-fd0e-498d-b64e-7ce078dd5251",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
@@ -125,7 +73,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Business Details",
                     "nodegroup_id": "59c106be-335e-11ec-934a-080027c2283b",
                     "sortorder": 3,
@@ -136,20 +84,7 @@
                     "cardid": "dc511394-335b-11ec-934a-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "dc511394-335b-11ec-934a-080027c2283b",
-                            "constraintid": "47650664-f0be-44aa-bfb4-36848cdad443",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "dc511394-335b-11ec-934a-080027c2283b",
-                            "constraintid": "cef76c85-8efa-4c33-a202-b017e66cad69",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
@@ -157,7 +92,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Contact Information",
                     "nodegroup_id": "dc511392-335b-11ec-934a-080027c2283b",
                     "sortorder": 1,
@@ -472,8 +407,8 @@
                     "config": {
                         "defaultValue": "",
                         "label": "Zip Code",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
+                        "maxLength": "10",
+                        "placeholder": "Enter a 5 or 9 digit zip code",
                         "uneditable": false,
                         "width": "100%"
                     },
@@ -1032,12 +967,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
-                    "id": "04861a62-5928-11ec-a804-ddb67dfceb92"
+                    "id": "7c14a64b-ce6e-4e58-be85-bdbb93285c95"
                 }
             ],
             "graphid": "56fb370a-335a-11ec-934a-080027c2283b",
             "iconclass": "fa fa-bank",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -1076,6 +1011,7 @@
             ],
             "nodes": [
                 {
+                    "alias": "specialization",
                     "config": {
                         "rdmCollection": "0c7fe328-d32c-4976-9558-80ac8124eb54"
                     },
@@ -1084,6 +1020,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1096,6 +1033,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "year_established",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1110,6 +1048,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": true,
                     "issearchable": true,
@@ -1122,12 +1061,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "business_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": true,
                     "issearchable": true,
@@ -1140,12 +1081,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "website",
                     "config": null,
                     "datatype": "url",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1158,6 +1101,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "insurance_status",
                     "config": {
                         "falseLabel": "No",
                         "trueLabel": "Yes"
@@ -1167,6 +1111,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1179,12 +1124,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "telephone",
                     "config": null,
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1197,12 +1144,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "references",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1215,6 +1164,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1225,6 +1175,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1237,12 +1188,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "preservation_directory",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1255,12 +1208,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "business_details",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1273,6 +1228,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "conservation_type",
                     "config": {
                         "rdmCollection": "79f34931-9ee2-4e8f-8d26-1c762e57e393"
                     },
@@ -1281,6 +1237,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1293,12 +1250,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "certifications",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1311,12 +1270,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "project_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1329,12 +1290,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "location",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1347,6 +1310,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "spatial_coordinates",
                     "config": {
                         "addToMap": true,
                         "advancedStyle": "",
@@ -1376,6 +1340,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1388,12 +1353,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "city",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1406,12 +1373,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "street_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1424,12 +1393,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "client",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1442,6 +1413,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "special_business_category",
                     "config": {
                         "rdmCollection": "5aab123f-d709-40ee-8f26-c8d20cf76162"
                     },
@@ -1450,6 +1422,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1462,6 +1435,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "state",
                     "config": {
                         "rdmCollection": "1e387bc6-4da3-4ab2-b303-2b37d17d593e"
                     },
@@ -1470,6 +1444,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1482,12 +1457,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "insurance_notes",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1500,12 +1477,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "zip_code",
                     "config": null,
                     "datatype": "string",
                     "description": null,
-                    "exportable": false,
-                    "fieldname": null,
+                    "exportable": true,
+                    "fieldname": "loc_zip",
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1518,12 +1497,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "location_n1",
                     "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1536,12 +1517,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "city_n1",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1554,12 +1537,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "property_street_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1572,6 +1557,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "state_n1",
                     "config": {
                         "rdmCollection": "1e387bc6-4da3-4ab2-b303-2b37d17d593e"
                     },
@@ -1580,6 +1566,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1592,12 +1579,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "business_description",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1610,12 +1599,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "owner",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1628,12 +1619,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "zip_code_n1",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1646,12 +1639,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "contact_information",
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1664,12 +1659,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "contact_name",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1682,12 +1679,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "results",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1700,6 +1699,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "completion_date",
                     "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
@@ -1714,6 +1714,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1726,12 +1727,14 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "email_address",
                     "config": null,
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1748,12 +1751,14 @@
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
+                "alias": "preservation_directory",
                 "config": null,
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -1771,9 +1776,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
-        "os": "Linux",
-        "os version": "6.2.9-x86_64-linode160"
+        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
+        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
+        "os": "Darwin",
+        "os version": "21.5.0"
     }
 }

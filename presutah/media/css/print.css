@@ -1,0 +1,24 @@
+.carousel-container {
+    display: none;
+    visibility: hidden;
+}
+
+.img-report-print-only {
+    display: block;
+    visibility: visible;
+    height: 100%;
+    width: auto;
+    flex: 1;
+    object-fit: cover;
+}
+
+.img-report-print-only-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* max-height: 350px; */
+}
+
+.scroll-y {
+    /* height: auto; */
+}
