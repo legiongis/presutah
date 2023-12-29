@@ -1,10 +1,6 @@
 {% load i18n %}
-
 {% load static %}
-{% block css %}
-    {{ block.super }}
-    <link href="{% static 'css/print.css' %}" media="print" rel="stylesheet" type="text/css" />
-{% endblock css %}
+{% load webpack_static from webpack_loader %}
 
 <!-- ko if: !$data.configForm -->
 <!-- ko if: !$data.summary -->

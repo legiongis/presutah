@@ -4,13 +4,15 @@ define([
     'knockout-mapping',
     'viewmodels/report',
     'arches',
+    'templates/views/report-templates/easement_report.htm',
     'knockstrap',
     'bindings/chosen',
     'viewmodels/report',
     'reports/map-header'
-], function(_, ko, koMapping, ReportViewModel, arches, ) {
+], function(_, ko, koMapping, ReportViewModel, arches, EasementReportTemplate ) {
       return ko.components.register('easement_report', {
         viewModel: function(params) {
+            console.log("asdfasdfasdf")
             var self = this;
 
             // define params for custom report here
@@ -103,7 +105,7 @@ define([
 
         },
         template: {
-            require: 'text!report-templates/easement_report'
+            require: EasementReportTemplate
         }
     });
 });

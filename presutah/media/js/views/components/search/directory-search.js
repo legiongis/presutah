@@ -1,8 +1,9 @@
 define(['jquery',
     'knockout',
     'arches',
+    'templates/views/components/search/directory-search.htm',
     'bindings/smartresize'],
-function($, ko, arches) {
+function($, ko, arches, DirectorySearchTemplate) {
     var componentName = 'directory-search';
     return ko.components.register(componentName, {
         viewModel: function(params) {
@@ -35,6 +36,6 @@ function($, ko, arches) {
                 }
             };
         },
-        template: { require: 'text!templates/views/components/search/directory-search.htm'}
+        template: DirectorySearchTemplate
     });
 });
