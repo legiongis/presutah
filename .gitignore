@@ -1,3 +1,4 @@
+http_ca.crt
 *.pyc
 *.log
 pkg/business_data
