@@ -14,7 +14,17 @@ except ImportError:
 
 APP_NAME = 'presutah'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
+STATICFILES_DIRS =  (
+    os.path.join(APP_ROOT, 'media', 'build'),
+    os.path.join(APP_ROOT, 'media'),
+) + STATICFILES_DIRS
+
+STATIC_ROOT = os.path.join(APP_ROOT, "staticfiles")
+WEBPACK_LOADER = {
+    "DEFAULT": {
+        "STATS_FILE": os.path.join(APP_ROOT, 'webpack/webpack-stats.json'),
+    },
+}
 
 DATATYPE_LOCATIONS.append('presutah.datatypes')
 FUNCTION_LOCATIONS.append('presutah.functions')
@@ -87,6 +97,7 @@ INSTALLED_APPS = (
     'django_celery_results',
     'presutah',
     'compressor',
+    'webpack_loader',
 )
 
 ALLOWED_HOSTS = []
@@ -263,9 +274,28 @@ SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 try:
     from .package_settings import *
 except ImportError:
-    pass
+    try: 
+        from package_settings import *
+    except ImportError as e:
+        pass
 
 try:
     from .settings_local import *
-except ImportError:
-    pass
+except ImportError as e:
+    try: 
+        from settings_local import *
+    except ImportError as e:
+        pass
+
+# returns an output that can be read by NODEJS
+if __name__ == "__main__":
+    print(
+        json.dumps({
+            'ARCHES_NAMESPACE_FOR_DATA_EXPORT': ARCHES_NAMESPACE_FOR_DATA_EXPORT,
+            'STATIC_URL': STATIC_URL,
+            'ROOT_DIR': ROOT_DIR,
+            'APP_ROOT': APP_ROOT,
+            'WEBPACK_DEVELOPMENT_SERVER_PORT': WEBPACK_DEVELOPMENT_SERVER_PORT,
+        })
+    )
+    sys.stdout.flush()

@@ -18,6 +18,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 {% load static %}
 {% load template_tags %}
 {% load i18n %}
+{% load webpack_static from webpack_loader %}
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -33,33 +35,38 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <meta name="author" content="Preservation Utah">
     <title>{{app_title}}</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicon/apple-touch-icon.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% webpack_static 'img/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% webpack_static 'img/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% webpack_static 'img/favicon/favicon-16x16.png' %}">
 
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Slick Carousel -->
-    <link href="{% static 'vendor/slick/slick.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/slick/slick-theme.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'vendor/slick/slick.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'vendor/slick/slick-theme.css' %}" rel="stylesheet">
 
     <!-- Font Awesome 5 -->
-    <link href="{% static 'vendor/fontawesome/css/all.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'vendor/fontawesome/css/all.css' %}" rel="stylesheet">
 
     <!-- CSS Unify -->
-    <link href="{% static 'css/unify/unify.css' %}" rel="stylesheet">
-    <link href="{% static 'css/unify/unify-components.css' %}" rel="stylesheet">
-    <link href="{% static 'css/unify/unify-core.css' %}" rel="stylesheet">
-    <link href="{% static 'css/unify/unify-globals.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/unify/unify.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/unify/unify-components.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/unify/unify-core.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/unify/unify-globals.css' %}" rel="stylesheet">
     <!-- CSS Arches Core -->
-    <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/index.css' %}" rel="stylesheet">
     <!-- CSS Customization -->
-    <link href="{% static 'css/unify/custom.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/unify/custom.css' %}" rel="stylesheet">
+
+    <link href="{% webpack_static 'css/print.css' %}" media="print" rel="stylesheet" type="text/css" />
 
     {% if app_settings.ACCESSIBILITY_MODE %}
-    <link href="{% static 'css/accessibility.css' %}" rel="stylesheet">
+    <link href="{% webpack_static 'css/accessibility.css' %}" rel="stylesheet">
     {% endif %}
+
+    {% block css %}
+    {% endblock %}
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
@@ -73,7 +80,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                   <div class="container">
                       <!-- Logo -->
                       <a href="#" class="navbar-brand">
-                          <img src="{% static 'img/landing/preservation-utah.png' %}" alt="Preservation Utah Logo">
+                          <img src="{% webpack_static 'img/landing/preservation-utah.png' %}" alt="Preservation Utah Logo">
                       </a>
                       <!-- End Logo -->
                       <!-- Responsive Toggle Button -->
@@ -136,7 +143,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <section id="slider" class="regular slider">
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-1.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-1.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%22c3646da3-2140-11ec-82e5-080027c2283b%22%2C%22name%22%3A%22Easement%22%2C%22inverted%22%3Afalse%7D%5D" target="_blank">Map</a>
@@ -156,7 +163,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-2.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-2.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=0&resource-type-filter=%5B%7B%22graphid%22%3A%2256fb370a-335a-11ec-934a-080027c2283b%22%2C%22name%22%3A%22Preservation%20Directory%22%2C%22inverted%22%3Afalse%7D%5D" target="_blank">Map</a>
@@ -176,7 +183,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-3.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-3.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=6&resource-type-filter=%5B%7B"graphid"%3A"2ebb83cb-368f-11ec-934a-080027c2283b"%2C"name"%3A"Advocacy"%2C"inverted"%3Afalse%7D%5D" target="_blank">Map</a>
@@ -196,7 +203,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-4.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-4.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/search?paging-filter=1&tiles=true&format=tilecsv&reportlink=false&precision=6&total=6&resource-type-filter=%5B%7B"graphid"%3A"b31e58cd-3694-11ec-934a-080027c2283b"%2C"name"%3A"Revolving%20Loan"%2C"inverted"%3Afalse%7D%5D" target="_blank">Map</a>
@@ -216,7 +223,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-5.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-5.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="/auth">Login</a>
@@ -236,7 +243,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
             <article class="g-pos-rel">
               <figure>
-                <img class="img-fluid w-100" src="{% static 'img/landing/slides/slide-6.png' %}">
+                <img class="img-fluid w-100" src="{% webpack_static 'img/landing/slides/slide-6.png' %}">
               </figure>
               <span class="g-pos-abs g-top-30 g-left-30">
                 <a class="btn btn-sm text-uppercase g-font-weight-700 g-font-size-11 g-color-gray-dark-v3 g-color-white--hover g-bg-white g-bg-primary--hover rounded-0 g-py-6 g-px-10" href="https://preservationutah.org/resources">Resources</a>
@@ -258,7 +265,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         <!-- About Us -->
         <section id="about-block">
           <a id="easement"></a>
-            <div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-pt-100 g-pb-70" style="background-image: url({% static 'img/landing/map-sketch.jpg' %});">
+            <div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-pt-100 g-pb-70" style="background-image: url({% webpack_static 'img/landing/map-sketch.jpg' %});">
               <div class="g-pos-rel g-z-index-1">
                 <!-- Heading -->
                 <div class="g-max-width-750 text-center mx-auto g-mb-50">
@@ -331,7 +338,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
         <!-- Hero Info #14 -->
         <a id="presdirectory"></a>
-        <div class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-black-gradient-opacity-v5--after" style="background-image: url({% static 'img/landing/presdirectory-bg.png' %});">
+        <div class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-black-gradient-opacity-v5--after" style="background-image: url({% webpack_static 'img/landing/presdirectory-bg.png' %});">
           <div class="container g-pos-rel g-z-index-1">
             <div class="row justify-content-between">
               <div class="col-md-5 g-py-60">
@@ -359,7 +366,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             <!-- Image, Text Block -->
             <div class="row d-flex align-items-lg-center flex-wrap g-mb-60 g-mb-0--lg">
               <div class="col-md-6 col-lg-8">
-                <img class="img-fluid" src="{% static 'img/landing/advocacy.png' %}" alt="Image Description">
+                <img class="img-fluid" src="{% webpack_static 'img/landing/advocacy.png' %}" alt="Image Description">
               </div>
               <div class="col-md-6 col-lg-4">
                 <div class="g-mt-minus-30 g-mt-0--md g-ml-minus-100--lg">
@@ -381,7 +388,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             <div class="row d-flex justify-content-between align-items-lg-center flex-wrap g-mt-minus-50--lg">
               <div class="col-md-6 order-md-2">
                 <div class="g-brd-around--md g-brd-10 g-brd-white">
-                  <img class="img-fluid w-100" src="{% static 'img/landing/loans.png' %}" alt="Image Description">
+                  <img class="img-fluid w-100" src="{% webpack_static 'img/landing/loans.png' %}" alt="Image Description">
                 </div>
               </div>
               <div class="col-md-6 col-lg-4 ml-auto order-md-1">
@@ -401,7 +408,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
         </section>
 
         <a id="inspect"></a>
-        <section class="g-flex-centered g-min-height-500 g-py-50" style="background-image: url({% static 'img/backgrounds/bricks--white.png' %});">
+        <section class="g-flex-centered g-min-height-500 g-py-50" style="background-image: url({% webpack_static 'img/backgrounds/bricks--white.png' %});">
           <div class="g-pos-rel g-z-index-1">
             <!-- Heading -->
             <div class="g-max-width-750 text-center mx-auto g-mb-20">
@@ -628,7 +635,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
       <footer id="copyright" class="g-bg-secondary g-color-white-opacity-0_8 text-center g-py-20">
         <div class="container">
           <p>Source code: <a class="g-color-white" href="https://github.com/archesproject/arches" target="_blank">Arches 6</a>, <a class="g-color-white" href="https://github.com/coherit/presutah" target="_blank">Preservation Utah Project</a></p>
-          <a class="g-color-white" href="http://www.archesproject.org" target="_blank"><img src="{% static 'img/Arches_badge_red_white_powered_by_2.png' %}" alt="Powered by Arches"></a>
+          <a class="g-color-white" href="http://www.archesproject.org" target="_blank"><img src="{% webpack_static 'img/Arches_badge_red_white_powered_by_2.png' %}" alt="Powered by Arches"></a>
         </div>
       </footer>
       <!-- End Copyright Footer -->
@@ -637,7 +644,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
 
-    <script src="{% static 'packages/requirejs/require.js' %}"></script>
+    <script src="{% webpack_static 'node_modules/requirejs/require.js' %}"></script>
 
     <script>
 
@@ -645,24 +652,23 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             baseUrl: '{{ STATIC_URL }}js',
             paths: {
                 'templates': '{% url "templates" ""%}'.replace(/\/$/, ""),
-                'text': '{{ STATIC_URL }}packages/requirejs-text/text',
-                'jquery-lib': '{{ STATIC_URL }}packages/jquery/dist/jquery.min',
-                'jquery': '{{ STATIC_URL }}packages/jquery-migrate/dist/jquery-migrate.min',
-                'jquery-ui': '{{ STATIC_URL }}packages/jqueryui/jquery-ui.min',
-                'underscore': '{{ STATIC_URL }}packages/underscore/underscore-min',
-                'chosen': '{{ STATIC_URL }}packages/chosen-js/chosen.jquery.min',
-                'knockout': '{{ STATIC_URL }}packages/knockout/build/output/knockout-latest',
-                'bootstrap': 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min',
-                'slick': '{{ STATIC_URL }}vendor/slick/slick.min',
-                'one-app': '{{ STATIC_URL }}plugins/one.app',
+                'text': "{% webpack_static 'node_modules/requirejs-text/text.js' %}",
+                'jquery': "{% webpack_static 'node_modules/jquery/dist/jquery.min' %}",
+                'jquery-ui': "{% webpack_static 'node_modules/jqueryui/jquery-ui.min' %}",
+                'jquery-validate': "{% webpack_static 'node_modules/jquery-validation/dist/jquery.validate.min' %}",
+                'underscore': "{% webpack_static 'node_modules/underscore/underscore-min' %}",
+                'chosen': "{% webpack_static 'node_modules/chosen-js/chosen.jquery.min' %}",
+                'knockout': "{% webpack_static 'node_modules/knockout/build/output/knockout-latest' %}",
+                'bootstrap': "{% webpack_static 'node_modules/bootstrap/dist/js/bootstrap.min' %}",
+                'slick': "{% webpack_static 'vendor/slick/slick.min' %}",
+                'one-app': "{% webpack_static 'plugins/one.app' %}",
             },
             shim: {
                 'jquery': {
-                    deps: ['jquery-lib'],
                     exports: '$'
                 },
                 'bootstrap': {
-                    deps: ['jquery'],
+                    deps: ['jquery', 'jquery-ui'],
                 },
                 'chosen': {
                     deps: ['jquery'],

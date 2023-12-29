@@ -6,6 +6,9 @@ presutah/logs
 presutah/export_deliverables
 presutah/cantaloupe/*
 presutah/media/packages
+presutah/media/node_modules
+presutah/media/build
+presutah/webpack/webpack-stats.json
 presutah/uploadedfiles/*
 presutah/settings_local.py
 presutah/system_settings/System_Settings.json
