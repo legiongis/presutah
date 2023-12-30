@@ -13,11 +13,19 @@
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Grounds",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Grounds"
+                    },
                     "nodegroup_id": "24598818-22ef-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -27,29 +35,24 @@
                     "cardid": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
-                            "constraintid": "5bd95b37-6519-4b02-8a4d-090570f7bbad",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
-                            "constraintid": "d003a8cf-c487-4b8b-b12b-f28d11fbe69d",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Inspection Context",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Inspection Context"
+                    },
                     "nodegroup_id": "2e02039c-3102-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -59,23 +62,24 @@
                     "cardid": "339047d2-22f0-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "339047d2-22f0-11ec-82e5-080027c2283b",
-                            "constraintid": "1b4d4a45-5f02-418c-b44a-507d15bdfacf",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Feature",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Feature"
+                    },
                     "nodegroup_id": "c3b8c00e-22ef-11ec-82e5-080027c2283b",
                     "sortorder": null,
                     "visible": true
@@ -85,29 +89,24 @@
                     "cardid": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
-                            "constraintid": "91e79966-8400-4abd-80ad-4e4e4513f8de",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
-                            "constraintid": "ff975d36-8796-41a1-b6d1-eae3f2f9cd05",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Room",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Room"
+                    },
                     "nodegroup_id": "b526a8ec-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -117,23 +116,24 @@
                     "cardid": "5ea38784-22ec-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "5ea38784-22ec-11ec-82e5-080027c2283b",
-                            "constraintid": "0aff7626-de8b-44e7-9732-ccdcb5c069e2",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>This is where you can record all the observations you make of a particular building on the easement property.</p>\n\n<p>Because some easements have multiple buildings to inspect, you can add as many buildings as you need. In the &quot;Building Name&quot; field, identify which building being observed.</p>\n\n<p>Enter observations for Roofs &amp; Chimneys and each Facade.</p>\n",
-                    "helptitle": "Building Observation Help",
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Building",
+                    "helptext": {
+                        "en": "<p>This is where you can record all the observations you make of a particular building on the easement property.</p>\n\n<p>Because some easements have multiple buildings to inspect, you can add as many buildings as you need. In the &quot;Building Name&quot; field, identify which building being observed.</p>\n\n<p>Enter observations for Roofs &amp; Chimneys and each Facade.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Building Observation Help"
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Building"
+                    },
                     "nodegroup_id": "5ea38782-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -148,11 +148,19 @@
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Fa\u00e7ades",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Fa\u00e7ades"
+                    },
                     "nodegroup_id": "5ea38785-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -162,29 +170,24 @@
                     "cardid": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
-                            "constraintid": "a8d1d39f-81e7-435e-90da-2cd681af05b8",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
-                            "constraintid": "4364cb95-7787-4830-a85e-4b091f55b32f",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Inspection Summary",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Inspection Summary"
+                    },
                     "nodegroup_id": "8662f9dc-3103-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -194,29 +197,24 @@
                     "cardid": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
-                            "constraintid": "c7a2b4bb-f5f0-4892-90c5-5d0910ef0344",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
-                            "constraintid": "22241554-e320-4511-96c3-7274c5a1320e",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Observations",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Observations"
+                    },
                     "nodegroup_id": "9cad5a04-22e7-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true
@@ -231,11 +229,19 @@
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Roofs and Chimneys",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Roofs and Chimneys"
+                    },
                     "nodegroup_id": "5ea3877f-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -245,29 +251,24 @@
                     "cardid": "fceeadf4-22e5-11ec-82e5-080027c2283b",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "fceeadf4-22e5-11ec-82e5-080027c2283b",
-                            "constraintid": "d679529c-6c13-4dac-beda-a3a960b077d1",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "fceeadf4-22e5-11ec-82e5-080027c2283b",
-                            "constraintid": "49a9520a-b16e-41e1-b68a-1f33735f0e84",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": false,
-                    "name": "Signed Agreement",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Signed Agreement"
+                    },
                     "nodegroup_id": "fceeadf2-22e5-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true
@@ -283,7 +284,9 @@
                         "rerender": true
                     },
                     "id": "0adcc96e-22e6-11ec-82e5-080027c2283b",
-                    "label": "Signed Agreement",
+                    "label": {
+                        "en": "Signed Agreement"
+                    },
                     "node_id": "fceeadf2-22e5-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -298,7 +301,9 @@
                         "rerender": true
                     },
                     "id": "184b7049-3115-11ec-82e5-080027c2283b",
-                    "label": "Fa\u00e7ade Photo",
+                    "label": {
+                        "en": "Fa\u00e7ade Photo"
+                    },
                     "node_id": "4b719264-3114-11ec-82e5-080027c2283b",
                     "sortorder": 11,
                     "visible": true,
@@ -313,7 +318,9 @@
                         "rerender": true
                     },
                     "id": "30e04547-3114-11ec-82e5-080027c2283b",
-                    "label": "Feature Photo",
+                    "label": {
+                        "en": "Feature Photo"
+                    },
                     "node_id": "dd01a1e8-3113-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -322,15 +329,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Flooring",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd1d-22ee-11ec-82e5-080027c2283b",
-                    "label": "Flooring",
+                    "label": {
+                        "en": "Flooring"
+                    },
                     "node_id": "cf0358d3-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -339,15 +358,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Walls",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd1f-22ee-11ec-82e5-080027c2283b",
-                    "label": "Walls",
+                    "label": {
+                        "en": "Walls"
+                    },
                     "node_id": "f27a7886-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -356,15 +387,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Windows",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd21-22ee-11ec-82e5-080027c2283b",
-                    "label": "Windows",
+                    "label": {
+                        "en": "Windows"
+                    },
                     "node_id": "0255bb4e-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -373,15 +416,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Doors",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd23-22ee-11ec-82e5-080027c2283b",
-                    "label": "Doors",
+                    "label": {
+                        "en": "Doors"
+                    },
                     "node_id": "12534fde-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -390,15 +445,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Ceiling",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd25-22ee-11ec-82e5-080027c2283b",
-                    "label": "Ceiling",
+                    "label": {
+                        "en": "Ceiling"
+                    },
                     "node_id": "245678a0-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -407,15 +474,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Trim and Moldings",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd27-22ee-11ec-82e5-080027c2283b",
-                    "label": "Trim and Moldings",
+                    "label": {
+                        "en": "Trim and Moldings"
+                    },
                     "node_id": "308e2c30-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -424,15 +503,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Major Features",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd29-22ee-11ec-82e5-080027c2283b",
-                    "label": "Major Features",
+                    "label": {
+                        "en": "Major Features"
+                    },
                     "node_id": "4906ea4a-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 7,
                     "visible": true,
@@ -441,15 +532,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Fixtures",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd2b-22ee-11ec-82e5-080027c2283b",
-                    "label": "Fixtures",
+                    "label": {
+                        "en": "Fixtures"
+                    },
                     "node_id": "76954e34-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 8,
                     "visible": true,
@@ -458,15 +561,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Hardware",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd2d-22ee-11ec-82e5-080027c2283b",
-                    "label": "Hardware",
+                    "label": {
+                        "en": "Hardware"
+                    },
                     "node_id": "f4a9a946-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 9,
                     "visible": true,
@@ -475,15 +590,27 @@
                 {
                     "card_id": "9cad5a06-22e7-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Other",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "340dfd2f-22ee-11ec-82e5-080027c2283b",
-                    "label": "Other",
+                    "label": {
+                        "en": "Other"
+                    },
                     "node_id": "19ac74d0-22ee-11ec-82e5-080027c2283b",
                     "sortorder": 10,
                     "visible": true,
@@ -492,15 +619,27 @@
                 {
                     "card_id": "339047d2-22f0-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Feature",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "3789e9a6-22f0-11ec-82e5-080027c2283b",
-                    "label": "Feature",
+                    "label": {
+                        "en": "Feature"
+                    },
                     "node_id": "c3b8c00e-22ef-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -509,15 +648,27 @@
                 {
                     "card_id": "339047d2-22f0-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Notes",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "3789e9a8-22f0-11ec-82e5-080027c2283b",
-                    "label": "Notes",
+                    "label": {
+                        "en": "Notes"
+                    },
                     "node_id": "db9c4376-22ef-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -526,15 +677,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Room Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81360-22ee-11ec-82e5-080027c2283b",
-                    "label": "Room Name",
+                    "label": {
+                        "en": "Room Name"
+                    },
                     "node_id": "b526a8ec-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -543,15 +706,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Flooring",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81362-22ee-11ec-82e5-080027c2283b",
-                    "label": "Flooring",
+                    "label": {
+                        "en": "Flooring"
+                    },
                     "node_id": "cf0358d3-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -560,15 +735,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Walls",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81364-22ee-11ec-82e5-080027c2283b",
-                    "label": "Walls",
+                    "label": {
+                        "en": "Walls"
+                    },
                     "node_id": "f27a7886-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -577,15 +764,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Windows",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81366-22ee-11ec-82e5-080027c2283b",
-                    "label": "Windows",
+                    "label": {
+                        "en": "Windows"
+                    },
                     "node_id": "0255bb4e-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -594,15 +793,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Doors",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81368-22ee-11ec-82e5-080027c2283b",
-                    "label": "Doors",
+                    "label": {
+                        "en": "Doors"
+                    },
                     "node_id": "12534fde-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -611,15 +822,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Ceiling",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a8136a-22ee-11ec-82e5-080027c2283b",
-                    "label": "Ceiling",
+                    "label": {
+                        "en": "Ceiling"
+                    },
                     "node_id": "245678a0-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -628,15 +851,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Trim and Moldings",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a8136c-22ee-11ec-82e5-080027c2283b",
-                    "label": "Trim and Moldings",
+                    "label": {
+                        "en": "Trim and Moldings"
+                    },
                     "node_id": "308e2c30-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -645,15 +880,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Major Features",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a8136e-22ee-11ec-82e5-080027c2283b",
-                    "label": "Major Features",
+                    "label": {
+                        "en": "Major Features"
+                    },
                     "node_id": "4906ea4a-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 7,
                     "visible": true,
@@ -662,15 +909,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Fixtures",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81370-22ee-11ec-82e5-080027c2283b",
-                    "label": "Fixtures",
+                    "label": {
+                        "en": "Fixtures"
+                    },
                     "node_id": "76954e34-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 8,
                     "visible": true,
@@ -679,15 +938,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Hardware",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81372-22ee-11ec-82e5-080027c2283b",
-                    "label": "Hardware",
+                    "label": {
+                        "en": "Hardware"
+                    },
                     "node_id": "f4a9a946-22ed-11ec-82e5-080027c2283b",
                     "sortorder": 9,
                     "visible": true,
@@ -696,15 +967,27 @@
                 {
                     "card_id": "3caee7d0-22ee-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Other",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "55a81374-22ee-11ec-82e5-080027c2283b",
-                    "label": "Other",
+                    "label": {
+                        "en": "Other"
+                    },
                     "node_id": "19ac74d0-22ee-11ec-82e5-080027c2283b",
                     "sortorder": 10,
                     "visible": true,
@@ -714,12 +997,19 @@
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Fa\u00e7ade",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "5ea38795-22ec-11ec-82e5-080027c2283b",
-                    "label": "Fa\u00e7ade",
+                    "label": {
+                        "en": "Fa\u00e7ade"
+                    },
                     "node_id": "5ea38785-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -728,15 +1018,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Foundation",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea38796-22ec-11ec-82e5-080027c2283b",
-                    "label": "Foundation",
+                    "label": {
+                        "en": "Foundation"
+                    },
                     "node_id": "5ea38793-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -745,15 +1047,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Wall Material",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea38797-22ec-11ec-82e5-080027c2283b",
-                    "label": "Wall Material",
+                    "label": {
+                        "en": "Wall Material"
+                    },
                     "node_id": "5ea38788-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -762,15 +1076,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Doorways",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea38798-22ec-11ec-82e5-080027c2283b",
-                    "label": "Doorways",
+                    "label": {
+                        "en": "Doorways"
+                    },
                     "node_id": "5ea3878a-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -779,15 +1105,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Windows",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea38799-22ec-11ec-82e5-080027c2283b",
-                    "label": "Windows",
+                    "label": {
+                        "en": "Windows"
+                    },
                     "node_id": "5ea3878c-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -796,15 +1134,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Trim",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879a-22ec-11ec-82e5-080027c2283b",
-                    "label": "Trim",
+                    "label": {
+                        "en": "Trim"
+                    },
                     "node_id": "5ea3878f-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -813,15 +1163,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Porches and Stoops",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879b-22ec-11ec-82e5-080027c2283b",
-                    "label": "Porches and Stoops",
+                    "label": {
+                        "en": "Porches and Stoops"
+                    },
                     "node_id": "5ea38792-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -830,15 +1192,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Cornice and Eaves",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879c-22ec-11ec-82e5-080027c2283b",
-                    "label": "Cornice and Eaves",
+                    "label": {
+                        "en": "Cornice and Eaves"
+                    },
                     "node_id": "5ea38789-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 7,
                     "visible": true,
@@ -847,15 +1221,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Flashing and Downspouts",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879d-22ec-11ec-82e5-080027c2283b",
-                    "label": "Flashing and Downspouts",
+                    "label": {
+                        "en": "Flashing and Downspouts"
+                    },
                     "node_id": "5ea3878d-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 8,
                     "visible": true,
@@ -864,15 +1250,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Dormers",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879e-22ec-11ec-82e5-080027c2283b",
-                    "label": "Dormers",
+                    "label": {
+                        "en": "Dormers"
+                    },
                     "node_id": "5ea3878e-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 9,
                     "visible": true,
@@ -881,15 +1279,27 @@
                 {
                     "card_id": "5ea38787-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Other",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "5ea3879f-22ec-11ec-82e5-080027c2283b",
-                    "label": "Other",
+                    "label": {
+                        "en": "Other"
+                    },
                     "node_id": "5ea38791-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 10,
                     "visible": true,
@@ -904,7 +1314,9 @@
                         "rerender": true
                     },
                     "id": "65caee79-328e-11ec-82e5-080027c2283b",
-                    "label": "Room Photo",
+                    "label": {
+                        "en": "Room Photo"
+                    },
                     "node_id": "3a1e7040-3114-11ec-82e5-080027c2283b",
                     "sortorder": 11,
                     "visible": true,
@@ -913,15 +1325,27 @@
                 {
                     "card_id": "5ea38784-22ec-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": null,
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Building Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "7d35a4ec-22ee-11ec-82e5-080027c2283b",
-                    "label": "Building Name",
+                    "label": {
+                        "en": "Building Name"
+                    },
                     "node_id": "5ea38782-22ec-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -937,7 +1361,9 @@
                         "width": "100%"
                     },
                     "id": "8eca5bc9-22ef-11ec-82e5-080027c2283b",
-                    "label": "Grounds",
+                    "label": {
+                        "en": "Grounds"
+                    },
                     "node_id": "24598818-22ef-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -947,11 +1373,18 @@
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Easement",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "977df9d7-3105-11ec-82e5-080027c2283b",
-                    "label": "Easement",
+                    "label": {
+                        "en": "Easement"
+                    },
                     "node_id": "39858f6a-3105-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -961,11 +1394,18 @@
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Inspector",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "977df9d9-3105-11ec-82e5-080027c2283b",
-                    "label": "Inspector",
+                    "label": {
+                        "en": "Inspector"
+                    },
                     "node_id": "167ac35c-3103-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -983,7 +1423,9 @@
                         "viewMode": "days"
                     },
                     "id": "977df9db-3105-11ec-82e5-080027c2283b",
-                    "label": "Inspection Date",
+                    "label": {
+                        "en": "Inspection Date"
+                    },
                     "node_id": "39d3eafe-3103-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -993,11 +1435,18 @@
                     "card_id": "2e02039e-3102-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Stakeholders Present",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "977df9dd-3105-11ec-82e5-080027c2283b",
-                    "label": "Stakeholders Present",
+                    "label": {
+                        "en": "Stakeholders Present"
+                    },
                     "node_id": "63414eae-3103-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -1007,12 +1456,19 @@
                     "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Overall Rating",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "9f24276f-3105-11ec-82e5-080027c2283b",
-                    "label": "Overall Rating",
+                    "label": {
+                        "en": "Overall Rating"
+                    },
                     "node_id": "165f3234-3105-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -1021,15 +1477,27 @@
                 {
                     "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "General Condition",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9f242771-3105-11ec-82e5-080027c2283b",
-                    "label": "General Condition",
+                    "label": {
+                        "en": "General Condition"
+                    },
                     "node_id": "791d2cd8-3104-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -1038,15 +1506,27 @@
                 {
                     "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Recommendations",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9f242773-3105-11ec-82e5-080027c2283b",
-                    "label": "Recommendations",
+                    "label": {
+                        "en": "Recommendations"
+                    },
                     "node_id": "87f1e2bc-3104-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -1055,15 +1535,27 @@
                 {
                     "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Internal Notes - Private use only",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9f242775-3105-11ec-82e5-080027c2283b",
-                    "label": "Internal Notes - Private use only",
+                    "label": {
+                        "en": "Internal Notes - Private use only"
+                    },
                     "node_id": "c1a3b06c-3104-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -1073,12 +1565,19 @@
                     "card_id": "8662f9de-3103-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Flag",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "9f242777-3105-11ec-82e5-080027c2283b",
-                    "label": "Flag",
+                    "label": {
+                        "en": "Flag"
+                    },
                     "node_id": "d9d7948c-3104-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -1112,7 +1611,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -1550,16 +2051,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
-                    "id": "06e907e2-5928-11ec-a804-ddb67dfceb92"
+                    "id": "9d26a5a6-2240-442f-9b04-9e91ed445de1"
                 }
             ],
             "graphid": "06642595-22e4-11ec-82e5-080027c2283b",
             "iconclass": "fa fa-stethoscope",
-            "is_editable": false,
-            "isactive": true,
+            "is_editable": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Easement Inspection",
+            "name": {
+                "en": "Easement Inspection"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -1624,12 +2126,14 @@
             ],
             "nodes": [
                 {
-                    "config": null,
+                    "alias": "windows",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1642,12 +2146,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "easement_inspection",
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1660,12 +2166,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "doors",
+                    "config": {},
                     "datatype": "string",
                     "description": "including transoms above doors",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1678,6 +2186,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "overall_rating",
                     "config": {
                         "rdmCollection": "91ef44f7-aec0-41a3-8108-829736c8775b"
                     },
@@ -1686,6 +2195,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1698,6 +2208,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "inspector",
                     "config": {
                         "graphs": [
                             {
@@ -1714,6 +2225,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1726,12 +2238,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "other",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1744,12 +2258,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "ceiling",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1762,12 +2278,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "grounds",
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1780,12 +2298,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "inspection_context",
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1798,12 +2318,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "trim_and_moldings",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1816,6 +2338,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "easement",
                     "config": {
                         "graphs": [
                             {
@@ -1832,6 +2355,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1844,6 +2368,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "inspection_date",
                     "config": {
                         "dateFormat": "YYYY-MM-DD"
                     },
@@ -1852,6 +2377,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1864,6 +2390,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "room_photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1874,6 +2401,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1886,12 +2414,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "major_features",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1904,6 +2434,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "facade_photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1914,6 +2445,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1926,6 +2458,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "roof_and_chimney_photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -1936,6 +2469,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -1948,12 +2482,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "roofs_and_chimneys",
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1966,12 +2502,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "building",
+                    "config": {},
                     "datatype": "string",
                     "description": "",
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -1984,6 +2522,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "facade",
                     "config": {
                         "rdmCollection": "f814e662-e038-44d9-a886-ddd6f7d6e66b"
                     },
@@ -1992,6 +2531,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2004,12 +2544,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "wall_material",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2022,12 +2564,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "cornice_and_eaves",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2040,12 +2584,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "doorways",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2058,12 +2604,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "chimney",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2076,12 +2624,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "windows_n1",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2094,12 +2644,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "flashing_and_downspouts",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2112,12 +2664,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "dormers",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2130,12 +2684,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "trim",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2148,12 +2704,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "other_n1",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2166,12 +2724,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "porches_and_stoops",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2184,12 +2744,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "foundation",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2202,12 +2764,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "roof",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2220,6 +2784,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "stakeholders_present",
                     "config": {
                         "graphs": [
                             {
@@ -2237,6 +2802,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2249,12 +2815,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "fixtures",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2267,12 +2835,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "general_condition",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2285,12 +2855,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "inspection_summary",
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2303,12 +2875,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "recommendations",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2321,12 +2895,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "observations",
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2339,12 +2915,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "room",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2357,12 +2935,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "notes",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2375,12 +2955,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "feature",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2393,12 +2975,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "flooring",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2411,6 +2995,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "flag",
                     "config": {
                         "rdmCollection": "c87b55dd-825b-4cec-87ff-cd0c094a89ff"
                     },
@@ -2419,6 +3004,7 @@
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2431,12 +3017,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "notes_n1",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2449,6 +3037,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "feature_photo",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2459,6 +3048,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2471,12 +3061,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "walls",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2489,12 +3081,14 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
+                    "alias": "hardware",
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -2507,6 +3101,7 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "signed_agreement",
                     "config": {
                         "activateMax": false,
                         "maxFileSize": null,
@@ -2517,6 +3112,7 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                    "hascustomalias": false,
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -2530,15 +3126,24 @@
                 }
             ],
             "ontology_id": "9d33df5c-d86f-4530-9673-8f0bacb94774",
+            "publication": {
+                "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                "notes": null,
+                "publicationid": "7099180a-a674-11ee-8edc-11494a998db0",
+                "published_time": "2023-12-29T12:02:33.056",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
-                "config": null,
+                "alias": "easement_inspection",
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
                 "fieldname": null,
                 "graph_id": "06642595-22e4-11ec-82e5-080027c2283b",
+                "hascustomalias": false,
                 "is_collector": false,
                 "isrequired": false,
                 "issearchable": true,
@@ -2550,15 +3155,17 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.15 (Ubuntu 12.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit",
-        "git hash": "fatal: detected dubious ownership in repository at '/opt/app/arches'",
+        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
+        "git hash": "7c01289b9 2023-01-18 11:08:31 -0800",
         "os": "Linux",
-        "os version": "6.2.9-x86_64-linode160"
+        "os version": "5.15.0-91-generic"
     }
 }

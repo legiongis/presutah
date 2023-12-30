@@ -13,11 +13,19 @@
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Year Established",
+                    "name": {
+                        "en": "Year Established"
+                    },
                     "nodegroup_id": "3195c412-335f-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Business Name",
+                    "name": {
+                        "en": "Business Name"
+                    },
                     "nodegroup_id": "370604e0-335d-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "References",
+                    "name": {
+                        "en": "References"
+                    },
                     "nodegroup_id": "51d861e6-3362-11ec-934a-080027c2283b",
                     "sortorder": null,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Business Details",
+                    "name": {
+                        "en": "Business Details"
+                    },
                     "nodegroup_id": "59c106be-335e-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Contact Information",
+                    "name": {
+                        "en": "Contact Information"
+                    },
                     "nodegroup_id": "dc511392-335b-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -104,11 +144,18 @@
                     "card_id": "3195c414-335f-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Year Established",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "3dea44c4-335f-11ec-934a-080027c2283b",
-                    "label": "Year Established",
+                    "label": {
+                        "en": "Year Established"
+                    },
                     "node_id": "3195c412-335f-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -117,15 +164,27 @@
                 {
                     "card_id": "370604e2-335d-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Business Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "436eaae1-335d-11ec-934a-080027c2283b",
-                    "label": "Business Name",
+                    "label": {
+                        "en": "Business Name"
+                    },
                     "node_id": "370604e0-335d-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -134,13 +193,23 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
+                        "i18n_properties": [
+                            "url_label_placeholder",
+                            "url_placeholder"
+                        ],
                         "label": "Website",
                         "link_color": "#0055a0",
-                        "url_label_placeholder": "Enter URL Label... ",
-                        "url_placeholder": "Enter URL... "
+                        "url_label_placeholder": {
+                            "en": "Enter URL Label... "
+                        },
+                        "url_placeholder": {
+                            "en": "Enter URL... "
+                        }
                     },
                     "id": "60c0457a-3bf9-11ec-934a-080027c2283b",
-                    "label": "Website",
+                    "label": {
+                        "en": "Website"
+                    },
                     "node_id": "48662c7a-3bf9-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -185,7 +254,9 @@
                         "zoom": 0
                     },
                     "id": "742fc412-3366-11ec-934a-080027c2283b",
-                    "label": "Spatial Coordinates",
+                    "label": {
+                        "en": "Spatial Coordinates"
+                    },
                     "node_id": "8a60d458-335c-11ec-934a-080027c2283b",
                     "sortorder": 9,
                     "visible": true,
@@ -194,15 +265,27 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Project Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "82d7b4c7-3363-11ec-934a-080027c2283b",
-                    "label": "Project Name",
+                    "label": {
+                        "en": "Project Name"
+                    },
                     "node_id": "7a2294dd-3362-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -211,15 +294,27 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Client",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "82d7b4c9-3363-11ec-934a-080027c2283b",
-                    "label": "Client",
+                    "label": {
+                        "en": "Client"
+                    },
                     "node_id": "8f0f2928-3362-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -229,11 +324,18 @@
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Completion Date",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "82d7b4cb-3363-11ec-934a-080027c2283b",
-                    "label": "Completion Date",
+                    "label": {
+                        "en": "Completion Date"
+                    },
                     "node_id": "f600c132-3362-11ec-934a-080027c2283b",
                     "sortorder": 7,
                     "visible": true,
@@ -242,15 +344,27 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Results (work completed)",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "82d7b4cd-3363-11ec-934a-080027c2283b",
-                    "label": "Results (work completed)",
+                    "label": {
+                        "en": "Results (work completed)"
+                    },
                     "node_id": "e971574c-3362-11ec-934a-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -265,7 +379,9 @@
                         "rerender": true
                     },
                     "id": "82d7b4cf-3363-11ec-934a-080027c2283b",
-                    "label": "Photo",
+                    "label": {
+                        "en": "Photo"
+                    },
                     "node_id": "5482a040-3363-11ec-934a-080027c2283b",
                     "sortorder": 8,
                     "visible": true,
@@ -274,15 +390,27 @@
                 {
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Certifications",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "86e48eda-368d-11ec-934a-080027c2283b",
-                    "label": "Certifications",
+                    "label": {
+                        "en": "Certifications"
+                    },
                     "node_id": "6ee06116-368d-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -292,12 +420,19 @@
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Special Business Category",
                         "options": [],
-                        "placeholder": "Select as many as apply"
+                        "placeholder": {
+                            "en": "Select as many as apply"
+                        }
                     },
                     "id": "86e48ede-368d-11ec-934a-080027c2283b",
-                    "label": "Special Business Category",
+                    "label": {
+                        "en": "Special Business Category"
+                    },
                     "node_id": "b27d739c-368c-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -306,15 +441,27 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Street Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9b0d378f-3363-11ec-934a-080027c2283b",
-                    "label": "Property Street Address",
+                    "label": {
+                        "en": "Property Street Address"
+                    },
                     "node_id": "c32a74f5-3362-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -323,16 +470,28 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "City",
                         "maxLength": null,
                         "options": [],
-                        "placeholder": "Select an option",
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9b0d3794-3363-11ec-934a-080027c2283b",
-                    "label": "City",
+                    "label": {
+                        "en": "City"
+                    },
                     "node_id": "c32a74f3-3362-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -342,12 +501,19 @@
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "State",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "9b0d3796-3363-11ec-934a-080027c2283b",
-                    "label": "State",
+                    "label": {
+                        "en": "State"
+                    },
                     "node_id": "cf26a72a-3362-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -356,15 +522,27 @@
                 {
                     "card_id": "51d861e8-3362-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Zip Code",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "9b0d3798-3363-11ec-934a-080027c2283b",
-                    "label": "Zip Code",
+                    "label": {
+                        "en": "Zip Code"
+                    },
                     "node_id": "dc24e0cc-3362-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -373,15 +551,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Street Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b6cba449-3364-11ec-934a-080027c2283b",
-                    "label": "Street Address",
+                    "label": {
+                        "en": "Street Address"
+                    },
                     "node_id": "8a60d45d-335c-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -391,12 +581,19 @@
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "State",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b6cba44b-3364-11ec-934a-080027c2283b",
-                    "label": "State",
+                    "label": {
+                        "en": "State"
+                    },
                     "node_id": "b39174e6-335c-11ec-934a-080027c2283b",
                     "sortorder": 7,
                     "visible": true,
@@ -405,15 +602,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Zip Code",
-                        "maxLength": "10",
-                        "placeholder": "Enter a 5 or 9 digit zip code",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b6cba44d-3364-11ec-934a-080027c2283b",
-                    "label": "Zip Code",
+                    "label": {
+                        "en": "Zip Code"
+                    },
                     "node_id": "bff006bc-335c-11ec-934a-080027c2283b",
                     "sortorder": 8,
                     "visible": true,
@@ -422,16 +631,28 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "City",
                         "maxLength": null,
                         "options": [],
-                        "placeholder": "Select an option",
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b6cba44f-3364-11ec-934a-080027c2283b",
-                    "label": "City",
+                    "label": {
+                        "en": "City"
+                    },
                     "node_id": "8a60d45b-335c-11ec-934a-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -440,15 +661,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Email Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b7df3cd6-3363-11ec-934a-080027c2283b",
-                    "label": "Email Address",
+                    "label": {
+                        "en": "Email Address"
+                    },
                     "node_id": "fdeac046-335d-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -457,15 +690,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Telephone",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "edf76f46-3365-11ec-934a-080027c2283b",
-                    "label": "Telephone",
+                    "label": {
+                        "en": "Telephone"
+                    },
                     "node_id": "50b303e3-335e-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -475,12 +720,19 @@
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Specialization",
                         "options": [],
-                        "placeholder": "Select as many as apply"
+                        "placeholder": {
+                            "en": "Select as many as apply"
+                        }
                     },
                     "id": "f4f0c1bb-3363-11ec-934a-080027c2283b",
-                    "label": "Specialization",
+                    "label": {
+                        "en": "Specialization"
+                    },
                     "node_id": "28d603da-3361-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -493,7 +745,9 @@
                         "label": "Insurance Status"
                     },
                     "id": "f4f0c1bd-3363-11ec-934a-080027c2283b",
-                    "label": "Insurance Status",
+                    "label": {
+                        "en": "Insurance Status"
+                    },
                     "node_id": "4c32e7a0-335f-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -502,15 +756,27 @@
                 {
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Insurance Notes",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f4f0c1bf-3363-11ec-934a-080027c2283b",
-                    "label": "Insurance Notes",
+                    "label": {
+                        "en": "Insurance Notes"
+                    },
                     "node_id": "b9232686-335f-11ec-934a-080027c2283b",
                     "sortorder": 6,
                     "visible": true,
@@ -520,6 +786,9 @@
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Conservation Type",
                         "options": [
                             {
@@ -547,11 +816,15 @@
                                 "text": "restoration and/or repair"
                             }
                         ],
-                        "placeholder": "Select an option",
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
                         "url": "/concepts/dropdown?conceptid=79f34931-9ee2-4e8f-8d26-1c762e57e393"
                     },
                     "id": "f4f0c1c3-3363-11ec-934a-080027c2283b",
-                    "label": "Conservation Type",
+                    "label": {
+                        "en": "Conservation Type"
+                    },
                     "node_id": "63be36f2-3361-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -560,15 +833,27 @@
                 {
                     "card_id": "59c106c0-335e-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Business Description",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f4f0c1c5-3363-11ec-934a-080027c2283b",
-                    "label": "Business Description",
+                    "label": {
+                        "en": "Business Description"
+                    },
                     "node_id": "d11dfc34-335f-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -577,15 +862,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Owner or Manager",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f7f05e27-335d-11ec-934a-080027c2283b",
-                    "label": "Owner or Manager",
+                    "label": {
+                        "en": "Owner or Manager"
+                    },
                     "node_id": "d4a5237a-335d-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -594,15 +891,27 @@
                 {
                     "card_id": "dc511394-335b-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Contact Name",
                         "maxLength": null,
-                        "placeholder": "(if different from owner)",
+                        "placeholder": {
+                            "en": "(if different from owner)"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f7f05e29-335d-11ec-934a-080027c2283b",
-                    "label": "Contact Name",
+                    "label": {
+                        "en": "Contact Name"
+                    },
                     "node_id": "dfef14d4-335d-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -646,7 +955,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -967,16 +1278,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
-                    "id": "7c14a64b-ce6e-4e58-be85-bdbb93285c95"
+                    "id": "200151df-7b28-44e2-bceb-31267f777c26"
                 }
             ],
             "graphid": "56fb370a-335a-11ec-934a-080027c2283b",
             "iconclass": "fa fa-bank",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Preservation Directory",
+            "name": {
+                "en": "Preservation Directory"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -1062,7 +1374,7 @@
                 },
                 {
                     "alias": "business_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1082,7 +1394,7 @@
                 },
                 {
                     "alias": "website",
-                    "config": null,
+                    "config": {},
                     "datatype": "url",
                     "description": null,
                     "exportable": true,
@@ -1103,8 +1415,16 @@
                 {
                     "alias": "insurance_status",
                     "config": {
-                        "falseLabel": "No",
-                        "trueLabel": "Yes"
+                        "falseLabel": {
+                            "en": "No"
+                        },
+                        "i18n_properties": [
+                            "trueLabel",
+                            "falseLabel"
+                        ],
+                        "trueLabel": {
+                            "en": "Yes"
+                        }
                     },
                     "datatype": "boolean",
                     "description": null,
@@ -1125,7 +1445,7 @@
                 },
                 {
                     "alias": "telephone",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": "",
                     "exportable": true,
@@ -1145,7 +1465,7 @@
                 },
                 {
                     "alias": "references",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1189,7 +1509,7 @@
                 },
                 {
                     "alias": "preservation_directory",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1209,7 +1529,7 @@
                 },
                 {
                     "alias": "business_details",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1251,7 +1571,7 @@
                 },
                 {
                     "alias": "certifications",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1271,7 +1591,7 @@
                 },
                 {
                     "alias": "project_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1291,7 +1611,7 @@
                 },
                 {
                     "alias": "location",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1354,7 +1674,7 @@
                 },
                 {
                     "alias": "city",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1374,7 +1694,7 @@
                 },
                 {
                     "alias": "street_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1394,7 +1714,7 @@
                 },
                 {
                     "alias": "client",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1458,7 +1778,7 @@
                 },
                 {
                     "alias": "insurance_notes",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1478,11 +1798,11 @@
                 },
                 {
                     "alias": "zip_code",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
-                    "exportable": true,
-                    "fieldname": "loc_zip",
+                    "exportable": false,
+                    "fieldname": null,
                     "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
                     "hascustomalias": false,
                     "is_collector": false,
@@ -1498,7 +1818,7 @@
                 },
                 {
                     "alias": "location_n1",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1518,7 +1838,7 @@
                 },
                 {
                     "alias": "city_n1",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1538,7 +1858,7 @@
                 },
                 {
                     "alias": "property_street_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1580,7 +1900,7 @@
                 },
                 {
                     "alias": "business_description",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1600,7 +1920,7 @@
                 },
                 {
                     "alias": "owner",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1620,7 +1940,7 @@
                 },
                 {
                     "alias": "zip_code_n1",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1640,7 +1960,7 @@
                 },
                 {
                     "alias": "contact_information",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1660,7 +1980,7 @@
                 },
                 {
                     "alias": "contact_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1680,7 +2000,7 @@
                 },
                 {
                     "alias": "results",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1728,7 +2048,7 @@
                 },
                 {
                     "alias": "email_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -1748,11 +2068,18 @@
                 }
             ],
             "ontology_id": "9d33df5c-d86f-4530-9673-8f0bacb94774",
+            "publication": {
+                "graph_id": "56fb370a-335a-11ec-934a-080027c2283b",
+                "notes": null,
+                "publicationid": "7099180b-a674-11ee-8edc-11494a998db0",
+                "published_time": "2023-12-29T12:02:33.837",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "preservation_directory",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -1770,15 +2097,17 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
-        "os": "Darwin",
-        "os version": "21.5.0"
+        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
+        "git hash": "7c01289b9 2023-01-18 11:08:31 -0800",
+        "os": "Linux",
+        "os version": "5.15.0-91-generic"
     }
 }

@@ -13,14 +13,22 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "New Node",
+                    "name": {
+                        "en": "New Node"
+                    },
                     "nodegroup_id": "0a161228-eb4e-11ec-937b-2fecbf82977d",
                     "sortorder": null,
-                    "visible": false
+                    "visible": true
                 },
                 {
                     "active": true,
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "",
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Designation",
+                    "name": {
+                        "en": "Designation"
+                    },
                     "nodegroup_id": "2537709e-221b-11ec-82e5-080027c2283b",
                     "sortorder": 10,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
-                    "helptitle": "Easement Legal Documentation Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Easement Legal Documentation Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Easement Legal Documentation",
+                    "name": {
+                        "en": "Easement Legal Documentation"
+                    },
                     "nodegroup_id": "2ba3a4d5-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Internal Notes",
+                    "name": {
+                        "en": "Internal Notes"
+                    },
                     "nodegroup_id": "382a829c-425d-11ec-934a-080027c2283b",
                     "sortorder": null,
                     "visible": true
@@ -86,14 +118,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "Recent photo of easement property for identification purposes",
+                    "description": {
+                        "en": "Recent photo of easement property for identification purposes"
+                    },
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Photo",
+                    "name": {
+                        "en": "Photo"
+                    },
                     "nodegroup_id": "5a39889a-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 8,
                     "visible": true
@@ -108,11 +150,19 @@
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement&#39;s amendment is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n",
-                    "helptitle": "Easement Amendments Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>This card holds all of the information necessary to locate the physical, legal document in which the conservation easement&#39;s amendment is recorded.</p>\n\n<p>Conservation easements are recorded like deeds.In Utah, each county has a recorder&#39;s office. The County Recorder records and maintains all&nbsp;documents pertaining to real estate property in their county&nbsp; and maintains cross-reference indexes to these records. The Recorder&#39;s Office is also required to maintain a set of maps which show the current ownership of every tract of land in the entire county.</p>\n\n<p>Documents such as deeds and conservation easements are cited using a standard system of identifying the County Recorder, the Book, and the starting page on which the document begins.</p>\n\n<p>For example, Duchesne County Book 18 Page 452 may commonly be abbreviated as Duchesne 18/452. If you have a citation like the latter, the number before the / is the Book and the number after the slash is the page number.</p>\n\n<p>Even if the document is multiple pages, only list the first page.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Easement Amendments Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Amendments",
+                    "name": {
+                        "en": "Amendments"
+                    },
                     "nodegroup_id": "63cb238d-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true
@@ -127,11 +177,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Easement Establishment",
+                    "name": {
+                        "en": "Easement Establishment"
+                    },
                     "nodegroup_id": "75042bc2-222e-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -146,11 +204,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>Why was this property important to conserve? The statement of significance is an opportunity to document the justification for the conservation easement and to communicate to the public why this property is special.</p>\n\n<p>In cases where the property is on the state or national register, you may want to refer to its narrative statement of significance as recorded by the relevant agencies.</p>\n",
-                    "helptitle": "Statement of Significance Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>Why was this property important to conserve? The statement of significance is an opportunity to document the justification for the conservation easement and to communicate to the public why this property is special.</p>\n\n<p>In cases where the property is on the state or national register, you may want to refer to its narrative statement of significance as recorded by the relevant agencies.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Statement of Significance Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Statement of Significance",
+                    "name": {
+                        "en": "Statement of Significance"
+                    },
                     "nodegroup_id": "84a1f9e8-3047-11ec-82e5-080027c2283b",
                     "sortorder": 11,
                     "visible": true
@@ -165,11 +231,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>Use this card to record as many actors that are related to the easement as necessary.</p>\n\n<p>An actor may be an individual or a group (such as a Trust, business, NGO, or government entity).&nbsp;</p>\n\n<p>Enter the entity&#39;s name in the Entity field. If they have not been entered into Arches yet, you will have the option to Create a New Actor.&nbsp;</p>\n",
-                    "helptitle": "Easement Entity Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>Use this card to record as many actors that are related to the easement as necessary.</p>\n\n<p>An actor may be an individual or a group (such as a Trust, business, NGO, or government entity).&nbsp;</p>\n\n<p>Enter the entity&#39;s name in the Entity field. If they have not been entered into Arches yet, you will have the option to Create a New Actor.&nbsp;</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Easement Entity Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Easement Entities",
+                    "name": {
+                        "en": "Easement Entities"
+                    },
                     "nodegroup_id": "8e3ae380-2236-11ec-82e5-080027c2283b",
                     "sortorder": 9,
                     "visible": true
@@ -181,14 +255,24 @@
                     "config": null,
                     "constraints": [],
                     "cssclass": null,
-                    "description": "The features of this property that covered by the easement.",
+                    "description": {
+                        "en": "The features of this property that covered by the easement."
+                    },
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>Many properties have several features (or elements); for instance, a propery may have two buildings: a single family dwelling and a detached garage. In this card, you can record all of the features on the property that are subject to the conservation easement.&nbsp;</p>\n\n<p>First, choose whether the element is a building, part of the grounds, or an interior room.</p>\n\n<p>Then, identify the feature. In the case of an easement that covers one building, you can leave the feature name blank or use the name of the property itself.</p>\n\n<p>Enter the built date using <a href=\"https://www.loc.gov/standards/datetime/\" target=\"_blank\">EDTF -- Extended Date Time Format </a>-- Standard of the Library of Congress. These are some common EDTF date styles:</p>\n\n<ul>\n\t<li>1985-04-12 (if you know the exact date)</li>\n\t<li>1985-04 (if you know the month and year)</li>\n\t<li>1985 (if you know the year)</li>\n\t<li>1984? (if you are uncertain of the year)</li>\n\t<li>2004~ (same as c. 2004)</li>\n\t<li>2004-04~ (same as c. April 2004)</li>\n\t<li>184X (some time in 1840s)</li>\n\t<li>18XX (some time in 19th century)</li>\n</ul>\n\n<p>Choose an architectural style from the list. Be consistent in usage. You may want to look at the SHPOs site file to see how they&#39;ve classified the building.</p>\n\n<p>Enter as many materials as needed by selecting them from the list, one by one. You don&#39;t need to enter every single material -- just the ones that are pertinent to the easement.</p>\n",
-                    "helptitle": "Property Features Help",
-                    "instructions": "Features or elements on the property subject to the conservation easement",
+                    "helptext": {
+                        "en": "<p>Many properties have several features (or elements); for instance, a propery may have two buildings: a single family dwelling and a detached garage. In this card, you can record all of the features on the property that are subject to the conservation easement.&nbsp;</p>\n\n<p>First, choose whether the element is a building, part of the grounds, or an interior room.</p>\n\n<p>Then, identify the feature. In the case of an easement that covers one building, you can leave the feature name blank or use the name of the property itself.</p>\n\n<p>Enter the built date using <a href=\"https://www.loc.gov/standards/datetime/\" target=\"_blank\">EDTF -- Extended Date Time Format </a>-- Standard of the Library of Congress. These are some common EDTF date styles:</p>\n\n<ul>\n\t<li>1985-04-12 (if you know the exact date)</li>\n\t<li>1985-04 (if you know the month and year)</li>\n\t<li>1985 (if you know the year)</li>\n\t<li>1984? (if you are uncertain of the year)</li>\n\t<li>2004~ (same as c. 2004)</li>\n\t<li>2004-04~ (same as c. April 2004)</li>\n\t<li>184X (some time in 1840s)</li>\n\t<li>18XX (some time in 19th century)</li>\n</ul>\n\n<p>Choose an architectural style from the list. Be consistent in usage. You may want to look at the SHPOs site file to see how they&#39;ve classified the building.</p>\n\n<p>Enter as many materials as needed by selecting them from the list, one by one. You don&#39;t need to enter every single material -- just the ones that are pertinent to the easement.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Property Features Help"
+                    },
+                    "instructions": {
+                        "en": "Features or elements on the property subject to the conservation easement"
+                    },
                     "is_editable": true,
-                    "name": "Property Features",
+                    "name": {
+                        "en": "Property Features"
+                    },
                     "nodegroup_id": "b8676495-3046-11ec-82e5-080027c2283b",
                     "sortorder": 6,
                     "visible": true
@@ -203,11 +287,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Property Description",
+                    "name": {
+                        "en": "Property Description"
+                    },
                     "nodegroup_id": "de73731e-328d-11ec-82e5-080027c2283b",
                     "sortorder": 5,
                     "visible": true
@@ -231,11 +323,19 @@
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": ""
+                    },
+                    "helptitle": {
+                        "en": ""
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Location",
+                    "name": {
+                        "en": "Location"
+                    },
                     "nodegroup_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -250,11 +350,19 @@
                     "description": null,
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>Enter all of the names that this property has carried. Use the +New button to add multiple names.</p>\n\n<p>Every property must have a &quot;Current, preferred&quot; name. This should be the name that Preservation Utah uses to refer to the property.</p>\n\n<p>Only enter a historic or other known name if they are in addition to the current, preferred name. A historic name is one that was used historically, but is no longer in common parlance. An other known name is an alternative name that local community members may use.&nbsp;</p>\n",
-                    "helptitle": "Property Name Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>Enter all of the names that this property has carried. Use the +New button to add multiple names.</p>\n\n<p>Every property must have a &quot;Current, preferred&quot; name. This should be the name that Preservation Utah uses to refer to the property.</p>\n\n<p>Only enter a historic or other known name if they are in addition to the current, preferred name. A historic name is one that was used historically, but is no longer in common parlance. An other known name is an alternative name that local community members may use.&nbsp;</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Property Name Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Property Name",
+                    "name": {
+                        "en": "Property Name"
+                    },
                     "nodegroup_id": "e7bd68ea-21fc-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -269,11 +377,19 @@
                     "description": "",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
                     "helpenabled": true,
-                    "helptext": "<p>This is where you may enter all of the functions that you have been able to document about this property.&nbsp;</p>\n\n<p>Functions may either be &quot;current&quot; (i.e. the property is still used for this purpose) or &quot;historic&quot; (i.e. the property once was used for this purpose, but is no longer.)</p>\n\n<p>There may be multiple current functions as well as multple historic functions. You may expand upon some of these functions in the property&#39;s statement of significance.</p>\n\n<p>For instance, the Old Post Office in Washington DC would have a current function of hotel, but several historic functions, including post office, and government office.</p>\n",
-                    "helptitle": "Property Function Help",
-                    "instructions": null,
+                    "helptext": {
+                        "en": "<p>This is where you may enter all of the functions that you have been able to document about this property.&nbsp;</p>\n\n<p>Functions may either be &quot;current&quot; (i.e. the property is still used for this purpose) or &quot;historic&quot; (i.e. the property once was used for this purpose, but is no longer.)</p>\n\n<p>There may be multiple current functions as well as multple historic functions. You may expand upon some of these functions in the property&#39;s statement of significance.</p>\n\n<p>For instance, the Old Post Office in Washington DC would have a current function of hotel, but several historic functions, including post office, and government office.</p>\n"
+                    },
+                    "helptitle": {
+                        "en": "Property Function Help"
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Function",
+                    "name": {
+                        "en": "Function"
+                    },
                     "nodegroup_id": "faae8d6f-3046-11ec-82e5-080027c2283b",
                     "sortorder": 7,
                     "visible": true
@@ -283,15 +399,27 @@
                 {
                     "card_id": "e7bd68ec-21fc-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "010e1405-21fd-11ec-82e5-080027c2283b",
-                    "label": "Property Name",
+                    "label": {
+                        "en": "Property Name"
+                    },
                     "node_id": "e7bd68ea-21fc-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -301,12 +429,19 @@
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "City",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "03702e2e-2204-11ec-82e5-080027c2283b",
-                    "label": "City",
+                    "label": {
+                        "en": "City"
+                    },
                     "node_id": "e39c3ef7-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -315,15 +450,27 @@
                 {
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Street Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "03702e30-2204-11ec-82e5-080027c2283b",
-                    "label": "Property Street Address",
+                    "label": {
+                        "en": "Property Street Address"
+                    },
                     "node_id": "e39c3ef9-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -332,15 +479,27 @@
                 {
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Parcel ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "03702e32-2204-11ec-82e5-080027c2283b",
-                    "label": "Parcel ID",
+                    "label": {
+                        "en": "Parcel ID"
+                    },
                     "node_id": "e39c3ef8-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -350,30 +509,49 @@
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Preservation Utah Region",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "03702e34-2204-11ec-82e5-080027c2283b",
-                    "label": "Preservation Utah Region",
+                    "label": {
+                        "en": "Preservation Utah Region"
+                    },
                     "node_id": "e39c3efa-21ff-11ec-82e5-080027c2283b",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": null,
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Special Directions",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "width": "100%"
                     },
                     "id": "03702e36-2204-11ec-82e5-080027c2283b",
-                    "label": "Special Directions",
+                    "label": {
+                        "en": "Special Directions"
+                    },
                     "node_id": "7dfaa7c2-2203-11ec-82e5-080027c2283b",
-                    "sortorder": 8,
+                    "sortorder": 7,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -416,7 +594,9 @@
                         "zoom": null
                     },
                     "id": "03702e38-2204-11ec-82e5-080027c2283b",
-                    "label": "Spatial Coordinates",
+                    "label": {
+                        "en": "Spatial Coordinates"
+                    },
                     "node_id": "e39c3ef4-21ff-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -431,7 +611,9 @@
                         "rerender": true
                     },
                     "id": "0a3429a3-2201-11ec-82e5-080027c2283b",
-                    "label": "Recent Photo",
+                    "label": {
+                        "en": "Recent Photo"
+                    },
                     "node_id": "5a39889a-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -441,12 +623,19 @@
                     "card_id": "2ba3a4d7-21fd-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "County Recorder",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "2ba3a4dd-21fd-11ec-82e5-080027c2283b",
-                    "label": "County Recorder",
+                    "label": {
+                        "en": "County Recorder"
+                    },
                     "node_id": "2ba3a4da-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -457,19 +646,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Page",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2ba3a4de-21fd-11ec-82e5-080027c2283b",
-                    "label": "Page",
+                    "label": {
+                        "en": "Page"
+                    },
                     "node_id": "2ba3a4d8-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -487,7 +689,9 @@
                         "viewMode": "days"
                     },
                     "id": "2ba3a4df-21fd-11ec-82e5-080027c2283b",
-                    "label": "Date",
+                    "label": {
+                        "en": "Date"
+                    },
                     "node_id": "2ba3a4dc-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -502,7 +706,9 @@
                         "rerender": true
                     },
                     "id": "2ba3a4e0-21fd-11ec-82e5-080027c2283b",
-                    "label": "File",
+                    "label": {
+                        "en": "File"
+                    },
                     "node_id": "2ba3a4db-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -511,15 +717,27 @@
                 {
                     "card_id": "2ba3a4d7-21fd-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Book",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2ba3a4e1-21fd-11ec-82e5-080027c2283b",
-                    "label": "Book",
+                    "label": {
+                        "en": "Book"
+                    },
                     "node_id": "2ba3a4d9-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -529,11 +747,18 @@
                     "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Entity",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "38ccb0db-2237-11ec-82e5-080027c2283b",
-                    "label": "Entity",
+                    "label": {
+                        "en": "Entity"
+                    },
                     "node_id": "d2630e3e-2236-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -543,12 +768,19 @@
                     "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Role",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "38ccb0dd-2237-11ec-82e5-080027c2283b",
-                    "label": "Role",
+                    "label": {
+                        "en": "Role"
+                    },
                     "node_id": "fb2f6c9a-2236-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -559,21 +791,34 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Acreage",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "3a918e3b-426a-11ec-934a-080027c2283b",
-                    "label": "Acreage",
+                    "label": {
+                        "en": "Acreage"
+                    },
                     "node_id": "180cad8e-426a-11ec-934a-080027c2283b",
-                    "sortorder": 7,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
@@ -581,11 +826,18 @@
                     "card_id": "382a829e-425d-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Date",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "4e61d145-4318-11ec-934a-080027c2283b",
-                    "label": "Date",
+                    "label": {
+                        "en": "Date"
+                    },
                     "node_id": "0a9a4248-4318-11ec-934a-080027c2283b",
                     "sortorder": null,
                     "visible": true,
@@ -594,15 +846,27 @@
                 {
                     "card_id": "382a829e-425d-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Note",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "4e61d147-4318-11ec-934a-080027c2283b",
-                    "label": "Note",
+                    "label": {
+                        "en": "Note"
+                    },
                     "node_id": "ec67833b-4317-11ec-934a-080027c2283b",
                     "sortorder": null,
                     "visible": true,
@@ -612,11 +876,18 @@
                     "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Start date",
-                        "placeholder": "When did this role begin?"
+                        "placeholder": {
+                            "en": "When did this role begin?"
+                        }
                     },
                     "id": "52904e13-328f-11ec-82e5-080027c2283b",
-                    "label": "Start date",
+                    "label": {
+                        "en": "Start date"
+                    },
                     "node_id": "00d004a8-328f-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -626,11 +897,18 @@
                     "card_id": "8e3ae382-2236-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "End date",
-                        "placeholder": "When did this role end?"
+                        "placeholder": {
+                            "en": "When did this role end?"
+                        }
                     },
                     "id": "52904e15-328f-11ec-82e5-080027c2283b",
-                    "label": "End date",
+                    "label": {
+                        "en": "End date"
+                    },
                     "node_id": "2780d8b6-328f-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -640,12 +918,19 @@
                     "card_id": "63cb238f-21fd-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "County Recorder",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "63cb2395-21fd-11ec-82e5-080027c2283b",
-                    "label": "County Recorder",
+                    "label": {
+                        "en": "County Recorder"
+                    },
                     "node_id": "63cb2392-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -656,19 +941,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Page",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "",
+                        "prefix": {
+                            "en": ""
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "63cb2396-21fd-11ec-82e5-080027c2283b",
-                    "label": "Page",
+                    "label": {
+                        "en": "Page"
+                    },
                     "node_id": "63cb2390-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -686,7 +984,9 @@
                         "viewMode": "days"
                     },
                     "id": "63cb2397-21fd-11ec-82e5-080027c2283b",
-                    "label": "Date",
+                    "label": {
+                        "en": "Date"
+                    },
                     "node_id": "63cb2394-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -701,7 +1001,9 @@
                         "rerender": true
                     },
                     "id": "63cb2398-21fd-11ec-82e5-080027c2283b",
-                    "label": "File",
+                    "label": {
+                        "en": "File"
+                    },
                     "node_id": "63cb2393-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -710,15 +1012,27 @@
                 {
                     "card_id": "63cb238f-21fd-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Book",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "63cb2399-21fd-11ec-82e5-080027c2283b",
-                    "label": "Book",
+                    "label": {
+                        "en": "Book"
+                    },
                     "node_id": "63cb2391-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -728,12 +1042,19 @@
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Plan Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "68ff6e87-3b28-11ec-934a-080027c2283b",
-                    "label": "Plan Type",
+                    "label": {
+                        "en": "Plan Type"
+                    },
                     "node_id": "f90907ba-3b21-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -742,15 +1063,27 @@
                 {
                     "card_id": "5a39889c-21fd-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Photo Credit",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "79bd5be4-3049-11ec-82e5-080027c2283b",
-                    "label": "Photo Credit",
+                    "label": {
+                        "en": "Photo Credit"
+                    },
                     "node_id": "342044e8-301f-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -760,12 +1093,19 @@
                     "card_id": "e7bd68ec-21fc-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Name Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "84aea344-2218-11ec-82e5-080027c2283b",
-                    "label": "Property Name Type",
+                    "label": {
+                        "en": "Property Name Type"
+                    },
                     "node_id": "02d677fc-21fd-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -782,7 +1122,9 @@
                         "width": "100%"
                     },
                     "id": "a351fa5d-425d-11ec-934a-080027c2283b",
-                    "label": "Note",
+                    "label": {
+                        "en": "Note"
+                    },
                     "node_id": "382a829c-425d-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -799,7 +1141,9 @@
                         "viewMode": "days"
                     },
                     "id": "a4af5d47-222f-11ec-82e5-080027c2283b",
-                    "label": "Date Acquired",
+                    "label": {
+                        "en": "Date Acquired"
+                    },
                     "node_id": "019821f6-222f-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -809,12 +1153,19 @@
                     "card_id": "75042bc4-222e-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Easement Template",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "a4af5d49-222f-11ec-82e5-080027c2283b",
-                    "label": "Easement Template",
+                    "label": {
+                        "en": "Easement Template"
+                    },
                     "node_id": "8b526a46-222f-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -829,7 +1180,9 @@
                         "rerender": true
                     },
                     "id": "a4af5d4b-222f-11ec-82e5-080027c2283b",
-                    "label": "Baseline Inspection",
+                    "label": {
+                        "en": "Baseline Inspection"
+                    },
                     "node_id": "4f1f616e-222f-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -839,12 +1192,19 @@
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Material",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b867649d-3046-11ec-82e5-080027c2283b",
-                    "label": "Material",
+                    "label": {
+                        "en": "Material"
+                    },
                     "node_id": "b867649a-3046-11ec-82e5-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -853,15 +1213,27 @@
                 {
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": null,
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Feature Name or Identifier",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "b867649e-3046-11ec-82e5-080027c2283b",
-                    "label": "Feature Name or Identifier",
+                    "label": {
+                        "en": "Feature Name or Identifier"
+                    },
                     "node_id": "b867649c-3046-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -871,11 +1243,18 @@
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": null,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Built Date",
-                        "placeholder": "Enter date in EDTF"
+                        "placeholder": {
+                            "en": "Enter date in EDTF"
+                        }
                     },
                     "id": "b867649f-3046-11ec-82e5-080027c2283b",
-                    "label": "Built Date",
+                    "label": {
+                        "en": "Built Date"
+                    },
                     "node_id": "b8676498-3046-11ec-82e5-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -885,12 +1264,19 @@
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Feature Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b86764a0-3046-11ec-82e5-080027c2283b",
-                    "label": "Feature Type",
+                    "label": {
+                        "en": "Feature Type"
+                    },
                     "node_id": "b867649b-3046-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -900,12 +1286,19 @@
                     "card_id": "b8676497-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Architectural Style",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b86764a1-3046-11ec-82e5-080027c2283b",
-                    "label": "Architectural Style",
+                    "label": {
+                        "en": "Architectural Style"
+                    },
                     "node_id": "b8676499-3046-11ec-82e5-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -915,12 +1308,19 @@
                     "card_id": "253770a0-221b-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Designation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "d2f2d449-221c-11ec-82e5-080027c2283b",
-                    "label": "Designation Type",
+                    "label": {
+                        "en": "Designation Type"
+                    },
                     "node_id": "84fd75c8-221b-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -930,45 +1330,47 @@
                     "card_id": "253770a0-221b-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Designation Date",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "d2f2d44b-221c-11ec-82e5-080027c2283b",
-                    "label": "Designation Date",
+                    "label": {
+                        "en": "Designation Date"
+                    },
                     "node_id": "e1921118-221b-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
-                    "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "ZIP Code",
-                        "maxLength": "10",
-                        "placeholder": "Enter a 5 or 9 digit zip code",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "e3d7a5f5-413d-4135-8280-9f641de398b1",
-                    "label": "ZIP Code",
-                    "node_id": "f7184330-4d2b-11ee-beee-e639e569e166",
-                    "sortorder": 4,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "de737320-328d-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Description",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "e97a7391-328d-11ec-82e5-080027c2283b",
-                    "label": "Property Description",
+                    "label": {
+                        "en": "Property Description"
+                    },
                     "node_id": "de73731e-328d-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -978,14 +1380,21 @@
                     "card_id": "e39c3ef3-21ff-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Access Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "f2c25ef5-2204-11ec-82e5-080027c2283b",
-                    "label": "Access Type",
+                    "label": {
+                        "en": "Access Type"
+                    },
                     "node_id": "d64ef134-2204-11ec-82e5-080027c2283b",
-                    "sortorder": 6,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -993,12 +1402,19 @@
                     "card_id": "faae8d71-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Function Temporal Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "faae8d73-3046-11ec-82e5-080027c2283b",
-                    "label": "Function Temporal Type",
+                    "label": {
+                        "en": "Function Temporal Type"
+                    },
                     "node_id": "faae8d72-3046-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -1008,12 +1424,19 @@
                     "card_id": "faae8d71-3046-11ec-82e5-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Function",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "faae8d74-3046-11ec-82e5-080027c2283b",
-                    "label": "Property Function",
+                    "label": {
+                        "en": "Property Function"
+                    },
                     "node_id": "faae8d6f-3046-11ec-82e5-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -1022,15 +1445,27 @@
                 {
                     "card_id": "84a1f9ea-3047-11ec-82e5-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Statement of Significance",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "fc305f03-328d-11ec-82e5-080027c2283b",
-                    "label": "Statement of Significance",
+                    "label": {
+                        "en": "Statement of Significance"
+                    },
                     "node_id": "84a1f9e8-3047-11ec-82e5-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -1042,6 +1477,8 @@
                 "activeTabIndex": 0,
                 "basemap": "satellite",
                 "bearing": 0,
+                "centerX": -122.3979693,
+                "centerY": 37.79,
                 "featureColor": "#FF0000",
                 "featureEditingDisabled": true,
                 "featureLineWidth": 1,
@@ -1110,7 +1547,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -1546,15 +1985,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
-                    "edgeid": "f22430bc-9c66-4ec2-a662-ae5d0b014cec",
-                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "rangenode_id": "f7184330-4d2b-11ee-beee-e639e569e166"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "b8676495-3046-11ec-82e5-080027c2283b",
                     "edgeid": "f90907bb-3b21-11ec-934a-080027c2283b",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
@@ -1611,16 +2041,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
-                    "id": "eca6a41e-c43a-472b-a7a4-cd4641f1c90e"
+                    "id": "ff49f735-164d-4c7e-8b62-dfb4ffef6a1c"
                 }
             ],
             "graphid": "c3646da3-2140-11ec-82e5-080027c2283b",
             "iconclass": "fa fa-building",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Easement",
+            "name": {
+                "en": "Easement"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -1782,7 +2213,7 @@
                 },
                 {
                     "alias": "new_node",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1830,7 +2261,7 @@
                 },
                 {
                     "alias": "acreage",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -1846,11 +2277,11 @@
                     "nodeid": "180cad8e-426a-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P161i_is_spatial_projection_of",
-                    "sortorder": 8
+                    "sortorder": 0
                 },
                 {
                     "alias": "designation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1898,7 +2329,7 @@
                 },
                 {
                     "alias": "easement_legal_documentation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1918,7 +2349,7 @@
                 },
                 {
                     "alias": "page",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -1938,7 +2369,7 @@
                 },
                 {
                     "alias": "book",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2026,7 +2457,7 @@
                 },
                 {
                     "alias": "photo_credit",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -2046,7 +2477,7 @@
                 },
                 {
                     "alias": "internal_notes",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2114,7 +2545,7 @@
                 },
                 {
                     "alias": "amendments",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2134,7 +2565,7 @@
                 },
                 {
                     "alias": "page_n1",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": true,
@@ -2154,7 +2585,7 @@
                 },
                 {
                     "alias": "book_n1",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2242,7 +2673,7 @@
                 },
                 {
                     "alias": "easement_establishment",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2262,7 +2693,7 @@
                 },
                 {
                     "alias": "directions",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2278,11 +2709,11 @@
                     "nodeid": "7dfaa7c2-2203-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "alias": "statement_of_significance",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2346,7 +2777,7 @@
                 },
                 {
                     "alias": "easement_entities",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -2366,7 +2797,7 @@
                 },
                 {
                     "alias": "property_features",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "The features of this property that covered by the easement.",
                     "exportable": false,
@@ -2480,7 +2911,7 @@
                 },
                 {
                     "alias": "feature_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2500,7 +2931,7 @@
                 },
                 {
                     "alias": "easement",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -2569,11 +3000,11 @@
                     "nodeid": "d64ef134-2204-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "alias": "property_description",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2702,11 +3133,11 @@
                     "nodeid": "e39c3ef7-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "alias": "parcel_id",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2722,11 +3153,11 @@
                     "nodeid": "e39c3ef8-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "alias": "property_street_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2742,7 +3173,7 @@
                     "nodeid": "e39c3ef9-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "alias": "preservation_utah_region",
@@ -2764,11 +3195,11 @@
                     "nodeid": "e39c3efa-21ff-11ec-82e5-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "alias": "property_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2788,7 +3219,7 @@
                 },
                 {
                     "alias": "note",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": true,
@@ -2804,26 +3235,6 @@
                     "nodeid": "ec67833b-4317-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "zip_code",
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "loc_zip",
-                    "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "ZIP Code",
-                    "nodegroup_id": "e39c3ef1-21ff-11ec-82e5-080027c2283b",
-                    "nodeid": "f7184330-4d2b-11ee-beee-e639e569e166",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
                     "sortorder": 0
                 },
                 {
@@ -2916,11 +3327,18 @@
                 }
             ],
             "ontology_id": "9d33df5c-d86f-4530-9673-8f0bacb94774",
+            "publication": {
+                "graph_id": "c3646da3-2140-11ec-82e5-080027c2283b",
+                "notes": null,
+                "publicationid": "e9f6973e-a74d-11ee-b0ba-a9b5e59c47d9",
+                "published_time": "2023-12-30T13:59:17.463",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "easement",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -2938,15 +3356,17 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
-            "template_id": "2b0c060e-265b-49cd-940d-f8c560096c46",
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
-        "os": "Darwin",
-        "os version": "21.5.0"
+        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
+        "git hash": "7c01289b9 2023-01-18 11:08:31 -0800",
+        "os": "Linux",
+        "os version": "5.15.0-91-generic"
     }
 }

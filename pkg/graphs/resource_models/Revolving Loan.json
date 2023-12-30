@@ -13,11 +13,19 @@
                     "description": "",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Location",
+                    "name": {
+                        "en": "Location"
+                    },
                     "nodegroup_id": "0503e031-3695-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Internal Details",
+                    "name": {
+                        "en": "Internal Details"
+                    },
                     "nodegroup_id": "0846dc84-3c03-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": "",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Photo",
+                    "name": {
+                        "en": "Photo"
+                    },
                     "nodegroup_id": "2e1ec9ff-3bfd-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Loan Details",
+                    "name": {
+                        "en": "Loan Details"
+                    },
                     "nodegroup_id": "4368ab9e-3695-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Related Actors",
+                    "name": {
+                        "en": "Related Actors"
+                    },
                     "nodegroup_id": "72a2f3d6-3e44-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true
@@ -108,11 +148,19 @@
                     "description": null,
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Loan Document",
+                    "name": {
+                        "en": "Loan Document"
+                    },
                     "nodegroup_id": "9b7acc12-3696-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true
@@ -128,7 +176,9 @@
                         "rerender": true
                     },
                     "id": "2e1eca03-3bfd-11ec-934a-080027c2283b",
-                    "label": "Recent Photo",
+                    "label": {
+                        "en": "Recent Photo"
+                    },
                     "node_id": "2e1ec9ff-3bfd-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -137,15 +187,27 @@
                 {
                     "card_id": "2e1eca01-3bfd-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Photo Credit",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "2e1eca04-3bfd-11ec-934a-080027c2283b",
-                    "label": "Photo Credit",
+                    "label": {
+                        "en": "Photo Credit"
+                    },
                     "node_id": "2e1eca02-3bfd-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -155,12 +217,19 @@
                     "card_id": "0846dc86-3c03-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Internal Staff Loan Decision",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "51aa9d21-3c03-11ec-934a-080027c2283b",
-                    "label": "Internal Staff Loan Decision",
+                    "label": {
+                        "en": "Internal Staff Loan Decision"
+                    },
                     "node_id": "22044334-3c03-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -169,15 +238,27 @@
                 {
                     "card_id": "0846dc86-3c03-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Internal Notes (private)",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "51aa9d23-3c03-11ec-934a-080027c2283b",
-                    "label": "Internal Notes (private)",
+                    "label": {
+                        "en": "Internal Notes (private)"
+                    },
                     "node_id": "335f9c3a-3c03-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -186,15 +267,27 @@
                 {
                     "card_id": "0503e033-3695-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Street Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "61ffcf56-3697-11ec-934a-080027c2283b",
-                    "label": "Property Street Address",
+                    "label": {
+                        "en": "Property Street Address"
+                    },
                     "node_id": "0503e039-3695-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -204,12 +297,19 @@
                     "card_id": "0503e033-3695-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "City",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "61ffcf58-3697-11ec-934a-080027c2283b",
-                    "label": "City",
+                    "label": {
+                        "en": "City"
+                    },
                     "node_id": "0503e037-3695-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -218,17 +318,29 @@
                 {
                     "card_id": "0503e033-3695-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Parcel ID",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "61ffcf5a-3697-11ec-934a-080027c2283b",
-                    "label": "Parcel ID",
+                    "label": {
+                        "en": "Parcel ID"
+                    },
                     "node_id": "0503e038-3695-11ec-934a-080027c2283b",
-                    "sortorder": 4,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -271,9 +383,11 @@
                         "zoom": 7
                     },
                     "id": "61ffcf5c-3697-11ec-934a-080027c2283b",
-                    "label": "Spatial Coordinates",
+                    "label": {
+                        "en": "Spatial Coordinates"
+                    },
                     "node_id": "0503e034-3695-11ec-934a-080027c2283b",
-                    "sortorder": 5,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -281,14 +395,21 @@
                     "card_id": "0503e033-3695-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Preservation Utah Region",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "61ffcf5e-3697-11ec-934a-080027c2283b",
-                    "label": "Preservation Utah Region",
+                    "label": {
+                        "en": "Preservation Utah Region"
+                    },
                     "node_id": "0503e03a-3695-11ec-934a-080027c2283b",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -299,7 +420,9 @@
                         "label": "Paid in Full"
                     },
                     "id": "8bd94068-3c03-11ec-934a-080027c2283b",
-                    "label": "Paid in Full",
+                    "label": {
+                        "en": "Paid in Full"
+                    },
                     "node_id": "5e3cbd02-3c03-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true,
@@ -309,11 +432,18 @@
                     "card_id": "72a2f3d8-3e44-11ec-934a-080027c2283b",
                     "config": {
                         "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Related Actors",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "8e255d6c-3e44-11ec-934a-080027c2283b",
-                    "label": "Related Actors",
+                    "label": {
+                        "en": "Related Actors"
+                    },
                     "node_id": "72a2f3d6-3e44-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -328,7 +458,9 @@
                         "rerender": true
                     },
                     "id": "acfff0eb-3696-11ec-934a-080027c2283b",
-                    "label": "Loan Document",
+                    "label": {
+                        "en": "Loan Document"
+                    },
                     "node_id": "9b7acc12-3696-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -338,11 +470,18 @@
                     "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Year Initiated",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "da5fbff1-3696-11ec-934a-080027c2283b",
-                    "label": "Year Initiated",
+                    "label": {
+                        "en": "Year Initiated"
+                    },
                     "node_id": "67875eb3-3695-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -352,6 +491,9 @@
                     "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "HPC Decision",
                         "options": [
                             {
@@ -371,11 +513,15 @@
                                 "text": "denied"
                             }
                         ],
-                        "placeholder": "Select an option",
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
                         "url": "/concepts/dropdown?conceptid=68edc9a8-c3b6-4658-85b2-e495856804a1"
                     },
                     "id": "da5fbff3-3696-11ec-934a-080027c2283b",
-                    "label": "HPC Decision",
+                    "label": {
+                        "en": "HPC Decision"
+                    },
                     "node_id": "80bae6ec-3695-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -384,15 +530,27 @@
                 {
                     "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Conditions",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "da5fbff5-3696-11ec-934a-080027c2283b",
-                    "label": "Conditions",
+                    "label": {
+                        "en": "Conditions"
+                    },
                     "node_id": "06be68e0-3696-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true,
@@ -403,19 +561,32 @@
                     "config": {
                         "defaultValue": "",
                         "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
                         "label": "Amount",
                         "max": "",
                         "min": "",
-                        "placeholder": "Enter number",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
                         "precision": "",
-                        "prefix": "$",
+                        "prefix": {
+                            "en": "$"
+                        },
                         "step": "",
-                        "suffix": "",
+                        "suffix": {
+                            "en": ""
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "da5fbff7-3696-11ec-934a-080027c2283b",
-                    "label": "Amount",
+                    "label": {
+                        "en": "Amount"
+                    },
                     "node_id": "368e4928-3696-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
@@ -425,15 +596,22 @@
                     "card_id": "4368aba0-3695-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Loan Fund",
                         "maxLength": null,
                         "options": [],
-                        "placeholder": "Choose a fund",
+                        "placeholder": {
+                            "en": "Choose a fund"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "da5fbff9-3696-11ec-934a-080027c2283b",
-                    "label": "Loan Fund",
+                    "label": {
+                        "en": "Loan Fund"
+                    },
                     "node_id": "7f04716e-3696-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true,
@@ -443,33 +621,23 @@
                     "card_id": "72a2f3d8-3e44-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Loan Role",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "ed901422-3e44-11ec-934a-080027c2283b",
-                    "label": "Loan Role",
+                    "label": {
+                        "en": "Loan Role"
+                    },
                     "node_id": "90d281b4-3e44-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
-                },
-                {
-                    "card_id": "0503e033-3695-11ec-934a-080027c2283b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Zip Code",
-                        "maxLength": "10",
-                        "placeholder": "Enter a 5 or 9 digit zip code",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "fca94e03-031d-4e7f-8194-f453ca8d4401",
-                    "label": "Zip Code",
-                    "node_id": "1eb24b2e-4db4-11ee-beee-e639e569e166",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -509,7 +677,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -648,15 +818,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "0503e031-3695-11ec-934a-080027c2283b",
-                    "edgeid": "63f0318a-6167-468b-8a69-2369fc400364",
-                    "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "rangenode_id": "1eb24b2e-4db4-11ee-beee-e639e569e166"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "4368ab9e-3695-11ec-934a-080027c2283b",
                     "edgeid": "67875eb4-3695-11ec-934a-080027c2283b",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
@@ -731,16 +892,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
-                    "id": "49d2a5f9-0243-46c8-bfd4-00262daae3cd"
+                    "id": "1ebe2ab9-79d0-4f02-94d1-f829534e7d6a"
                 }
             ],
             "graphid": "b31e58cd-3694-11ec-934a-080027c2283b",
             "iconclass": "fa fa-dollar",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Revolving Loan",
+            "name": {
+                "en": "Revolving Loan"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -867,7 +1029,7 @@
                 },
                 {
                     "alias": "parcel_id",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -887,7 +1049,7 @@
                 },
                 {
                     "alias": "property_street_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -929,7 +1091,7 @@
                 },
                 {
                     "alias": "conditions",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -949,7 +1111,7 @@
                 },
                 {
                     "alias": "internal_details",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -965,26 +1127,6 @@
                     "nodeid": "0846dc84-3c03-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
-                    "sortorder": 0
-                },
-                {
-                    "alias": "zip_code",
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "loc_zip",
-                    "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Zip Code",
-                    "nodegroup_id": "0503e031-3695-11ec-934a-080027c2283b",
-                    "nodeid": "1eb24b2e-4db4-11ee-beee-e639e569e166",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
                     "sortorder": 0
                 },
                 {
@@ -1035,7 +1177,7 @@
                 },
                 {
                     "alias": "photo_credit",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1055,7 +1197,7 @@
                 },
                 {
                     "alias": "internal_notes",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1075,7 +1217,7 @@
                 },
                 {
                     "alias": "amount",
-                    "config": null,
+                    "config": {},
                     "datatype": "number",
                     "description": null,
                     "exportable": false,
@@ -1095,7 +1237,7 @@
                 },
                 {
                     "alias": "loan_details",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -1116,8 +1258,16 @@
                 {
                     "alias": "paid_in_full",
                     "config": {
-                        "falseLabel": "No",
-                        "trueLabel": "Yes"
+                        "falseLabel": {
+                            "en": "No"
+                        },
+                        "i18n_properties": [
+                            "trueLabel",
+                            "falseLabel"
+                        ],
+                        "trueLabel": {
+                            "en": "Yes"
+                        }
                     },
                     "datatype": "boolean",
                     "description": null,
@@ -1287,7 +1437,7 @@
                 },
                 {
                     "alias": "revolving_loan",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1307,11 +1457,18 @@
                 }
             ],
             "ontology_id": "9d33df5c-d86f-4530-9673-8f0bacb94774",
+            "publication": {
+                "graph_id": "b31e58cd-3694-11ec-934a-080027c2283b",
+                "notes": null,
+                "publicationid": "71d21596-a674-11ee-8edc-11494a998db0",
+                "published_time": "2023-12-29T12:02:35.107",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "revolving_loan",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -1329,15 +1486,17 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
-        "os": "Darwin",
-        "os version": "21.5.0"
+        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
+        "git hash": "7c01289b9 2023-01-18 11:08:31 -0800",
+        "os": "Linux",
+        "os version": "5.15.0-91-generic"
     }
 }

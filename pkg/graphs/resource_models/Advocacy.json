@@ -13,11 +13,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Significance",
+                    "name": {
+                        "en": "Significance"
+                    },
                     "nodegroup_id": "0f6bdc9e-3690-11ec-934a-080027c2283b",
                     "sortorder": 4,
                     "visible": true
@@ -32,11 +40,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Actions",
+                    "name": {
+                        "en": "Actions"
+                    },
                     "nodegroup_id": "2e02b18c-3690-11ec-934a-080027c2283b",
                     "sortorder": 6,
                     "visible": true
@@ -51,11 +67,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Contacts",
+                    "name": {
+                        "en": "Contacts"
+                    },
                     "nodegroup_id": "5b4a3fe8-3690-11ec-934a-080027c2283b",
                     "sortorder": 7,
                     "visible": true
@@ -70,11 +94,19 @@
                     "description": "",
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Location",
+                    "name": {
+                        "en": "Location"
+                    },
                     "nodegroup_id": "7019a203-368f-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true
@@ -89,11 +121,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Tags",
+                    "name": {
+                        "en": "Tags"
+                    },
                     "nodegroup_id": "712e5142-3c02-11ec-934a-080027c2283b",
                     "sortorder": 8,
                     "visible": true
@@ -108,11 +148,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Project Name",
+                    "name": {
+                        "en": "Project Name"
+                    },
                     "nodegroup_id": "9a55a994-368f-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true
@@ -127,11 +175,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Threat",
+                    "name": {
+                        "en": "Threat"
+                    },
                     "nodegroup_id": "c4db22e8-368f-11ec-934a-080027c2283b",
                     "sortorder": 5,
                     "visible": true
@@ -146,11 +202,19 @@
                     "description": null,
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Status",
+                    "name": {
+                        "en": "Status"
+                    },
                     "nodegroup_id": "d3f6d80c-3690-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true
@@ -165,11 +229,19 @@
                     "description": "",
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
                     "is_editable": true,
-                    "name": "Photo",
+                    "name": {
+                        "en": "Photo"
+                    },
                     "nodegroup_id": "e6422dbb-3bfc-11ec-934a-080027c2283b",
                     "sortorder": 9,
                     "visible": true
@@ -184,11 +256,19 @@
                     "description": "",
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
                     "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "",
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": ""
+                    },
                     "is_editable": true,
-                    "name": "Designation",
+                    "name": {
+                        "en": "Designation"
+                    },
                     "nodegroup_id": "e653f54b-3c01-11ec-934a-080027c2283b",
                     "sortorder": 3,
                     "visible": true
@@ -198,15 +278,27 @@
                 {
                     "card_id": "0f6bdca0-3690-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Significance",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "1c00250d-3690-11ec-934a-080027c2283b",
-                    "label": "Significance",
+                    "label": {
+                        "en": "Significance"
+                    },
                     "node_id": "0f6bdc9e-3690-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -215,15 +307,27 @@
                 {
                     "card_id": "7019a205-368f-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Property Street Address",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "257efb3e-3691-11ec-934a-080027c2283b",
-                    "label": "Property Street Address",
+                    "label": {
+                        "en": "Property Street Address"
+                    },
                     "node_id": "7019a20b-368f-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -233,12 +337,19 @@
                     "card_id": "7019a205-368f-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "City",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "257efb40-3691-11ec-934a-080027c2283b",
-                    "label": "City",
+                    "label": {
+                        "en": "City"
+                    },
                     "node_id": "7019a209-368f-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -248,14 +359,21 @@
                     "card_id": "7019a205-368f-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Preservation Utah Region",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "257efb42-3691-11ec-934a-080027c2283b",
-                    "label": "Preservation Utah Region",
+                    "label": {
+                        "en": "Preservation Utah Region"
+                    },
                     "node_id": "7019a20c-368f-11ec-934a-080027c2283b",
-                    "sortorder": 3,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -298,24 +416,38 @@
                         "zoom": 0
                     },
                     "id": "257efb44-3691-11ec-934a-080027c2283b",
-                    "label": "Spatial Coordinates",
+                    "label": {
+                        "en": "Spatial Coordinates"
+                    },
                     "node_id": "7019a206-368f-11ec-934a-080027c2283b",
-                    "sortorder": 4,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
                 {
                     "card_id": "2e02b18e-3690-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Preservation Utah Actions",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "43ad1c5f-3690-11ec-934a-080027c2283b",
-                    "label": "Preservation Utah Actions",
+                    "label": {
+                        "en": "Preservation Utah Actions"
+                    },
                     "node_id": "2e02b18c-3690-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -324,15 +456,27 @@
                 {
                     "card_id": "5b4a3fea-3690-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Certified Local Government",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "651c07c7-3691-11ec-934a-080027c2283b",
-                    "label": "Certified Local Government",
+                    "label": {
+                        "en": "Certified Local Government"
+                    },
                     "node_id": "6952220e-3690-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -341,15 +485,27 @@
                 {
                     "card_id": "5b4a3fea-3690-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Officials",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "651c07c9-3691-11ec-934a-080027c2283b",
-                    "label": "Officials",
+                    "label": {
+                        "en": "Officials"
+                    },
                     "node_id": "a5f764ee-3690-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -358,49 +514,56 @@
                 {
                     "card_id": "5b4a3fea-3690-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Partners",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "651c07cb-3691-11ec-934a-080027c2283b",
-                    "label": "Partners",
+                    "label": {
+                        "en": "Partners"
+                    },
                     "node_id": "875a08fc-3690-11ec-934a-080027c2283b",
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
-                    "card_id": "7019a205-368f-11ec-934a-080027c2283b",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Zip Code",
-                        "maxLength": "10",
-                        "placeholder": "Enter a 5 or 9 digit zip code",
-                        "uneditable": false,
-                        "width": "100%"
-                    },
-                    "id": "79c2bea7-ef2d-4c3d-999d-7533644787d9",
-                    "label": "Zip Code",
-                    "node_id": "a71ce448-4db3-11ee-beee-e639e569e166",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "9a55a996-368f-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Project Name",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "a7bc8d17-368f-11ec-934a-080027c2283b",
-                    "label": "Project Name",
+                    "label": {
+                        "en": "Project Name"
+                    },
                     "node_id": "9a55a994-368f-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -410,12 +573,19 @@
                     "card_id": "712e5144-3c02-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Tags",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "b7780546-3c02-11ec-934a-080027c2283b",
-                    "label": "Tags",
+                    "label": {
+                        "en": "Tags"
+                    },
                     "node_id": "712e5142-3c02-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -430,7 +600,9 @@
                         "rerender": true
                     },
                     "id": "e6422dbf-3bfc-11ec-934a-080027c2283b",
-                    "label": "Recent Photo",
+                    "label": {
+                        "en": "Recent Photo"
+                    },
                     "node_id": "e6422dbb-3bfc-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -439,15 +611,27 @@
                 {
                     "card_id": "e6422dbd-3bfc-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Photo Credit",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "e6422dc0-3bfc-11ec-934a-080027c2283b",
-                    "label": "Photo Credit",
+                    "label": {
+                        "en": "Photo Credit"
+                    },
                     "node_id": "e6422dbe-3bfc-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -457,12 +641,19 @@
                     "card_id": "e653f54d-3c01-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Designation Type",
                         "options": [],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "e653f550-3c01-11ec-934a-080027c2283b",
-                    "label": "Designation Type",
+                    "label": {
+                        "en": "Designation Type"
+                    },
                     "node_id": "e653f54f-3c01-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -472,11 +663,18 @@
                     "card_id": "e653f54d-3c01-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Designation Date",
-                        "placeholder": ""
+                        "placeholder": {
+                            "en": ""
+                        }
                     },
                     "id": "e653f551-3c01-11ec-934a-080027c2283b",
-                    "label": "Designation Date",
+                    "label": {
+                        "en": "Designation Date"
+                    },
                     "node_id": "e653f54e-3c01-11ec-934a-080027c2283b",
                     "sortorder": 1,
                     "visible": true,
@@ -485,15 +683,27 @@
                 {
                     "card_id": "c4db22ea-368f-11ec-934a-080027c2283b",
                     "config": {
-                        "defaultValue": "",
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Threat",
                         "maxLength": null,
-                        "placeholder": "Enter text",
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
                         "uneditable": false,
                         "width": "100%"
                     },
                     "id": "f9869917-368f-11ec-934a-080027c2283b",
-                    "label": "Threat",
+                    "label": {
+                        "en": "Threat"
+                    },
                     "node_id": "c4db22e8-368f-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -503,6 +713,9 @@
                     "card_id": "d3f6d80e-3690-11ec-934a-080027c2283b",
                     "config": {
                         "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
                         "label": "Status",
                         "options": [
                             {
@@ -530,10 +743,14 @@
                                 "text": "Saved"
                             }
                         ],
-                        "placeholder": "Select an option"
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
                     },
                     "id": "fe78335d-3690-11ec-934a-080027c2283b",
-                    "label": "Status",
+                    "label": {
+                        "en": "Status"
+                    },
                     "node_id": "d3f6d80c-3690-11ec-934a-080027c2283b",
                     "sortorder": 0,
                     "visible": true,
@@ -577,7 +794,9 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": {
+                "en": ""
+            },
             "edges": [
                 {
                     "description": null,
@@ -677,15 +896,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P76_has_contact_point",
                     "rangenode_id": "875a08fc-3690-11ec-934a-080027c2283b"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "7019a203-368f-11ec-934a-080027c2283b",
-                    "edgeid": "8f1e6971-5185-4eed-bfc2-35a2801f264b",
-                    "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "rangenode_id": "a71ce448-4db3-11ee-beee-e639e569e166"
                 },
                 {
                     "description": null,
@@ -790,16 +1000,17 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
-                    "id": "3fbddf91-ac95-4e55-92d6-926f5dbcd7b5"
+                    "id": "07a0754d-b4ac-4b6d-aa8d-716b2e756ca2"
                 }
             ],
             "graphid": "2ebb83cb-368f-11ec-934a-080027c2283b",
             "iconclass": "fa fa-bullhorn",
             "is_editable": true,
-            "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Advocacy",
+            "name": {
+                "en": "Advocacy"
+            },
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -865,7 +1076,7 @@
             "nodes": [
                 {
                     "alias": "significance",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -885,7 +1096,7 @@
                 },
                 {
                     "alias": "actions",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -905,7 +1116,7 @@
                 },
                 {
                     "alias": "advocacy",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -925,7 +1136,7 @@
                 },
                 {
                     "alias": "contacts",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
@@ -945,7 +1156,7 @@
                 },
                 {
                     "alias": "certified_local_government",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1046,11 +1257,11 @@
                     "nodeid": "7019a209-368f-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "alias": "property_street_address",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1066,7 +1277,7 @@
                     "nodeid": "7019a20b-368f-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "alias": "preservation_utah_region",
@@ -1088,7 +1299,7 @@
                     "nodeid": "7019a20c-368f-11ec-934a-080027c2283b",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "alias": "tags",
@@ -1114,7 +1325,7 @@
                 },
                 {
                     "alias": "partners",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1134,7 +1345,7 @@
                 },
                 {
                     "alias": "project_name",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1154,7 +1365,7 @@
                 },
                 {
                     "alias": "officials",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1173,28 +1384,8 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "zip_code",
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "loc_zip",
-                    "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
-                    "hascustomalias": false,
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Zip Code",
-                    "nodegroup_id": "7019a203-368f-11ec-934a-080027c2283b",
-                    "nodeid": "a71ce448-4db3-11ee-beee-e639e569e166",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within",
-                    "sortorder": 0
-                },
-                {
                     "alias": "threat",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1260,7 +1451,7 @@
                 },
                 {
                     "alias": "photo_credit",
-                    "config": null,
+                    "config": {},
                     "datatype": "string",
                     "description": null,
                     "exportable": false,
@@ -1280,7 +1471,7 @@
                 },
                 {
                     "alias": "designation",
-                    "config": null,
+                    "config": {},
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1350,11 +1541,18 @@
                 }
             ],
             "ontology_id": "9d33df5c-d86f-4530-9673-8f0bacb94774",
+            "publication": {
+                "graph_id": "2ebb83cb-368f-11ec-934a-080027c2283b",
+                "notes": null,
+                "publicationid": "6fce2d20-a674-11ee-8edc-11494a998db0",
+                "published_time": "2023-12-29T12:02:31.726",
+                "user_id": 1
+            },
             "relatable_resource_model_ids": [],
             "resource_2_resource_constraints": [],
             "root": {
                 "alias": "advocacy",
-                "config": null,
+                "config": {},
                 "datatype": "semantic",
                 "description": "",
                 "exportable": false,
@@ -1372,15 +1570,17 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": {
+                "en": ""
+            },
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.11 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit",
-        "git hash": "b09dc9c38 2023-07-25 12:57:45 -0700",
-        "os": "Darwin",
-        "os version": "21.5.0"
+        "db": "PostgreSQL 12.17 (Ubuntu 12.17-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit",
+        "git hash": "7c01289b9 2023-01-18 11:08:31 -0800",
+        "os": "Linux",
+        "os version": "5.15.0-91-generic"
     }
 }
