@@ -12,7 +12,7 @@ define([
 ], function(_, ko, koMapping, ReportViewModel, arches, EasementReportTemplate ) {
       return ko.components.register('easement_report', {
         viewModel: function(params) {
-            console.log("asdfasdfasdf")
+
             var self = this;
 
             // define params for custom report here
